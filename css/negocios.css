@@ -14,6 +14,10 @@
     --gold:   #c09a52;
     --gold-d: #9a7838;
     --gold-l: #ddb96a;
+    --gold-light: #d4a843;
+    --gold-dim:rgba(201,162,39,0.15);
+    --radius:10px;
+    --txt2:#94a3b8;
 
     /* Per-program accent */
     --lic-h:  168; --lic:  hsl(216deg 55% 40%);  --lic-l:  hsl(216, 30%, 93%);
@@ -21,6 +25,10 @@
     --doc-h:  38;  --doc:  hsl(20deg 71% 48%);   --doc-l:  hsl(20 30% 93%);
     --pst-h:  280; --pst:  hsl(190deg 59% 36%);  --pst-l:  hsl(190 30% 93%);
     --tur-h:  280; --tur:  hsl(38deg 65% 44%);   --tur-l:  hsl(38 30% 93%);
+    --mba-h:  280; --mba:  hsl(149deg, 65%, 44%);   --mba-l:  hsl(38 30% 93%);
+    --mci-h:  280; --mci:  hsl(204deg, 73%, 42%);   --mci-l:  hsl(38 30% 93%);
+    --mde-h:  280; --mde:  hsl(357deg, 65%, 44%);   --mde-l:  hsl(38 30% 93%);
+    --doa-h:  280; --doa:  hsl(25, 65%, 44%);   --doa-l:  hsl(38 30% 93%);
 
     --serif: 'Playfair Display', Georgia, serif;
     --sans:  'Lato', system-ui, sans-serif;
@@ -454,7 +462,7 @@
 
     /* IARPP — texto más pequeño */
     .hero .stat:last-child .stat-n {
-      font-size: 19px;
+      font-size: 32px;
       letter-spacing: 0.04em;
       padding-top: 8px;
     }
@@ -522,7 +530,7 @@
     /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     HUB OVERVIEW CARDS
     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
-    .hub{padding:4rem 0}
+    .hub{padding:4rem 0 0 0}
     .sec-label{
     font-size:.68rem;font-weight:700;letter-spacing:.2em;
     text-transform:uppercase;color:var(--gold-d);
@@ -888,6 +896,10 @@
     #flt-doc{top:calc(35vh - 160px)}
     #flt-pst{top:calc(35vh - 160px)}
     #flt-tur{top:calc(35vh - 160px)}
+    #flt-mba{top:calc(35vh - 160px)}
+    #flt-mci{top:calc(35vh - 160px)}
+    #flt-mde{top:calc(35vh - 160px)}
+    #flt-doa{top:calc(35vh - 160px)}
 
     /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     COLOR UTILS
@@ -897,6 +909,12 @@
     .c-doc{color:var(--doc)}  .bg-doc{background:var(--doc)}  .bg-doc-l{background:var(--doc-l)}
     .c-pst{color:var(--pst)}  .bg-pst{background:var(--pst)}  .bg-pst-l{background:var(--pst-l)}
     .c-tur{color:var(--tur)}  .bg-tur{background:var(--tur)}  .bg-tur-l{background:var(--tur-l)}
+    .c-mba{color:var(--mba)}  .bg-mba{background:var(--mba)}  .bg-mba-l{background:var(--mba-l)}
+    .c-mci{color:var(--mci)}  .bg-mci{background:var(--mci)}  .bg-mci-l{background:var(--mci-l)}
+    .c-mde{color:var(--mde)}  .bg-mde{background:var(--mde)}  .bg-mde-l{background:var(--mde-l)}
+    .c-doa{color:var(--doa)}  .bg-doa{background:var(--doa)}  .bg-doa-l{background:var(--doa-l)}
+
+
     /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     FOOTER
     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
@@ -952,7 +970,7 @@
     }
     .testi-card:hover{box-shadow:var(--shadow)}
     .testi-card::before{
-    content:'\201C';
+    /* content:'\201C'; */
     font-family:var(--serif);
     font-size:4rem;
     line-height:1;
@@ -997,8 +1015,9 @@
     flex-shrink:0;font-weight:500;
     }
     .testi-name{font-size:.85rem;font-weight:700;color:var(--slate)}
+    .testi-name2{font-size:1rem;font-weight:700;color:var(--slate)}
     .testi-prog{font-size:.74rem;color:var(--muted);margin-top:.1rem}
-
+    .eco-icon{font-size:2rem;margin-bottom:1rem;display:block}
     /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     CLÍNICAS
     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
@@ -1390,3 +1409,5 @@
     }
 
 }
+
+.hub-group-label{font-family:var(--ff-display);font-size:1rem;color:var(--gold-d);margin:2.5rem 0 1.2rem;padding-bottom:.6rem;border-bottom:1px solid var(--border)}

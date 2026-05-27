@@ -492,12 +492,9 @@
                 <p class="hero-eyebrow">Universidad Intercontinental · Ciudad de México</p>
                 <h1>División de<br /><em>Negocios</em></h1>
                 <p class="hero-sub">
-                    <strong style="font-weight: bold;">El mundo de los negocios no espera:<br>
-                        Inicia tu formación gerencial hoy</strong> <br><br>
-                    Pasa de la teoría a la práctica corporativa. Conoce nuestras 5
-                    licenciaturas especializadas y aprovecha <span style="font-weight: bold;"> más de 40 convenios
-                        empresariales </span>para impulsar tu perfil desde el primer semestre.
-                    Déjanos tus datos y descarga los planes de estudio.
+                    <strong style="font-size:clamp(1.1rem,2.8vw,1.5rem);font-weight: bold;">Aquí los negocios no se estudian: <em style="color: var(--gold-d);font-style:italic">se operan.</em></strong> <br><br>
+                    Simuladores que replican mercados reales, docentes activos en la industria y convenios con 40+ empresas.
+                    En la UIC el primer semestre ya es práctica corporativa — no el último.
                 </p>
                 <!-- <div class="hero-pills">
                 <span class="pill">Licenciatura</span>
@@ -510,20 +507,20 @@
             </div>
             <div class="hero-stats au d2">
                 <div class="stat">
-                    <div class="stat-n">4</div>
-                    <div class="stat-l">Licenciaturas presenciales en negocios</div>
+                    <div class="stat-n">Día 1</div>
+                    <div class="stat-l">Práctica corporativa real</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-n">4</div>
-                    <div class="stat-l">Años de duración · 8 semestres</div>
+                    <div class="stat-n">+40</div>
+                    <div class="stat-l">Convenios con empresas</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-n">+30</div>
-                    <div class="stat-l">Años de trayectoria del cuerpo docente</div>
+                    <div class="stat-n">5+4</div>
+                    <div class="stat-l">Licenciaturas y posgrados</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-n">Global</div>
-                    <div class="stat-l"> Práctica internacional y certificaciones</div>
+                    <div class="stat-n">+35</div>
+                    <div class="stat-l">Años activos en industria</div>
                 </div>
             </div>
         </div>
@@ -533,32 +530,33 @@
     <nav class="prog-nav" aria-label="Programas">
         <div class="prog-nav-inner">
             <a href="#hub"><span class="dot" style="background:var(--gold)"></span>Todos los programas</a>
-            <a href="#administracion"><span class="dot bg-lic"></span>Administración</a>
+            <!-- <a href="#administracion"><span class="dot bg-lic"></span>Administración</a>
             <a href="#contaduria"><span class="dot bg-mst"></span>Contaduría</a>
             <a href="#mercadotecnia"><span class="dot bg-doc"></span>Mercadotecnia</a>
             <a href="#rci"><span class="dot bg-pst"></span>RCI</a>
-            <a href="#turismo"><span class="dot bg-tur"></span>Turismo</a>
+            <a href="#turismo"><span class="dot bg-tur"></span>Turismo</a> -->
+            <a href="#hub">Licenciaturas</a>
+            <a href="#posgrados">Posgrados</a>
+            <a href="#ecosistema">Ecosistema empresarial</a>
             <a href="#faculty">Cuerpo docente</a>
-            <!-- <a href="#testimonios">Testimonios</a> -->
-            <!-- <a href="#clinicas">Clínicas</a>
-            <a href="#acreditaciones">Reconocimientos</a> -->
+            <a href="#acreditaciones">Reconocimientos</a>
         </div>
     </nav>
 
     <!-- ═══ HUB OVERVIEW ═══ -->
     <section id="hub" class="hub" aria-labelledby="hub-h2">
-        <div class="wrap">
+        <div class="wrap" id="licenciaturas">
             <p class="sec-label">Oferta académica completa</p>
-            <h2 class="sec-title" id="hub-h2">Elige tu carrera<br>en la División de Negocios</h2>
-            <p class="sec-sub">Un itinerario académico completo para quienes quieren dirigir organizaciones, gestionar las finanzas, construir marcas, hacer negocios globales o liderar la industria del turismo y la hospitalidad.</p>
-
+            <h2 class="sec-title" id="hub-h2">Elige el programa que <em style="font-style:italic;color: var(--gold-d);">te lleva a dirigir</em></h2>
+            <p class="sec-sub">Cada programa tiene un destino claro: alta dirección, finanzas estratégicas, marcas globales, comercio internacional u hospitalidad de alto nivel. No hay carreras genéricas aquí.</p>
+            <div class="hub-group-label">Licenciaturas · Presencial · 4 años</div>
             <div class="card-grid">
                 <a class="pcard" href="#administracion">
                     <div class="pcard-stripe bg-lic"></div>
                     <div class="pcard-body">
                         <div class="pcard-level c-lic">Licenciatura</div>
                         <h3>Administración y Dirección Estratégica</h3>
-                        <p class="pcard-desc">Forma líderes con visión estrategica, simuladores de negocios y capacidad de dirección a nivel ejecutivo</p>
+                        <p class="pcard-desc">Para quien quiere dirigir organizaciones completas, no administrarlas. Simuladores de negocios reales desde el primer año.</p>
                         <div class="pcard-meta">
                             <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Alta dirección</span>
                         </div>
@@ -569,8 +567,8 @@
                     <div class="pcard-stripe bg-mst"></div>
                     <div class="pcard-body">
                         <div class="pcard-level c-mst">Licenciatura</div>
-                        <h3>Contaduría y Finanzas</h3>
-                        <p class="pcard-desc">Gestión financiera, fiscal y contable con enfoque estratégico. Alta empleabilidad en todos los sectores.</p>
+                        <h3>Inteligencia Financiera y Contaduría</h3>
+                        <p class="pcard-desc">No solo registra: anticipa, interpreta y asesora. Contabilidad + inteligencia de datos + fintech.</p>
                         <div class="pcard-meta">
                             <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Fiscal · Fintech</span>
                         </div>
@@ -582,7 +580,7 @@
                     <div class="pcard-body">
                         <div class="pcard-level c-doc">Licenciatura</div>
                         <h3>Mercadotecnia</h3>
-                        <p class="pcard-desc">Equilibra análisis de datos con creatividad estratégica. Marketing digital, neuromarketing y branding.</p>
+                        <p class="pcard-desc">El mercadólogo UIC no hace contenido: toma decisiones con datos. Esa diferencia vale un cargo directivo.</p>
                         <div class="pcard-meta">
                             <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Digital · Marcas</span>
                         </div>
@@ -594,7 +592,7 @@
                     <div class="pcard-body">
                         <div class="pcard-level c-pst">Licenciatura</div>
                         <h3>Relaciones Comerciales Internacionales</h3>
-                        <p class="pcard-desc">Negocios globales, logística, aduanas y negociación intercultural. Inserción laboral desde 7° semestre.</p>
+                        <p class="pcard-desc">Importar, exportar, negociar con el mundo. La carrera para quien quiere operar negocios entre países — logística, aduanas, tratados comerciales y mercados globales.</p>
                         <div class="pcard-meta">
                             <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Logística · Aduanas</span>
                         </div>
@@ -607,11 +605,67 @@
                     <div class="pcard-body">
                         <div class="pcard-level c-tur">Licenciatura</div>
                         <h3>Administración de Negocios Turísticos</h3>
-                        <p class="pcard-desc">Hotelería, eventos MICE, gastronomía y turismo sostenible. 5 certificaciones y prácticas internacionales.</p>
+                        <p class="pcard-desc">Desde el primer semestre en eventos reales. 5 certificaciones internacionales incluidas en la carrera.</p>
                         <div class="pcard-meta">
                             <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">MICE · Hospitalidad</span>
                         </div>
                         <div class="pcard-link c-tur">Ver programa</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="posgrados" class="hub" aria-labelledby="hub-h2">
+        <div class="wrap">
+            <div class="hub-group-label">Posgrados · Modalidad Mixta a Distancia · UIC Online </div>
+            <div class="card-grid">
+                <a class="pcard" href="#mba">
+                    <div class="pcard-stripe bg-mba"></div>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-mba">Maestria</div>
+                        <h3>Maestría en Administración de Negocios (MBA)</h3>
+                        <p class="pcard-desc">Liderazgo gerencial, mejora continua y sustentabilidad organizacional.</p>
+                        <div class="pcard-meta">
+                            <span class="tag">Mixta · Distancia</span><span class="tag">5 cuatrimestres</span>
+                        </div>
+                        <div class="pcard-link c-mba">Ver programa</div>
+                    </div>
+                </a>
+                <a class="pcard" href="#mci">
+                    <div class="pcard-stripe bg-mci"></div>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-mci">Maestria</div>
+                        <h3>Maestría en Comercio Internacional</h3>
+                        <p class="pcard-desc">Logística global, TLC, cadena de suministro y legislación aduanera.</p>
+                        <div class="pcard-meta">
+                            <span class="tag">Mixta · Distancia</span><span class="tag">5 cuatrimestres</span>
+                        </div>
+                        <div class="pcard-link c-mci">Ver programa</div>
+                    </div>
+                </a>
+                <a class="pcard" href="#mde">
+                    <div class="pcard-stripe bg-mde"></div>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-mde">Maestria</div>
+                        <h3>Maestría en Dirección Estratégica y Gestión de la Innovación</h3>
+                        <p class="pcard-desc">Alta dirección, innovación tecnológica y digital para mercados globales.</p>
+                        <div class="pcard-meta">
+                            <span class="tag">Mixta · Distancia</span><span class="tag">4 semestres</span>
+                        </div>
+                        <div class="pcard-link c-mde">Ver programa</div>
+                    </div>
+                </a>
+                <a class="pcard" href="#doa">
+                    <div class="pcard-stripe bg-doa"></div>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-doa">Doctorado</div>
+                        <h3>Doctorado en Administración</h3>
+                        <p class="pcard-desc">Investigación y consultoría de alto nivel. 3 acentuaciones: Finanzas, Innovación, Sustentabilidad.</p>
+                        <div class="pcard-meta">
+                            <span class="tag">Mixta · Distancia</span><span class="tag">4 semestres</span>
+                        </div>
+                        <div class="pcard-link c-doa">Ver programa</div>
                     </div>
                 </a>
             </div>
@@ -2142,7 +2196,7 @@
             <div class="float-panel" id="flt-tur-panel">
                 <div class="float-panel-head bg-tur">
                     <div>
-                        <div class="title">Postdoctorado en Psicoanálisis</div>
+                        <div class="title">Licenciatura en Administración de Negocios Turisticos</div>
                         <div class="subtitle">Recibe información sin compromiso</div>
                     </div>
                     <button class="float-close" onclick="closeFloat('flt-tur')" aria-label="Cerrar formulario">×</button>
@@ -2509,6 +2563,1510 @@
         </form>
     </div>
 
+    <!-- FLOAT: MBA -->
+    <div class="float-trigger" id="flt-mba" role="complementary" aria-label="Maestría en Administración de Negocios">
+        <button class="float-tab bg-mba" onclick="toggleFloat('flt-mba')" aria-expanded="false" aria-controls="flt-mba-panel">
+            <i class="fas fa-phone"></i> Solicitar información
+        </button>
+        <form id="WebToLeadForm" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm">
+            <div class="float-panel" id="flt-mba-panel">
+                <div class="float-panel-head bg-mba">
+                    <div>
+                        <div class="title">Maestría en Administración de Negocios</div>
+                        <div class="subtitle">Recibe información sin compromiso</div>
+                    </div>
+                    <button class="float-close" onclick="closeFloat('flt-mba')" aria-label="Cerrar formulario">×</button>
+                </div>
+                <div class="float-body" id="flt-mba-form-wrap">
+                    <div class="float-field">
+                        <div style="display:grid; grid-template-columns:1fr; gap:8px">
+                            <div>
+                                <!-- <label for="first_name">Nombre(s)</label> -->
+                                <input name="first_name" id="first_name" type="text" required placeholder="Nombre(s)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-field">
+
+                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px">
+                            <div>
+                                <!-- <label for="last_name">Apellido Paterno</label> -->
+                                <input name="last_name" id="last_name" type="text" required placeholder="Apellido Paterno">
+                            </div>
+                            <div>
+                                <!-- <label for="last_name2_c">Apellido Materno</label> -->
+                                <input name="last_name2_c" id="last_name2_c" type="text" placeholder="Apellido Materno">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="float-field">
+                        <!-- <label for="email1">Correo electrónico</label> -->
+                        <input name="email1" id="email1" type="email" required="required" placeholder="Correo Electrónico" autocomplete="off">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="digescprocede_txt_c">Escuela de Procedencia</label> -->
+                        <input name="digescprocede_txt_c" id="digescprocede_txt_c" type="text" placeholder="Escuela de procedencia" required="required">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="pais">País</label> -->
+                        <select name="pais_txt" id="pais" required="required">
+                            <option value="" selected="selected">Selecciona un país</option>
+                            <option data-lada="52">México</option>
+                            <optgroup label="Other countries">
+                                <option data-lada="213">Algeria </option>
+                                <option data-lada="376">Andorra </option>
+                                <option data-lada="244">Angola</option>
+                                <option data-lada="1264">Anguilla</option>
+                                <option data-lada="1268">Antigua &amp; Barbuda</option>
+                                <option data-lada="54">Argentina</option>
+                                <option data-lada="374">Armenia</option>
+                                <option data-lada="297">Aruba </option>
+                                <option data-lada="61">Australia</option>
+                                <option data-lada="43">Austria</option>
+                                <option data-lada="994">Azerbaijan</option>
+                                <option data-lada="1242">Bahamas</option>
+                                <option data-lada="973">Bahrain</option>
+                                <option data-lada="880">Bangladesh</option>
+                                <option data-lada="1246">Barbados</option>
+                                <option data-lada="375">Belarus</option>
+                                <option data-lada="32">Belgium</option>
+                                <option data-lada="501">Belize</option>
+                                <option data-lada="229">Benin</option>
+                                <option data-lada="1441">Bermuda</option>
+                                <option data-lada="975">Bhutan</option>
+                                <option data-lada="591">Bolivia</option>
+                                <option data-lada="387">Bosnia Herzegovina</option>
+                                <option data-lada="267">Botswana</option>
+                                <option data-lada="55">Brazil</option>
+                                <option data-lada="673">Brunei </option>
+                                <option data-lada="359">Bulgaria</option>
+                                <option data-lada="226">Burkina Faso</option>
+                                <option data-lada="257">Burundi</option>
+                                <option data-lada="855">Cambodia</option>
+                                <option data-lada="237">Cameroon</option>
+                                <option data-lada="1">Canada</option>
+                                <option data-lada="238">Cape Verde Islands</option>
+                                <option data-lada="1345">Cayman Islands</option>
+                                <option data-lada="236">Central African Republic </option>
+                                <option data-lada="56">Chile</option>
+                                <option data-lada="86">China</option>
+                                <option data-lada="57">Colombia</option>
+                                <option data-lada="269">Comoros </option>
+                                <option data-lada="242">Congo </option>
+                                <option data-lada="682">Cook Islands </option>
+                                <option data-lada="506">Costa Rica </option>
+                                <option data-lada="385">Croatia </option>
+                                <option data-lada="53">Cuba </option>
+                                <option data-lada="90392">Cyprus North </option>
+                                <option data-lada="357">Cyprus South </option>
+                                <option data-lada="42">Czech Republic </option>
+                                <option data-lada="45">Denmark </option>
+                                <option data-lada="253">Djibouti </option>
+                                <option data-lada="1809">Dominica </option>
+                                <option data-lada="1809">Dominican Republic </option>
+                                <option data-lada="593">Ecuador </option>
+                                <option data-lada="20">Egypt </option>
+                                <option data-lada="503">El Salvador </option>
+                                <option data-lada="240">Equatorial Guinea </option>
+                                <option data-lada="291">Eritrea </option>
+                                <option data-lada="372">Estonia</option>
+                                <option data-lada="251">Ethiopia </option>
+                                <option data-lada="500">Falkland Islands</option>
+                                <option data-lada="298">Faroe Islands </option>
+                                <option data-lada="679">Fiji </option>
+                                <option data-lada="358">Finland </option>
+                                <option data-lada="33">France </option>
+                                <option data-lada="594">French Guiana </option>
+                                <option data-lada="689">French Polynesia </option>
+                                <option data-lada="241">Gabon </option>
+                                <option data-lada="220">Gambia </option>
+                                <option data-lada="7880">Georgia </option>
+                                <option data-lada="49">Germany </option>
+                                <option data-lada="233">Ghana </option>
+                                <option data-lada="350">Gibraltar </option>
+                                <option data-lada="30">Greece </option>
+                                <option data-lada="299">Greenland </option>
+                                <option data-lada="1473">Grenada </option>
+                                <option data-lada="590">Guadeloupe </option>
+                                <option data-lada="671">Guam </option>
+                                <option data-lada="502">Guatemala </option>
+                                <option data-lada="224">Guinea </option>
+                                <option data-lada="245">Guinea - Bissau</option>
+                                <option data-lada="592">Guyana </option>
+                                <option data-lada="509">Haiti </option>
+                                <option data-lada="504">Honduras </option>
+                                <option data-lada="852">Hong Kong </option>
+                                <option data-lada="36">Hungary </option>
+                                <option data-lada="354">Iceland </option>
+                                <option data-lada="91">India </option>
+                                <option data-lada="62">Indonesia </option>
+                                <option data-lada="98">Iran </option>
+                                <option data-lada="964">Iraq </option>
+                                <option data-lada="353">Ireland </option>
+                                <option data-lada="972">Israel </option>
+                                <option data-lada="39">Italy </option>
+                                <option data-lada="1876">Jamaica </option>
+                                <option data-lada="81">Japan </option>
+                                <option data-lada="962">Jordan </option>
+                                <option data-lada="7">Kazakhstan </option>
+                                <option data-lada="254">Kenya </option>
+                                <option data-lada="686">Kiribati </option>
+                                <option data-lada="850">Korea North </option>
+                                <option data-lada="82">Korea South </option>
+                                <option data-lada="965">Kuwait </option>
+                                <option data-lada="996">Kyrgyzstan </option>
+                                <option data-lada="856">Laos </option>
+                                <option data-lada="371">Latvia </option>
+                                <option data-lada="961">Lebanon </option>
+                                <option data-lada="266">Lesotho </option>
+                                <option data-lada="231">Liberia </option>
+                                <option data-lada="218">Libya </option>
+                                <option data-lada="417">Liechtenstein </option>
+                                <option data-lada="370">Lithuania </option>
+                                <option data-lada="352">Luxembourg </option>
+                                <option data-lada="853">Macao </option>
+                                <option data-lada="389">Macedonia </option>
+                                <option data-lada="261">Madagascar </option>
+                                <option data-lada="265">Malawi </option>
+                                <option data-lada="60">Malaysia </option>
+                                <option data-lada="960">Maldives </option>
+                                <option data-lada="223">Mali </option>
+                                <option data-lada="356">Malta </option>
+                                <option data-lada="692">Marshall Islands </option>
+                                <option data-lada="596">Martinique </option>
+                                <option data-lada="222">Mauritania </option>
+                                <option data-lada="269">Mayotte </option>
+                                <option data-lada="691">Micronesia </option>
+                                <option data-lada="373">Moldova </option>
+                                <option data-lada="377">Monaco </option>
+                                <option data-lada="976">Mongolia </option>
+                                <option data-lada="1664">Montserrat </option>
+                                <option data-lada="212">Morocco </option>
+                                <option data-lada="258">Mozambique </option>
+                                <option data-lada="95">Myanmar </option>
+                                <option data-lada="264">Namibia </option>
+                                <option data-lada="674">Nauru </option>
+                                <option data-lada="977">Nepal </option>
+                                <option data-lada="31">Netherlands </option>
+                                <option data-lada="687">New Caledonia </option>
+                                <option data-lada="64">New Zealand </option>
+                                <option data-lada="505">Nicaragua </option>
+                                <option data-lada="227">Niger</option>
+                                <option data-lada="234">Nigeria</option>
+                                <option data-lada="683">Niue</option>
+                                <option data-lada="672">Norfolk Islands</option>
+                                <option data-lada="670">Northern Marianas</option>
+                                <option data-lada="47">Norway</option>
+                                <option data-lada="968">Oman</option>
+                                <option data-lada="680">Palau</option>
+                                <option data-lada="507">Panama</option>
+                                <option data-lada="675">Papua New Guinea</option>
+                                <option data-lada="595">Paraguay</option>
+                                <option data-lada="51">Peru</option>
+                                <option data-lada="63">Philippines</option>
+                                <option data-lada="48">Poland</option>
+                                <option data-lada="351">Portugal</option>
+                                <option data-lada="1787">Puerto Rico</option>
+                                <option data-lada="974">Qatar</option>
+                                <option data-lada="262">Reunion</option>
+                                <option data-lada="40">Romania</option>
+                                <option data-lada="7">Russia</option>
+                                <option data-lada="250">Rwanda</option>
+                                <option data-lada="378">San Marino</option>
+                                <option data-lada="239">Sao Tome &amp; Principe</option>
+                                <option data-lada="966">Saudi Arabia</option>
+                                <option data-lada="221">Senegal</option>
+                                <option data-lada="381">Serbia</option>
+                                <option data-lada="248">Seychelles</option>
+                                <option data-lada="232">Sierra Leone</option>
+                                <option data-lada="65">Singapore</option>
+                                <option data-lada="421">Slovak Republic</option>
+                                <option data-lada="386">Slovenia</option>
+                                <option data-lada="677">Solomon Islands</option>
+                                <option data-lada="252">Somalia</option>
+                                <option data-lada="27">South Africa</option>
+                                <option data-lada="34">Spain </option>
+                                <option data-lada="94">Sri Lanka</option>
+                                <option data-lada="290">St. Helena</option>
+                                <option data-lada="1869">St. Kitts</option>
+                                <option data-lada="1758">St. Lucia</option>
+                                <option data-lada="249">Sudan</option>
+                                <option data-lada="597">Suriname</option>
+                                <option data-lada="268">Swaziland</option>
+                                <option data-lada="46">Sweden</option>
+                                <option data-lada="41">Switzerland</option>
+                                <option data-lada="963">Syria</option>
+                                <option data-lada="886">Taiwan</option>
+                                <option data-lada="7">Tajikstan</option>
+                                <option data-lada="66">Thailand</option>
+                                <option data-lada="228">Togo</option>
+                                <option data-lada="676">Tonga</option>
+                                <option data-lada="1868">Trinidad &amp; Tobago</option>
+                                <option data-lada="216">Tunisia</option>
+                                <option data-lada="90">Turkey</option>
+                                <option data-lada="7">Turkmenistan</option>
+                                <option data-lada="993">Turkmenistan</option>
+                                <option data-lada="1649">Turks &amp; Caicos Islands</option>
+                                <option data-lada="688">Tuvalu </option>
+                                <option data-lada="256">Uganda</option>
+                                <option data-lada="44">UK</option>
+                                <option data-lada="380">Ukraine </option>
+                                <option data-lada="971">United Arab Emirates</option>
+                                <option data-lada="598">Uruguay</option>
+                                <option data-lada="1">USA</option>
+                                <option data-lada="7">Uzbekistan</option>
+                                <option data-lada="678">Vanuatu</option>
+                                <option data-lada="379">Vatican City</option>
+                                <option data-lada="58">Venezuela</option>
+                                <option data-lada="84">Vietnam</option>
+                                <option data-lada="1284">Virgin Islands - British</option>
+                                <option data-lada="1340">Virgin Islands - US</option>
+                                <option data-lada="681">Wallis &amp; Futuna</option>
+                                <option data-lada="969">Yemen (North)</option>
+                                <option data-lada="967">Yemen (South)</option>
+                                <option data-lada="260">Zambia</option>
+                                <option data-lada="263">Zimbabwe</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <!-- Estado -->
+                    <div class="float-field dnone">
+                        <!-- <label for="estado_txt">Estado</label> -->
+                        <select id="estado_txt" name="estado_txt" placeholder="Estado de residencia">
+                            <option value="" selected="selected">Estado de residencia</option>
+                            <option value="1">Aguascalientes</option>
+                            <option value="2">Baja California</option>
+                            <option value="3">Baja California Sur</option>
+                            <option value="4">Campeche</option>
+                            <option value="5">Chiapas</option>
+                            <option value="6">Chihuahua</option>
+                            <option value="7">Ciudad de México</option>
+                            <option value="8">Coahuila de Zaragoza</option>
+                            <option value="9">Colima</option>
+                            <option value="10">Durango</option>
+                            <option value="11">Estado de México</option>
+                            <option value="12">Guanajuato</option>
+                            <option value="13">Guerrero</option>
+                            <option value="14">Hidalgo</option>
+                            <option value="15">Jalísco</option>
+                            <option value="16">Michoacán de Ocampo</option>
+                            <option value="17">Morelos</option>
+                            <option value="18">Nayarit</option>
+                            <option value="19">Nuevo León</option>
+                            <option value="20">Oaxaca</option>
+                            <option value="21">Puebla</option>
+                            <option value="22">Querétaro</option>
+                            <option value="23">Quintana Roo</option>
+                            <option value="24">San Luis Potosí</option>
+                            <option value="25">Sinaloa</option>
+                            <option value="26">Sonora</option>
+                            <option value="27">Tabasco</option>
+                            <option value="28">Tamaulipas</option>
+                            <option value="29">Tlaxcala</option>
+                            <option value="30">Veracruz</option>
+                            <option value="31">Yucatán</option>
+                            <option value="32">Zacatecas</option>
+                        </select>
+                    </div>
+                    <!-- End estado -->
+                    <div class="float-field">
+                        <input type="text" id="lada" name="lada" readonly style="width:16%; margin-right:1%" placeholder="Lada">
+                        <input type="tel" name="phone_work" id="phone_work" placeholder="Teléfono a 10 dígitos" required maxlength="12" minlength="4" pattern="[0-9]{10}" inputmode="numeric" style="width:80%">
+                    </div>
+                    <div class="float-field">
+                        <select name="forma" id="forma" aria-required="true" aria-invalid="false" required="required">
+                            <option value="" selected="true" disabled="disabled">Forma de contacto</option>
+                            <option value="Whatsapp">Whatsapp</option>
+                            <option value="Videoconferencia">Videoconferencia</option>
+                            <option value="Llamada telefónica">Llamada telefónica</option>
+                        </select>
+                    </div>
+
+                    <!--/*** Ocultos ***/-->
+
+                    <input type="hidden" id="autoriza" name="autoriza" value="1">
+
+                    <!-- Oferta -->
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Maestría en Administración de Negocios">
+
+                    <!-- Forma de contacto -->
+                    <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
+                    <!-- Horario de contacto -->
+                    <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
+                    <!-- Campus de interés -->
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Posgrados Mixtos a Distancia">
+
+                    <!-- Turno de interés -->
+                    <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
+
+                    <!-- Lada -->
+                    <input name="dial_code" id="dial_code" type="hidden">
+                    <!-- Fuente digital UTM ACTUALIZADO MAYO 2022-->
+                    <input name="utm_source" id="utmsource_txt_c" type="hidden" placeholder="Fuente digital UTM">
+                    <!-- Medio digital UTM ACTUALIZADO MAYO 2022 -->
+                    <input name="utm_medium" id="utmmedio_txt_c" type="hidden" placeholder="Medio digital UTM">
+                    <!-- Campaña digital ACTUALIZADO MAYO 2022 UTM -->
+                    <input name="utm_campaign" id="utmcampana_txt_c" type="hidden" placeholder="Campaña digital UTM">
+                    <!-- Contenido digital ACTUALIZADO NOVIEMBRE 2022 UTM -->
+                    <input name="utm_content" id="utmcontent_txt_c" type="hidden" placeholder="Contenido digital UTM">
+                    <!-- URL -->
+                    <input name="url" id="url-result" type="hidden">
+                    <!-- OTROS DATOS -->
+                    <input type="hidden" name="utm_term" id="Term" value="">
+                    <input type="hidden" name="utm_keyword" id="Keyword" value="">
+                    <input type="hidden" name="utm_clientID" id="Client_ID" value="">
+                    <input type="hidden" name="utm_referrer" id="Referrer" value="">
+                    <!-- Oferta de interés UTM -->
+                    <input name="utmoferinteres_txt_c" id="utmoferinteres_txt_c" type="hidden">
+                    <!-- Estaus Digital -->
+                    <input name="estadodigital_list_c" id="estadodigital_list_c" type="hidden" value="Nuevo">
+                    <!-- Medio -->
+                    <input name="medio_gen_list_c" id="medio_gen_list_c" type="hidden" value="Medios Digitales">
+                    <!-- Periodo -->
+                    <input name="periodoingreso_list_c" id="periodoingreso_list_c" type="hidden" value="NA">
+
+
+                    <button class="float-btn bg-mba" onclick="submitFloat('flt-mba')" name="Submit" id="send">Solicitar información →</button>
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-mba.html">
+                    <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
+                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
+                    <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
+                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- FLOAT: MCI -->
+    <div class="float-trigger" id="flt-mci" role="complementary" aria-label="Maestría en Comercio Internacional">
+        <button class="float-tab bg-mci" onclick="toggleFloat('flt-mci')" aria-expanded="false" aria-controls="flt-mci-panel">
+            <i class="fas fa-phone"></i> Solicitar información
+        </button>
+        <form id="WebToLeadForm" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm">
+            <div class="float-panel" id="flt-mci-panel">
+                <div class="float-panel-head bg-mci">
+                    <div>
+                        <div class="title">Maestría en Comercio Internacional</div>
+                        <div class="subtitle">Recibe información sin compromiso</div>
+                    </div>
+                    <button class="float-close" onclick="closeFloat('flt-mci')" aria-label="Cerrar formulario">×</button>
+                </div>
+                <div class="float-body" id="flt-mci-form-wrap">
+                    <div class="float-field">
+                        <div style="display:grid; grid-template-columns:1fr; gap:8px">
+                            <div>
+                                <!-- <label for="first_name">Nombre(s)</label> -->
+                                <input name="first_name" id="first_name" type="text" required placeholder="Nombre(s)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-field">
+
+                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px">
+                            <div>
+                                <!-- <label for="last_name">Apellido Paterno</label> -->
+                                <input name="last_name" id="last_name" type="text" required placeholder="Apellido Paterno">
+                            </div>
+                            <div>
+                                <!-- <label for="last_name2_c">Apellido Materno</label> -->
+                                <input name="last_name2_c" id="last_name2_c" type="text" placeholder="Apellido Materno">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="float-field">
+                        <!-- <label for="email1">Correo electrónico</label> -->
+                        <input name="email1" id="email1" type="email" required="required" placeholder="Correo Electrónico" autocomplete="off">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="digescprocede_txt_c">Escuela de Procedencia</label> -->
+                        <input name="digescprocede_txt_c" id="digescprocede_txt_c" type="text" placeholder="Escuela de procedencia" required="required">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="pais">País</label> -->
+                        <select name="pais_txt" id="pais" required="required">
+                            <option value="" selected="selected">Selecciona un país</option>
+                            <option data-lada="52">México</option>
+                            <optgroup label="Other countries">
+                                <option data-lada="213">Algeria </option>
+                                <option data-lada="376">Andorra </option>
+                                <option data-lada="244">Angola</option>
+                                <option data-lada="1264">Anguilla</option>
+                                <option data-lada="1268">Antigua &amp; Barbuda</option>
+                                <option data-lada="54">Argentina</option>
+                                <option data-lada="374">Armenia</option>
+                                <option data-lada="297">Aruba </option>
+                                <option data-lada="61">Australia</option>
+                                <option data-lada="43">Austria</option>
+                                <option data-lada="994">Azerbaijan</option>
+                                <option data-lada="1242">Bahamas</option>
+                                <option data-lada="973">Bahrain</option>
+                                <option data-lada="880">Bangladesh</option>
+                                <option data-lada="1246">Barbados</option>
+                                <option data-lada="375">Belarus</option>
+                                <option data-lada="32">Belgium</option>
+                                <option data-lada="501">Belize</option>
+                                <option data-lada="229">Benin</option>
+                                <option data-lada="1441">Bermuda</option>
+                                <option data-lada="975">Bhutan</option>
+                                <option data-lada="591">Bolivia</option>
+                                <option data-lada="387">Bosnia Herzegovina</option>
+                                <option data-lada="267">Botswana</option>
+                                <option data-lada="55">Brazil</option>
+                                <option data-lada="673">Brunei </option>
+                                <option data-lada="359">Bulgaria</option>
+                                <option data-lada="226">Burkina Faso</option>
+                                <option data-lada="257">Burundi</option>
+                                <option data-lada="855">Cambodia</option>
+                                <option data-lada="237">Cameroon</option>
+                                <option data-lada="1">Canada</option>
+                                <option data-lada="238">Cape Verde Islands</option>
+                                <option data-lada="1345">Cayman Islands</option>
+                                <option data-lada="236">Central African Republic </option>
+                                <option data-lada="56">Chile</option>
+                                <option data-lada="86">China</option>
+                                <option data-lada="57">Colombia</option>
+                                <option data-lada="269">Comoros </option>
+                                <option data-lada="242">Congo </option>
+                                <option data-lada="682">Cook Islands </option>
+                                <option data-lada="506">Costa Rica </option>
+                                <option data-lada="385">Croatia </option>
+                                <option data-lada="53">Cuba </option>
+                                <option data-lada="90392">Cyprus North </option>
+                                <option data-lada="357">Cyprus South </option>
+                                <option data-lada="42">Czech Republic </option>
+                                <option data-lada="45">Denmark </option>
+                                <option data-lada="253">Djibouti </option>
+                                <option data-lada="1809">Dominica </option>
+                                <option data-lada="1809">Dominican Republic </option>
+                                <option data-lada="593">Ecuador </option>
+                                <option data-lada="20">Egypt </option>
+                                <option data-lada="503">El Salvador </option>
+                                <option data-lada="240">Equatorial Guinea </option>
+                                <option data-lada="291">Eritrea </option>
+                                <option data-lada="372">Estonia</option>
+                                <option data-lada="251">Ethiopia </option>
+                                <option data-lada="500">Falkland Islands</option>
+                                <option data-lada="298">Faroe Islands </option>
+                                <option data-lada="679">Fiji </option>
+                                <option data-lada="358">Finland </option>
+                                <option data-lada="33">France </option>
+                                <option data-lada="594">French Guiana </option>
+                                <option data-lada="689">French Polynesia </option>
+                                <option data-lada="241">Gabon </option>
+                                <option data-lada="220">Gambia </option>
+                                <option data-lada="7880">Georgia </option>
+                                <option data-lada="49">Germany </option>
+                                <option data-lada="233">Ghana </option>
+                                <option data-lada="350">Gibraltar </option>
+                                <option data-lada="30">Greece </option>
+                                <option data-lada="299">Greenland </option>
+                                <option data-lada="1473">Grenada </option>
+                                <option data-lada="590">Guadeloupe </option>
+                                <option data-lada="671">Guam </option>
+                                <option data-lada="502">Guatemala </option>
+                                <option data-lada="224">Guinea </option>
+                                <option data-lada="245">Guinea - Bissau</option>
+                                <option data-lada="592">Guyana </option>
+                                <option data-lada="509">Haiti </option>
+                                <option data-lada="504">Honduras </option>
+                                <option data-lada="852">Hong Kong </option>
+                                <option data-lada="36">Hungary </option>
+                                <option data-lada="354">Iceland </option>
+                                <option data-lada="91">India </option>
+                                <option data-lada="62">Indonesia </option>
+                                <option data-lada="98">Iran </option>
+                                <option data-lada="964">Iraq </option>
+                                <option data-lada="353">Ireland </option>
+                                <option data-lada="972">Israel </option>
+                                <option data-lada="39">Italy </option>
+                                <option data-lada="1876">Jamaica </option>
+                                <option data-lada="81">Japan </option>
+                                <option data-lada="962">Jordan </option>
+                                <option data-lada="7">Kazakhstan </option>
+                                <option data-lada="254">Kenya </option>
+                                <option data-lada="686">Kiribati </option>
+                                <option data-lada="850">Korea North </option>
+                                <option data-lada="82">Korea South </option>
+                                <option data-lada="965">Kuwait </option>
+                                <option data-lada="996">Kyrgyzstan </option>
+                                <option data-lada="856">Laos </option>
+                                <option data-lada="371">Latvia </option>
+                                <option data-lada="961">Lebanon </option>
+                                <option data-lada="266">Lesotho </option>
+                                <option data-lada="231">Liberia </option>
+                                <option data-lada="218">Libya </option>
+                                <option data-lada="417">Liechtenstein </option>
+                                <option data-lada="370">Lithuania </option>
+                                <option data-lada="352">Luxembourg </option>
+                                <option data-lada="853">Macao </option>
+                                <option data-lada="389">Macedonia </option>
+                                <option data-lada="261">Madagascar </option>
+                                <option data-lada="265">Malawi </option>
+                                <option data-lada="60">Malaysia </option>
+                                <option data-lada="960">Maldives </option>
+                                <option data-lada="223">Mali </option>
+                                <option data-lada="356">Malta </option>
+                                <option data-lada="692">Marshall Islands </option>
+                                <option data-lada="596">Martinique </option>
+                                <option data-lada="222">Mauritania </option>
+                                <option data-lada="269">Mayotte </option>
+                                <option data-lada="691">Micronesia </option>
+                                <option data-lada="373">Moldova </option>
+                                <option data-lada="377">Monaco </option>
+                                <option data-lada="976">Mongolia </option>
+                                <option data-lada="1664">Montserrat </option>
+                                <option data-lada="212">Morocco </option>
+                                <option data-lada="258">Mozambique </option>
+                                <option data-lada="95">Myanmar </option>
+                                <option data-lada="264">Namibia </option>
+                                <option data-lada="674">Nauru </option>
+                                <option data-lada="977">Nepal </option>
+                                <option data-lada="31">Netherlands </option>
+                                <option data-lada="687">New Caledonia </option>
+                                <option data-lada="64">New Zealand </option>
+                                <option data-lada="505">Nicaragua </option>
+                                <option data-lada="227">Niger</option>
+                                <option data-lada="234">Nigeria</option>
+                                <option data-lada="683">Niue</option>
+                                <option data-lada="672">Norfolk Islands</option>
+                                <option data-lada="670">Northern Marianas</option>
+                                <option data-lada="47">Norway</option>
+                                <option data-lada="968">Oman</option>
+                                <option data-lada="680">Palau</option>
+                                <option data-lada="507">Panama</option>
+                                <option data-lada="675">Papua New Guinea</option>
+                                <option data-lada="595">Paraguay</option>
+                                <option data-lada="51">Peru</option>
+                                <option data-lada="63">Philippines</option>
+                                <option data-lada="48">Poland</option>
+                                <option data-lada="351">Portugal</option>
+                                <option data-lada="1787">Puerto Rico</option>
+                                <option data-lada="974">Qatar</option>
+                                <option data-lada="262">Reunion</option>
+                                <option data-lada="40">Romania</option>
+                                <option data-lada="7">Russia</option>
+                                <option data-lada="250">Rwanda</option>
+                                <option data-lada="378">San Marino</option>
+                                <option data-lada="239">Sao Tome &amp; Principe</option>
+                                <option data-lada="966">Saudi Arabia</option>
+                                <option data-lada="221">Senegal</option>
+                                <option data-lada="381">Serbia</option>
+                                <option data-lada="248">Seychelles</option>
+                                <option data-lada="232">Sierra Leone</option>
+                                <option data-lada="65">Singapore</option>
+                                <option data-lada="421">Slovak Republic</option>
+                                <option data-lada="386">Slovenia</option>
+                                <option data-lada="677">Solomon Islands</option>
+                                <option data-lada="252">Somalia</option>
+                                <option data-lada="27">South Africa</option>
+                                <option data-lada="34">Spain </option>
+                                <option data-lada="94">Sri Lanka</option>
+                                <option data-lada="290">St. Helena</option>
+                                <option data-lada="1869">St. Kitts</option>
+                                <option data-lada="1758">St. Lucia</option>
+                                <option data-lada="249">Sudan</option>
+                                <option data-lada="597">Suriname</option>
+                                <option data-lada="268">Swaziland</option>
+                                <option data-lada="46">Sweden</option>
+                                <option data-lada="41">Switzerland</option>
+                                <option data-lada="963">Syria</option>
+                                <option data-lada="886">Taiwan</option>
+                                <option data-lada="7">Tajikstan</option>
+                                <option data-lada="66">Thailand</option>
+                                <option data-lada="228">Togo</option>
+                                <option data-lada="676">Tonga</option>
+                                <option data-lada="1868">Trinidad &amp; Tobago</option>
+                                <option data-lada="216">Tunisia</option>
+                                <option data-lada="90">Turkey</option>
+                                <option data-lada="7">Turkmenistan</option>
+                                <option data-lada="993">Turkmenistan</option>
+                                <option data-lada="1649">Turks &amp; Caicos Islands</option>
+                                <option data-lada="688">Tuvalu </option>
+                                <option data-lada="256">Uganda</option>
+                                <option data-lada="44">UK</option>
+                                <option data-lada="380">Ukraine </option>
+                                <option data-lada="971">United Arab Emirates</option>
+                                <option data-lada="598">Uruguay</option>
+                                <option data-lada="1">USA</option>
+                                <option data-lada="7">Uzbekistan</option>
+                                <option data-lada="678">Vanuatu</option>
+                                <option data-lada="379">Vatican City</option>
+                                <option data-lada="58">Venezuela</option>
+                                <option data-lada="84">Vietnam</option>
+                                <option data-lada="1284">Virgin Islands - British</option>
+                                <option data-lada="1340">Virgin Islands - US</option>
+                                <option data-lada="681">Wallis &amp; Futuna</option>
+                                <option data-lada="969">Yemen (North)</option>
+                                <option data-lada="967">Yemen (South)</option>
+                                <option data-lada="260">Zambia</option>
+                                <option data-lada="263">Zimbabwe</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <!-- Estado -->
+                    <div class="float-field dnone">
+                        <!-- <label for="estado_txt">Estado</label> -->
+                        <select id="estado_txt" name="estado_txt" placeholder="Estado de residencia">
+                            <option value="" selected="selected">Estado de residencia</option>
+                            <option value="1">Aguascalientes</option>
+                            <option value="2">Baja California</option>
+                            <option value="3">Baja California Sur</option>
+                            <option value="4">Campeche</option>
+                            <option value="5">Chiapas</option>
+                            <option value="6">Chihuahua</option>
+                            <option value="7">Ciudad de México</option>
+                            <option value="8">Coahuila de Zaragoza</option>
+                            <option value="9">Colima</option>
+                            <option value="10">Durango</option>
+                            <option value="11">Estado de México</option>
+                            <option value="12">Guanajuato</option>
+                            <option value="13">Guerrero</option>
+                            <option value="14">Hidalgo</option>
+                            <option value="15">Jalísco</option>
+                            <option value="16">Michoacán de Ocampo</option>
+                            <option value="17">Morelos</option>
+                            <option value="18">Nayarit</option>
+                            <option value="19">Nuevo León</option>
+                            <option value="20">Oaxaca</option>
+                            <option value="21">Puebla</option>
+                            <option value="22">Querétaro</option>
+                            <option value="23">Quintana Roo</option>
+                            <option value="24">San Luis Potosí</option>
+                            <option value="25">Sinaloa</option>
+                            <option value="26">Sonora</option>
+                            <option value="27">Tabasco</option>
+                            <option value="28">Tamaulipas</option>
+                            <option value="29">Tlaxcala</option>
+                            <option value="30">Veracruz</option>
+                            <option value="31">Yucatán</option>
+                            <option value="32">Zacatecas</option>
+                        </select>
+                    </div>
+                    <!-- End estado -->
+                    <div class="float-field">
+                        <input type="text" id="lada" name="lada" readonly style="width:16%; margin-right:1%" placeholder="Lada">
+                        <input type="tel" name="phone_work" id="phone_work" placeholder="Teléfono a 10 dígitos" required maxlength="12" minlength="4" pattern="[0-9]{10}" inputmode="numeric" style="width:80%">
+                    </div>
+                    <div class="float-field">
+                        <select name="forma" id="forma" aria-required="true" aria-invalid="false" required="required">
+                            <option value="" selected="true" disabled="disabled">Forma de contacto</option>
+                            <option value="Whatsapp">Whatsapp</option>
+                            <option value="Videoconferencia">Videoconferencia</option>
+                            <option value="Llamada telefónica">Llamada telefónica</option>
+                        </select>
+                    </div>
+
+                    <!--/*** Ocultos ***/-->
+
+                    <input type="hidden" id="autoriza" name="autoriza" value="1">
+
+                    <!-- Oferta -->
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Maestría en Comercio Internacional">
+
+                    <!-- Forma de contacto -->
+                    <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
+                    <!-- Horario de contacto -->
+                    <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
+                    <!-- Campus de interés -->
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Posgrados Mixtos a Distancia">
+
+                    <!-- Turno de interés -->
+                    <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
+
+                    <!-- Lada -->
+                    <input name="dial_code" id="dial_code" type="hidden">
+                    <!-- Fuente digital UTM ACTUALIZADO MAYO 2022-->
+                    <input name="utm_source" id="utmsource_txt_c" type="hidden" placeholder="Fuente digital UTM">
+                    <!-- Medio digital UTM ACTUALIZADO MAYO 2022 -->
+                    <input name="utm_medium" id="utmmedio_txt_c" type="hidden" placeholder="Medio digital UTM">
+                    <!-- Campaña digital ACTUALIZADO MAYO 2022 UTM -->
+                    <input name="utm_campaign" id="utmcampana_txt_c" type="hidden" placeholder="Campaña digital UTM">
+                    <!-- Contenido digital ACTUALIZADO NOVIEMBRE 2022 UTM -->
+                    <input name="utm_content" id="utmcontent_txt_c" type="hidden" placeholder="Contenido digital UTM">
+                    <!-- URL -->
+                    <input name="url" id="url-result" type="hidden">
+                    <!-- OTROS DATOS -->
+                    <input type="hidden" name="utm_term" id="Term" value="">
+                    <input type="hidden" name="utm_keyword" id="Keyword" value="">
+                    <input type="hidden" name="utm_clientID" id="Client_ID" value="">
+                    <input type="hidden" name="utm_referrer" id="Referrer" value="">
+                    <!-- Oferta de interés UTM -->
+                    <input name="utmoferinteres_txt_c" id="utmoferinteres_txt_c" type="hidden">
+                    <!-- Estaus Digital -->
+                    <input name="estadodigital_list_c" id="estadodigital_list_c" type="hidden" value="Nuevo">
+                    <!-- Medio -->
+                    <input name="medio_gen_list_c" id="medio_gen_list_c" type="hidden" value="Medios Digitales">
+                    <!-- Periodo -->
+                    <input name="periodoingreso_list_c" id="periodoingreso_list_c" type="hidden" value="NA">
+
+
+                    <button class="float-btn bg-mci" onclick="submitFloat('flt-mci')" name="Submit" id="send">Solicitar información →</button>
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-comercioint.html">
+                    <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
+                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
+                    <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
+                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- FLOAT: MDE -->
+    <div class="float-trigger" id="flt-mde" role="complementary" aria-label="Maestria en Dirección Estratégica y Gestión de la Inovación">
+        <button class="float-tab bg-mde" onclick="toggleFloat('flt-mde')" aria-expanded="false" aria-controls="flt-mde-panel">
+            <i class="fas fa-phone"></i> Solicitar información
+        </button>
+        <form id="WebToLeadForm" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm">
+            <div class="float-panel" id="flt-mde-panel">
+                <div class="float-panel-head bg-mde">
+                    <div>
+                        <div class="title">Maestria en Dirección Estratégica y Gestión de la Inovación</div>
+                        <div class="subtitle">Recibe información sin compromiso</div>
+                    </div>
+                    <button class="float-close" onclick="closeFloat('flt-mde')" aria-label="Cerrar formulario">×</button>
+                </div>
+                <div class="float-body" id="flt-mde-form-wrap">
+                    <div class="float-field">
+                        <div style="display:grid; grid-template-columns:1fr; gap:8px">
+                            <div>
+                                <!-- <label for="first_name">Nombre(s)</label> -->
+                                <input name="first_name" id="first_name" type="text" required placeholder="Nombre(s)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-field">
+
+                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px">
+                            <div>
+                                <!-- <label for="last_name">Apellido Paterno</label> -->
+                                <input name="last_name" id="last_name" type="text" required placeholder="Apellido Paterno">
+                            </div>
+                            <div>
+                                <!-- <label for="last_name2_c">Apellido Materno</label> -->
+                                <input name="last_name2_c" id="last_name2_c" type="text" placeholder="Apellido Materno">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="float-field">
+                        <!-- <label for="email1">Correo electrónico</label> -->
+                        <input name="email1" id="email1" type="email" required="required" placeholder="Correo Electrónico" autocomplete="off">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="digescprocede_txt_c">Escuela de Procedencia</label> -->
+                        <input name="digescprocede_txt_c" id="digescprocede_txt_c" type="text" placeholder="Escuela de procedencia" required="required">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="pais">País</label> -->
+                        <select name="pais_txt" id="pais" required="required">
+                            <option value="" selected="selected">Selecciona un país</option>
+                            <option data-lada="52">México</option>
+                            <optgroup label="Other countries">
+                                <option data-lada="213">Algeria </option>
+                                <option data-lada="376">Andorra </option>
+                                <option data-lada="244">Angola</option>
+                                <option data-lada="1264">Anguilla</option>
+                                <option data-lada="1268">Antigua &amp; Barbuda</option>
+                                <option data-lada="54">Argentina</option>
+                                <option data-lada="374">Armenia</option>
+                                <option data-lada="297">Aruba </option>
+                                <option data-lada="61">Australia</option>
+                                <option data-lada="43">Austria</option>
+                                <option data-lada="994">Azerbaijan</option>
+                                <option data-lada="1242">Bahamas</option>
+                                <option data-lada="973">Bahrain</option>
+                                <option data-lada="880">Bangladesh</option>
+                                <option data-lada="1246">Barbados</option>
+                                <option data-lada="375">Belarus</option>
+                                <option data-lada="32">Belgium</option>
+                                <option data-lada="501">Belize</option>
+                                <option data-lada="229">Benin</option>
+                                <option data-lada="1441">Bermuda</option>
+                                <option data-lada="975">Bhutan</option>
+                                <option data-lada="591">Bolivia</option>
+                                <option data-lada="387">Bosnia Herzegovina</option>
+                                <option data-lada="267">Botswana</option>
+                                <option data-lada="55">Brazil</option>
+                                <option data-lada="673">Brunei </option>
+                                <option data-lada="359">Bulgaria</option>
+                                <option data-lada="226">Burkina Faso</option>
+                                <option data-lada="257">Burundi</option>
+                                <option data-lada="855">Cambodia</option>
+                                <option data-lada="237">Cameroon</option>
+                                <option data-lada="1">Canada</option>
+                                <option data-lada="238">Cape Verde Islands</option>
+                                <option data-lada="1345">Cayman Islands</option>
+                                <option data-lada="236">Central African Republic </option>
+                                <option data-lada="56">Chile</option>
+                                <option data-lada="86">China</option>
+                                <option data-lada="57">Colombia</option>
+                                <option data-lada="269">Comoros </option>
+                                <option data-lada="242">Congo </option>
+                                <option data-lada="682">Cook Islands </option>
+                                <option data-lada="506">Costa Rica </option>
+                                <option data-lada="385">Croatia </option>
+                                <option data-lada="53">Cuba </option>
+                                <option data-lada="90392">Cyprus North </option>
+                                <option data-lada="357">Cyprus South </option>
+                                <option data-lada="42">Czech Republic </option>
+                                <option data-lada="45">Denmark </option>
+                                <option data-lada="253">Djibouti </option>
+                                <option data-lada="1809">Dominica </option>
+                                <option data-lada="1809">Dominican Republic </option>
+                                <option data-lada="593">Ecuador </option>
+                                <option data-lada="20">Egypt </option>
+                                <option data-lada="503">El Salvador </option>
+                                <option data-lada="240">Equatorial Guinea </option>
+                                <option data-lada="291">Eritrea </option>
+                                <option data-lada="372">Estonia</option>
+                                <option data-lada="251">Ethiopia </option>
+                                <option data-lada="500">Falkland Islands</option>
+                                <option data-lada="298">Faroe Islands </option>
+                                <option data-lada="679">Fiji </option>
+                                <option data-lada="358">Finland </option>
+                                <option data-lada="33">France </option>
+                                <option data-lada="594">French Guiana </option>
+                                <option data-lada="689">French Polynesia </option>
+                                <option data-lada="241">Gabon </option>
+                                <option data-lada="220">Gambia </option>
+                                <option data-lada="7880">Georgia </option>
+                                <option data-lada="49">Germany </option>
+                                <option data-lada="233">Ghana </option>
+                                <option data-lada="350">Gibraltar </option>
+                                <option data-lada="30">Greece </option>
+                                <option data-lada="299">Greenland </option>
+                                <option data-lada="1473">Grenada </option>
+                                <option data-lada="590">Guadeloupe </option>
+                                <option data-lada="671">Guam </option>
+                                <option data-lada="502">Guatemala </option>
+                                <option data-lada="224">Guinea </option>
+                                <option data-lada="245">Guinea - Bissau</option>
+                                <option data-lada="592">Guyana </option>
+                                <option data-lada="509">Haiti </option>
+                                <option data-lada="504">Honduras </option>
+                                <option data-lada="852">Hong Kong </option>
+                                <option data-lada="36">Hungary </option>
+                                <option data-lada="354">Iceland </option>
+                                <option data-lada="91">India </option>
+                                <option data-lada="62">Indonesia </option>
+                                <option data-lada="98">Iran </option>
+                                <option data-lada="964">Iraq </option>
+                                <option data-lada="353">Ireland </option>
+                                <option data-lada="972">Israel </option>
+                                <option data-lada="39">Italy </option>
+                                <option data-lada="1876">Jamaica </option>
+                                <option data-lada="81">Japan </option>
+                                <option data-lada="962">Jordan </option>
+                                <option data-lada="7">Kazakhstan </option>
+                                <option data-lada="254">Kenya </option>
+                                <option data-lada="686">Kiribati </option>
+                                <option data-lada="850">Korea North </option>
+                                <option data-lada="82">Korea South </option>
+                                <option data-lada="965">Kuwait </option>
+                                <option data-lada="996">Kyrgyzstan </option>
+                                <option data-lada="856">Laos </option>
+                                <option data-lada="371">Latvia </option>
+                                <option data-lada="961">Lebanon </option>
+                                <option data-lada="266">Lesotho </option>
+                                <option data-lada="231">Liberia </option>
+                                <option data-lada="218">Libya </option>
+                                <option data-lada="417">Liechtenstein </option>
+                                <option data-lada="370">Lithuania </option>
+                                <option data-lada="352">Luxembourg </option>
+                                <option data-lada="853">Macao </option>
+                                <option data-lada="389">Macedonia </option>
+                                <option data-lada="261">Madagascar </option>
+                                <option data-lada="265">Malawi </option>
+                                <option data-lada="60">Malaysia </option>
+                                <option data-lada="960">Maldives </option>
+                                <option data-lada="223">Mali </option>
+                                <option data-lada="356">Malta </option>
+                                <option data-lada="692">Marshall Islands </option>
+                                <option data-lada="596">Martinique </option>
+                                <option data-lada="222">Mauritania </option>
+                                <option data-lada="269">Mayotte </option>
+                                <option data-lada="691">Micronesia </option>
+                                <option data-lada="373">Moldova </option>
+                                <option data-lada="377">Monaco </option>
+                                <option data-lada="976">Mongolia </option>
+                                <option data-lada="1664">Montserrat </option>
+                                <option data-lada="212">Morocco </option>
+                                <option data-lada="258">Mozambique </option>
+                                <option data-lada="95">Myanmar </option>
+                                <option data-lada="264">Namibia </option>
+                                <option data-lada="674">Nauru </option>
+                                <option data-lada="977">Nepal </option>
+                                <option data-lada="31">Netherlands </option>
+                                <option data-lada="687">New Caledonia </option>
+                                <option data-lada="64">New Zealand </option>
+                                <option data-lada="505">Nicaragua </option>
+                                <option data-lada="227">Niger</option>
+                                <option data-lada="234">Nigeria</option>
+                                <option data-lada="683">Niue</option>
+                                <option data-lada="672">Norfolk Islands</option>
+                                <option data-lada="670">Northern Marianas</option>
+                                <option data-lada="47">Norway</option>
+                                <option data-lada="968">Oman</option>
+                                <option data-lada="680">Palau</option>
+                                <option data-lada="507">Panama</option>
+                                <option data-lada="675">Papua New Guinea</option>
+                                <option data-lada="595">Paraguay</option>
+                                <option data-lada="51">Peru</option>
+                                <option data-lada="63">Philippines</option>
+                                <option data-lada="48">Poland</option>
+                                <option data-lada="351">Portugal</option>
+                                <option data-lada="1787">Puerto Rico</option>
+                                <option data-lada="974">Qatar</option>
+                                <option data-lada="262">Reunion</option>
+                                <option data-lada="40">Romania</option>
+                                <option data-lada="7">Russia</option>
+                                <option data-lada="250">Rwanda</option>
+                                <option data-lada="378">San Marino</option>
+                                <option data-lada="239">Sao Tome &amp; Principe</option>
+                                <option data-lada="966">Saudi Arabia</option>
+                                <option data-lada="221">Senegal</option>
+                                <option data-lada="381">Serbia</option>
+                                <option data-lada="248">Seychelles</option>
+                                <option data-lada="232">Sierra Leone</option>
+                                <option data-lada="65">Singapore</option>
+                                <option data-lada="421">Slovak Republic</option>
+                                <option data-lada="386">Slovenia</option>
+                                <option data-lada="677">Solomon Islands</option>
+                                <option data-lada="252">Somalia</option>
+                                <option data-lada="27">South Africa</option>
+                                <option data-lada="34">Spain </option>
+                                <option data-lada="94">Sri Lanka</option>
+                                <option data-lada="290">St. Helena</option>
+                                <option data-lada="1869">St. Kitts</option>
+                                <option data-lada="1758">St. Lucia</option>
+                                <option data-lada="249">Sudan</option>
+                                <option data-lada="597">Suriname</option>
+                                <option data-lada="268">Swaziland</option>
+                                <option data-lada="46">Sweden</option>
+                                <option data-lada="41">Switzerland</option>
+                                <option data-lada="963">Syria</option>
+                                <option data-lada="886">Taiwan</option>
+                                <option data-lada="7">Tajikstan</option>
+                                <option data-lada="66">Thailand</option>
+                                <option data-lada="228">Togo</option>
+                                <option data-lada="676">Tonga</option>
+                                <option data-lada="1868">Trinidad &amp; Tobago</option>
+                                <option data-lada="216">Tunisia</option>
+                                <option data-lada="90">Turkey</option>
+                                <option data-lada="7">Turkmenistan</option>
+                                <option data-lada="993">Turkmenistan</option>
+                                <option data-lada="1649">Turks &amp; Caicos Islands</option>
+                                <option data-lada="688">Tuvalu </option>
+                                <option data-lada="256">Uganda</option>
+                                <option data-lada="44">UK</option>
+                                <option data-lada="380">Ukraine </option>
+                                <option data-lada="971">United Arab Emirates</option>
+                                <option data-lada="598">Uruguay</option>
+                                <option data-lada="1">USA</option>
+                                <option data-lada="7">Uzbekistan</option>
+                                <option data-lada="678">Vanuatu</option>
+                                <option data-lada="379">Vatican City</option>
+                                <option data-lada="58">Venezuela</option>
+                                <option data-lada="84">Vietnam</option>
+                                <option data-lada="1284">Virgin Islands - British</option>
+                                <option data-lada="1340">Virgin Islands - US</option>
+                                <option data-lada="681">Wallis &amp; Futuna</option>
+                                <option data-lada="969">Yemen (North)</option>
+                                <option data-lada="967">Yemen (South)</option>
+                                <option data-lada="260">Zambia</option>
+                                <option data-lada="263">Zimbabwe</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <!-- Estado -->
+                    <div class="float-field dnone">
+                        <!-- <label for="estado_txt">Estado</label> -->
+                        <select id="estado_txt" name="estado_txt" placeholder="Estado de residencia">
+                            <option value="" selected="selected">Estado de residencia</option>
+                            <option value="1">Aguascalientes</option>
+                            <option value="2">Baja California</option>
+                            <option value="3">Baja California Sur</option>
+                            <option value="4">Campeche</option>
+                            <option value="5">Chiapas</option>
+                            <option value="6">Chihuahua</option>
+                            <option value="7">Ciudad de México</option>
+                            <option value="8">Coahuila de Zaragoza</option>
+                            <option value="9">Colima</option>
+                            <option value="10">Durango</option>
+                            <option value="11">Estado de México</option>
+                            <option value="12">Guanajuato</option>
+                            <option value="13">Guerrero</option>
+                            <option value="14">Hidalgo</option>
+                            <option value="15">Jalísco</option>
+                            <option value="16">Michoacán de Ocampo</option>
+                            <option value="17">Morelos</option>
+                            <option value="18">Nayarit</option>
+                            <option value="19">Nuevo León</option>
+                            <option value="20">Oaxaca</option>
+                            <option value="21">Puebla</option>
+                            <option value="22">Querétaro</option>
+                            <option value="23">Quintana Roo</option>
+                            <option value="24">San Luis Potosí</option>
+                            <option value="25">Sinaloa</option>
+                            <option value="26">Sonora</option>
+                            <option value="27">Tabasco</option>
+                            <option value="28">Tamaulipas</option>
+                            <option value="29">Tlaxcala</option>
+                            <option value="30">Veracruz</option>
+                            <option value="31">Yucatán</option>
+                            <option value="32">Zacatecas</option>
+                        </select>
+                    </div>
+                    <!-- End estado -->
+                    <div class="float-field">
+                        <input type="text" id="lada" name="lada" readonly style="width:16%; margin-right:1%" placeholder="Lada">
+                        <input type="tel" name="phone_work" id="phone_work" placeholder="Teléfono a 10 dígitos" required maxlength="12" minlength="4" pattern="[0-9]{10}" inputmode="numeric" style="width:80%">
+                    </div>
+                    <div class="float-field">
+                        <select name="forma" id="forma" aria-required="true" aria-invalid="false" required="required">
+                            <option value="" selected="true" disabled="disabled">Forma de contacto</option>
+                            <option value="Whatsapp">Whatsapp</option>
+                            <option value="Videoconferencia">Videoconferencia</option>
+                            <option value="Llamada telefónica">Llamada telefónica</option>
+                        </select>
+                    </div>
+
+                    <!--/*** Ocultos ***/-->
+
+                    <input type="hidden" id="autoriza" name="autoriza" value="1">
+
+                    <!-- Oferta -->
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Maestría en Dirección Estratégica y Gestión de la Innovación">
+
+                    <!-- Forma de contacto -->
+                    <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
+                    <!-- Horario de contacto -->
+                    <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
+                    <!-- Campus de interés -->
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Posgrados Mixtos a Distancia">
+
+                    <!-- Turno de interés -->
+                    <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
+
+                    <!-- Lada -->
+                    <input name="dial_code" id="dial_code" type="hidden">
+                    <!-- Fuente digital UTM ACTUALIZADO MAYO 2022-->
+                    <input name="utm_source" id="utmsource_txt_c" type="hidden" placeholder="Fuente digital UTM">
+                    <!-- Medio digital UTM ACTUALIZADO MAYO 2022 -->
+                    <input name="utm_medium" id="utmmedio_txt_c" type="hidden" placeholder="Medio digital UTM">
+                    <!-- Campaña digital ACTUALIZADO MAYO 2022 UTM -->
+                    <input name="utm_campaign" id="utmcampana_txt_c" type="hidden" placeholder="Campaña digital UTM">
+                    <!-- Contenido digital ACTUALIZADO NOVIEMBRE 2022 UTM -->
+                    <input name="utm_content" id="utmcontent_txt_c" type="hidden" placeholder="Contenido digital UTM">
+                    <!-- URL -->
+                    <input name="url" id="url-result" type="hidden">
+                    <!-- OTROS DATOS -->
+                    <input type="hidden" name="utm_term" id="Term" value="">
+                    <input type="hidden" name="utm_keyword" id="Keyword" value="">
+                    <input type="hidden" name="utm_clientID" id="Client_ID" value="">
+                    <input type="hidden" name="utm_referrer" id="Referrer" value="">
+                    <!-- Oferta de interés UTM -->
+                    <input name="utmoferinteres_txt_c" id="utmoferinteres_txt_c" type="hidden">
+                    <!-- Estaus Digital -->
+                    <input name="estadodigital_list_c" id="estadodigital_list_c" type="hidden" value="Nuevo">
+                    <!-- Medio -->
+                    <input name="medio_gen_list_c" id="medio_gen_list_c" type="hidden" value="Medios Digitales">
+                    <!-- Periodo -->
+                    <input name="periodoingreso_list_c" id="periodoingreso_list_c" type="hidden" value="NA">
+
+
+                    <button class="float-btn bg-mde" onclick="submitFloat('flt-mde')" name="Submit" id="send">Solicitar información →</button>
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-direstrategica.html">
+                    <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
+                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
+                    <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
+                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- FLOAT: DOA -->
+    <div class="float-trigger" id="flt-doa" role="complementary" aria-label="Doctorado en Administración">
+        <button class="float-tab bg-doa" onclick="toggleFloat('flt-doa')" aria-expanded="false" aria-controls="flt-doa-panel">
+            <i class="fas fa-phone"></i> Solicitar información
+        </button>
+        <form id="WebToLeadForm" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm">
+            <div class="float-panel" id="flt-doa-panel">
+                <div class="float-panel-head bg-doa">
+                    <div>
+                        <div class="title">Doctorado en Administración de Negocios</div>
+                        <div class="subtitle">Recibe información sin compromiso</div>
+                    </div>
+                    <button class="float-close" onclick="closeFloat('flt-doa')" aria-label="Cerrar formulario">×</button>
+                </div>
+                <div class="float-body" id="flt-doa-form-wrap">
+                    <div class="float-field">
+                        <div style="display:grid; grid-template-columns:1fr; gap:8px">
+                            <div>
+                                <!-- <label for="first_name">Nombre(s)</label> -->
+                                <input name="first_name" id="first_name" type="text" required placeholder="Nombre(s)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-field">
+
+                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px">
+                            <div>
+                                <!-- <label for="last_name">Apellido Paterno</label> -->
+                                <input name="last_name" id="last_name" type="text" required placeholder="Apellido Paterno">
+                            </div>
+                            <div>
+                                <!-- <label for="last_name2_c">Apellido Materno</label> -->
+                                <input name="last_name2_c" id="last_name2_c" type="text" placeholder="Apellido Materno">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="float-field">
+                        <!-- <label for="email1">Correo electrónico</label> -->
+                        <input name="email1" id="email1" type="email" required="required" placeholder="Correo Electrónico" autocomplete="off">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="digescprocede_txt_c">Escuela de Procedencia</label> -->
+                        <input name="digescprocede_txt_c" id="digescprocede_txt_c" type="text" placeholder="Escuela de procedencia" required="required">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="pais">País</label> -->
+                        <select name="pais_txt" id="pais" required="required">
+                            <option value="" selected="selected">Selecciona un país</option>
+                            <option data-lada="52">México</option>
+                            <optgroup label="Other countries">
+                                <option data-lada="213">Algeria </option>
+                                <option data-lada="376">Andorra </option>
+                                <option data-lada="244">Angola</option>
+                                <option data-lada="1264">Anguilla</option>
+                                <option data-lada="1268">Antigua &amp; Barbuda</option>
+                                <option data-lada="54">Argentina</option>
+                                <option data-lada="374">Armenia</option>
+                                <option data-lada="297">Aruba </option>
+                                <option data-lada="61">Australia</option>
+                                <option data-lada="43">Austria</option>
+                                <option data-lada="994">Azerbaijan</option>
+                                <option data-lada="1242">Bahamas</option>
+                                <option data-lada="973">Bahrain</option>
+                                <option data-lada="880">Bangladesh</option>
+                                <option data-lada="1246">Barbados</option>
+                                <option data-lada="375">Belarus</option>
+                                <option data-lada="32">Belgium</option>
+                                <option data-lada="501">Belize</option>
+                                <option data-lada="229">Benin</option>
+                                <option data-lada="1441">Bermuda</option>
+                                <option data-lada="975">Bhutan</option>
+                                <option data-lada="591">Bolivia</option>
+                                <option data-lada="387">Bosnia Herzegovina</option>
+                                <option data-lada="267">Botswana</option>
+                                <option data-lada="55">Brazil</option>
+                                <option data-lada="673">Brunei </option>
+                                <option data-lada="359">Bulgaria</option>
+                                <option data-lada="226">Burkina Faso</option>
+                                <option data-lada="257">Burundi</option>
+                                <option data-lada="855">Cambodia</option>
+                                <option data-lada="237">Cameroon</option>
+                                <option data-lada="1">Canada</option>
+                                <option data-lada="238">Cape Verde Islands</option>
+                                <option data-lada="1345">Cayman Islands</option>
+                                <option data-lada="236">Central African Republic </option>
+                                <option data-lada="56">Chile</option>
+                                <option data-lada="86">China</option>
+                                <option data-lada="57">Colombia</option>
+                                <option data-lada="269">Comoros </option>
+                                <option data-lada="242">Congo </option>
+                                <option data-lada="682">Cook Islands </option>
+                                <option data-lada="506">Costa Rica </option>
+                                <option data-lada="385">Croatia </option>
+                                <option data-lada="53">Cuba </option>
+                                <option data-lada="90392">Cyprus North </option>
+                                <option data-lada="357">Cyprus South </option>
+                                <option data-lada="42">Czech Republic </option>
+                                <option data-lada="45">Denmark </option>
+                                <option data-lada="253">Djibouti </option>
+                                <option data-lada="1809">Dominica </option>
+                                <option data-lada="1809">Dominican Republic </option>
+                                <option data-lada="593">Ecuador </option>
+                                <option data-lada="20">Egypt </option>
+                                <option data-lada="503">El Salvador </option>
+                                <option data-lada="240">Equatorial Guinea </option>
+                                <option data-lada="291">Eritrea </option>
+                                <option data-lada="372">Estonia</option>
+                                <option data-lada="251">Ethiopia </option>
+                                <option data-lada="500">Falkland Islands</option>
+                                <option data-lada="298">Faroe Islands </option>
+                                <option data-lada="679">Fiji </option>
+                                <option data-lada="358">Finland </option>
+                                <option data-lada="33">France </option>
+                                <option data-lada="594">French Guiana </option>
+                                <option data-lada="689">French Polynesia </option>
+                                <option data-lada="241">Gabon </option>
+                                <option data-lada="220">Gambia </option>
+                                <option data-lada="7880">Georgia </option>
+                                <option data-lada="49">Germany </option>
+                                <option data-lada="233">Ghana </option>
+                                <option data-lada="350">Gibraltar </option>
+                                <option data-lada="30">Greece </option>
+                                <option data-lada="299">Greenland </option>
+                                <option data-lada="1473">Grenada </option>
+                                <option data-lada="590">Guadeloupe </option>
+                                <option data-lada="671">Guam </option>
+                                <option data-lada="502">Guatemala </option>
+                                <option data-lada="224">Guinea </option>
+                                <option data-lada="245">Guinea - Bissau</option>
+                                <option data-lada="592">Guyana </option>
+                                <option data-lada="509">Haiti </option>
+                                <option data-lada="504">Honduras </option>
+                                <option data-lada="852">Hong Kong </option>
+                                <option data-lada="36">Hungary </option>
+                                <option data-lada="354">Iceland </option>
+                                <option data-lada="91">India </option>
+                                <option data-lada="62">Indonesia </option>
+                                <option data-lada="98">Iran </option>
+                                <option data-lada="964">Iraq </option>
+                                <option data-lada="353">Ireland </option>
+                                <option data-lada="972">Israel </option>
+                                <option data-lada="39">Italy </option>
+                                <option data-lada="1876">Jamaica </option>
+                                <option data-lada="81">Japan </option>
+                                <option data-lada="962">Jordan </option>
+                                <option data-lada="7">Kazakhstan </option>
+                                <option data-lada="254">Kenya </option>
+                                <option data-lada="686">Kiribati </option>
+                                <option data-lada="850">Korea North </option>
+                                <option data-lada="82">Korea South </option>
+                                <option data-lada="965">Kuwait </option>
+                                <option data-lada="996">Kyrgyzstan </option>
+                                <option data-lada="856">Laos </option>
+                                <option data-lada="371">Latvia </option>
+                                <option data-lada="961">Lebanon </option>
+                                <option data-lada="266">Lesotho </option>
+                                <option data-lada="231">Liberia </option>
+                                <option data-lada="218">Libya </option>
+                                <option data-lada="417">Liechtenstein </option>
+                                <option data-lada="370">Lithuania </option>
+                                <option data-lada="352">Luxembourg </option>
+                                <option data-lada="853">Macao </option>
+                                <option data-lada="389">Macedonia </option>
+                                <option data-lada="261">Madagascar </option>
+                                <option data-lada="265">Malawi </option>
+                                <option data-lada="60">Malaysia </option>
+                                <option data-lada="960">Maldives </option>
+                                <option data-lada="223">Mali </option>
+                                <option data-lada="356">Malta </option>
+                                <option data-lada="692">Marshall Islands </option>
+                                <option data-lada="596">Martinique </option>
+                                <option data-lada="222">Mauritania </option>
+                                <option data-lada="269">Mayotte </option>
+                                <option data-lada="691">Micronesia </option>
+                                <option data-lada="373">Moldova </option>
+                                <option data-lada="377">Monaco </option>
+                                <option data-lada="976">Mongolia </option>
+                                <option data-lada="1664">Montserrat </option>
+                                <option data-lada="212">Morocco </option>
+                                <option data-lada="258">Mozambique </option>
+                                <option data-lada="95">Myanmar </option>
+                                <option data-lada="264">Namibia </option>
+                                <option data-lada="674">Nauru </option>
+                                <option data-lada="977">Nepal </option>
+                                <option data-lada="31">Netherlands </option>
+                                <option data-lada="687">New Caledonia </option>
+                                <option data-lada="64">New Zealand </option>
+                                <option data-lada="505">Nicaragua </option>
+                                <option data-lada="227">Niger</option>
+                                <option data-lada="234">Nigeria</option>
+                                <option data-lada="683">Niue</option>
+                                <option data-lada="672">Norfolk Islands</option>
+                                <option data-lada="670">Northern Marianas</option>
+                                <option data-lada="47">Norway</option>
+                                <option data-lada="968">Oman</option>
+                                <option data-lada="680">Palau</option>
+                                <option data-lada="507">Panama</option>
+                                <option data-lada="675">Papua New Guinea</option>
+                                <option data-lada="595">Paraguay</option>
+                                <option data-lada="51">Peru</option>
+                                <option data-lada="63">Philippines</option>
+                                <option data-lada="48">Poland</option>
+                                <option data-lada="351">Portugal</option>
+                                <option data-lada="1787">Puerto Rico</option>
+                                <option data-lada="974">Qatar</option>
+                                <option data-lada="262">Reunion</option>
+                                <option data-lada="40">Romania</option>
+                                <option data-lada="7">Russia</option>
+                                <option data-lada="250">Rwanda</option>
+                                <option data-lada="378">San Marino</option>
+                                <option data-lada="239">Sao Tome &amp; Principe</option>
+                                <option data-lada="966">Saudi Arabia</option>
+                                <option data-lada="221">Senegal</option>
+                                <option data-lada="381">Serbia</option>
+                                <option data-lada="248">Seychelles</option>
+                                <option data-lada="232">Sierra Leone</option>
+                                <option data-lada="65">Singapore</option>
+                                <option data-lada="421">Slovak Republic</option>
+                                <option data-lada="386">Slovenia</option>
+                                <option data-lada="677">Solomon Islands</option>
+                                <option data-lada="252">Somalia</option>
+                                <option data-lada="27">South Africa</option>
+                                <option data-lada="34">Spain </option>
+                                <option data-lada="94">Sri Lanka</option>
+                                <option data-lada="290">St. Helena</option>
+                                <option data-lada="1869">St. Kitts</option>
+                                <option data-lada="1758">St. Lucia</option>
+                                <option data-lada="249">Sudan</option>
+                                <option data-lada="597">Suriname</option>
+                                <option data-lada="268">Swaziland</option>
+                                <option data-lada="46">Sweden</option>
+                                <option data-lada="41">Switzerland</option>
+                                <option data-lada="963">Syria</option>
+                                <option data-lada="886">Taiwan</option>
+                                <option data-lada="7">Tajikstan</option>
+                                <option data-lada="66">Thailand</option>
+                                <option data-lada="228">Togo</option>
+                                <option data-lada="676">Tonga</option>
+                                <option data-lada="1868">Trinidad &amp; Tobago</option>
+                                <option data-lada="216">Tunisia</option>
+                                <option data-lada="90">Turkey</option>
+                                <option data-lada="7">Turkmenistan</option>
+                                <option data-lada="993">Turkmenistan</option>
+                                <option data-lada="1649">Turks &amp; Caicos Islands</option>
+                                <option data-lada="688">Tuvalu </option>
+                                <option data-lada="256">Uganda</option>
+                                <option data-lada="44">UK</option>
+                                <option data-lada="380">Ukraine </option>
+                                <option data-lada="971">United Arab Emirates</option>
+                                <option data-lada="598">Uruguay</option>
+                                <option data-lada="1">USA</option>
+                                <option data-lada="7">Uzbekistan</option>
+                                <option data-lada="678">Vanuatu</option>
+                                <option data-lada="379">Vatican City</option>
+                                <option data-lada="58">Venezuela</option>
+                                <option data-lada="84">Vietnam</option>
+                                <option data-lada="1284">Virgin Islands - British</option>
+                                <option data-lada="1340">Virgin Islands - US</option>
+                                <option data-lada="681">Wallis &amp; Futuna</option>
+                                <option data-lada="969">Yemen (North)</option>
+                                <option data-lada="967">Yemen (South)</option>
+                                <option data-lada="260">Zambia</option>
+                                <option data-lada="263">Zimbabwe</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <!-- Estado -->
+                    <div class="float-field dnone">
+                        <!-- <label for="estado_txt">Estado</label> -->
+                        <select id="estado_txt" name="estado_txt" placeholder="Estado de residencia">
+                            <option value="" selected="selected">Estado de residencia</option>
+                            <option value="1">Aguascalientes</option>
+                            <option value="2">Baja California</option>
+                            <option value="3">Baja California Sur</option>
+                            <option value="4">Campeche</option>
+                            <option value="5">Chiapas</option>
+                            <option value="6">Chihuahua</option>
+                            <option value="7">Ciudad de México</option>
+                            <option value="8">Coahuila de Zaragoza</option>
+                            <option value="9">Colima</option>
+                            <option value="10">Durango</option>
+                            <option value="11">Estado de México</option>
+                            <option value="12">Guanajuato</option>
+                            <option value="13">Guerrero</option>
+                            <option value="14">Hidalgo</option>
+                            <option value="15">Jalísco</option>
+                            <option value="16">Michoacán de Ocampo</option>
+                            <option value="17">Morelos</option>
+                            <option value="18">Nayarit</option>
+                            <option value="19">Nuevo León</option>
+                            <option value="20">Oaxaca</option>
+                            <option value="21">Puebla</option>
+                            <option value="22">Querétaro</option>
+                            <option value="23">Quintana Roo</option>
+                            <option value="24">San Luis Potosí</option>
+                            <option value="25">Sinaloa</option>
+                            <option value="26">Sonora</option>
+                            <option value="27">Tabasco</option>
+                            <option value="28">Tamaulipas</option>
+                            <option value="29">Tlaxcala</option>
+                            <option value="30">Veracruz</option>
+                            <option value="31">Yucatán</option>
+                            <option value="32">Zacatecas</option>
+                        </select>
+                    </div>
+                    <!-- End estado -->
+                    <div class="float-field">
+                        <input type="text" id="lada" name="lada" readonly style="width:16%; margin-right:1%" placeholder="Lada">
+                        <input type="tel" name="phone_work" id="phone_work" placeholder="Teléfono a 10 dígitos" required maxlength="12" minlength="4" pattern="[0-9]{10}" inputmode="numeric" style="width:80%">
+                    </div>
+                    <div class="float-field">
+                        <select name="forma" id="forma" aria-required="true" aria-invalid="false" required="required">
+                            <option value="" selected="true" disabled="disabled">Forma de contacto</option>
+                            <option value="Whatsapp">Whatsapp</option>
+                            <option value="Videoconferencia">Videoconferencia</option>
+                            <option value="Llamada telefónica">Llamada telefónica</option>
+                        </select>
+                    </div>
+
+                    <!--/*** Ocultos ***/-->
+
+                    <input type="hidden" id="autoriza" name="autoriza" value="1">
+
+                    <!-- Oferta -->
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Doctorado en Administración">
+
+                    <!-- Forma de contacto -->
+                    <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
+                    <!-- Horario de contacto -->
+                    <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
+                    <!-- Campus de interés -->
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Posgrados Mixtos a Distancia">
+
+                    <!-- Turno de interés -->
+                    <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
+
+                    <!-- Lada -->
+                    <input name="dial_code" id="dial_code" type="hidden">
+                    <!-- Fuente digital UTM ACTUALIZADO MAYO 2022-->
+                    <input name="utm_source" id="utmsource_txt_c" type="hidden" placeholder="Fuente digital UTM">
+                    <!-- Medio digital UTM ACTUALIZADO MAYO 2022 -->
+                    <input name="utm_medium" id="utmmedio_txt_c" type="hidden" placeholder="Medio digital UTM">
+                    <!-- Campaña digital ACTUALIZADO MAYO 2022 UTM -->
+                    <input name="utm_campaign" id="utmcampana_txt_c" type="hidden" placeholder="Campaña digital UTM">
+                    <!-- Contenido digital ACTUALIZADO NOVIEMBRE 2022 UTM -->
+                    <input name="utm_content" id="utmcontent_txt_c" type="hidden" placeholder="Contenido digital UTM">
+                    <!-- URL -->
+                    <input name="url" id="url-result" type="hidden">
+                    <!-- OTROS DATOS -->
+                    <input type="hidden" name="utm_term" id="Term" value="">
+                    <input type="hidden" name="utm_keyword" id="Keyword" value="">
+                    <input type="hidden" name="utm_clientID" id="Client_ID" value="">
+                    <input type="hidden" name="utm_referrer" id="Referrer" value="">
+                    <!-- Oferta de interés UTM -->
+                    <input name="utmoferinteres_txt_c" id="utmoferinteres_txt_c" type="hidden">
+                    <!-- Estaus Digital -->
+                    <input name="estadodigital_list_c" id="estadodigital_list_c" type="hidden" value="Nuevo">
+                    <!-- Medio -->
+                    <input name="medio_gen_list_c" id="medio_gen_list_c" type="hidden" value="Medios Digitales">
+                    <!-- Periodo -->
+                    <input name="periodoingreso_list_c" id="periodoingreso_list_c" type="hidden" value="NA">
+
+
+                    <button class="float-btn bg-doa" onclick="submitFloat('flt-doa')" name="Submit" id="send">Solicitar información →</button>
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-docadmon.html">
+                    <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
+                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
+                    <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
+                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
+                </div>
+            </div>
+        </form>
+    </div>
+
     <!-- ========================================================== -->
 
     <!-- ═══ ADMINISTRACION ═══ -->
@@ -2518,7 +4076,10 @@
                 <div>
                     <span class="badge-pill bg-lic-l c-lic">Licenciatura</span>
                     <h2 id="lic-h2"><em>Administración y Dirección Estratégica</em></h2>
-                    <p class="prog-lead">Forma tomadores de decisiones estratégicos con capacidad para dirigir empresas completas o áreas clave, implementar transformación digital, diseñar estrategias de internacionalización y brindar consultoría. Simuladores de negocios, casos reales y visión de alta dirección desde el primer año.</p>
+                    <p class="prog-lead">Para quien quiere dirigir organizaciones completas — no solo administrarlas.
+                        El egresado UIC opera simuladores que replican mercados reales, trabaja con empresas desde el primer semestre y sale con perfil de CEO, no de coordinador.
+                        <br>➜ Alta dirección desde el día uno.
+                    </p>
                 </div>
                 <div class="info-box">
                     <div class="info-box-head bg-lic">Datos del programa</div>
@@ -2606,6 +4167,17 @@
                         <li>Transformación digital de organizaciones</li>
                     </ul>
                 </div>
+
+                <div class="content-box">
+                    <h4 style="color: var(--lic);">Perfil de ingreso ideal</h4>
+                    <ul>
+                        <li>Vocación de liderazgo y visión estratégica</li>
+                        <li>Capacidad analítica para resolver problemas complejos</li>
+                        <li>Interés en emprender o dirigir organizaciones</li>
+                        <li>Disposición para trabajar con simuladores y casos reales</li>
+                        <li>Bachillerato terminado (cualquier área)</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="faq-wrap">
@@ -2614,8 +4186,7 @@
                     <summary>¿En qué se diferencia Administración y Dirección Estratégica de Administración de Empresas tradicional?</summary>
                     <div class="faq-ans">
                         <p>
-                            La diferencia principal entre la <strong>Dirección Estratégica</strong> y la administración
-                            tradicional es que nuestro enfoque va más allá de la gestión operativa diaria,
+                            La diferencia principal es que nuestro enfoque va más allá de la gestión operativa diaria,
                             priorizando la visión de largo plazo y el liderazgo de alta dirección. El egresado
                             está formado para:
                         </p>
@@ -2630,7 +4201,7 @@
                     <summary>¿Qué herramientas tecnológicas se utilizan en la carrera?</summary>
                     <div class="faq-ans">
                         <p>
-                            Durante la carrera de <strong>Administración y Dirección Estratégica</strong>, aprenderás a
+                            Durante la carrera aprenderás a
                             tomar decisiones utilizando tecnología aplicada al mundo corporativo,
                             destacando el uso de simuladores de negocios de última generación que
                             replican mercados financieros y operativos reales. Además, dominarás:
@@ -2646,14 +4217,14 @@
                     <summary>¿A quién le conviene estudiar Administración y Dirección Estratégica en la UIC?</summary>
                     <div class="faq-ans">
                         <p>
-                            Estudiar <strong>Administración y Dirección Estratégica en la UIC</strong> es ideal para
+                            Es ideal para
                             personas con vocación de liderazgo, capacidad analítica y visión para resolver
                             problemas complejos. Conviene especialmente a quienes proyectan:
                         </p>
                         <ul class="lista-fa">
                             <li>Emprender sus propios negocios con bases sólidas.</li>
                             <li>Hacer consultoría estratégica para otras organizaciones.</li>
-                            <li>Ascender a puestos directivos en empresas nacionales o multinacionales (gracias a su interés en negocios internacionales).</li>
+                            <li>Ascender a puestos directivos en empresas nacionales o multinacionales.</li>
                         </ul>
                     </div>
                 </details>
@@ -2667,10 +4238,12 @@
             <div class="prog-head">
                 <div>
                     <span class="badge-pill bg-mst-l c-mst">Licenciatura</span>
-                    <h2 id="mst-h2"><em>Contaduría y Finanzas</em></h2>
-                    <p class="prog-lead">Forma profesionales capaces de gestionar, analizar e interpretar la información financiera para apoyar la toma de decisiones en las organizaciones.
-                        Integra contabilidad, finanzas corporativas, fiscalidad y auditoría con herramientas digitales y visión estratégica.
-                        Alta empleabilidad: todas las organizaciones requieren expertos financieros.</p>
+                    <h2 id="mst-h2"><em>Inteligencia Financiera y Contaduría</em></h2>
+                    <p class="prog-lead">Forma profesionales capaces de gestionar, analizar e interpretar la información financiera con inteligencia de datos para apoyar la toma de decisiones estratégicas.
+                        Integra contabilidad, finanzas corporativas, fiscalidad, auditoría y herramientas digitales.
+                        Alta empleabilidad: todas las organizaciones requieren expertos financieros.
+                        <br>➜ Alta empleabilidad: todas las organizaciones requieren expertos financieros.
+                    </p>
                 </div>
                 <div class="info-box">
                     <div class="info-box-head bg-mst">Datos del programa</div>
@@ -2743,7 +4316,7 @@
                         <li>Derecho fiscal, tributación y cumplimiento regulatorio</li>
                         <li>Auditoría interna y externa</li>
                         <li>Presupuestos y planeación financiera</li>
-                        <li>Evaluación de riesgos financieros</li>
+                        <li>Inteligencia financiera y análisis de datos</li>
                         <li>Herramientas digitales: análisis de datos y fintech</li>
                     </ul>
                 </div>
@@ -2752,10 +4325,20 @@
                     <ul>
                         <li>Contabilidad, contraloría, tesorería y finanzas corporativas</li>
                         <li>Auditoría interna y externa en empresas privadas</li>
-                        <li>Sector público: SAT, Secretaría de Hacienda, organismos reguladores</li>
+                        <li>Sector público: SAT, SHCP, organismos reguladores</li>
                         <li>Consultoría financiera y despachos contables</li>
                         <li>Instituciones bancarias, aseguradoras y fintech</li>
                         <li>Emprendimiento, asesoría y gestión de startups</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--mst);">Perfil de ingreso ideal</h4>
+                    <ul>
+                        <li>Habilidad numérica y analítica</li>
+                        <li>Interés en finanzas, fiscalidad y negocios</li>
+                        <li>Orientación al detalle y responsabilidad ética</li>
+                        <li>Curiosidad por la tecnología financiera (fintech)</li>
+                        <li>Bachillerato terminado (cualquier área)</li>
                     </ul>
                 </div>
             </div>
@@ -2763,48 +4346,51 @@
             <div class="faq-wrap">
                 <h3 class="faq-title">Preguntas frecuentes</h3>
                 <details>
-                    <summary>¿Qué hace un egresado de Contaduría y Finanzas de la UIC?</summary>
+                    <summary>¿Qué es la Licenciatura en Inteligencia Financiera y Contaduría y qué la diferencia de Contaduría tradicional?</summary>
                     <div class="faq-ans">
                         <p>
-                            Un egresado de la Licenciatura en <strong>Contaduría y Finanzas de la UIC</strong> gestiona y
-                            analiza la información financiera para apoyar la toma de decisiones clave en
-                            empresas de cualquier sector. Su labor práctica incluye:
+                            La Licenciatura en Inteligencia Financiera y Contaduría va más allá de la contabilidad convencional:
+                            integra el dominio contable-fiscal con el uso de inteligencia de datos, herramientas fintech y análisis financiero estratégico.
+                            El egresado no solo registra y controla: interpreta, anticipa y asesora con base en información financiera de alto valor.
+                            Es el perfil que demandan hoy empresas, despachos y organismos reguladores.
+                        </p>
+                    </div>
+                </details>
+                <details>
+                    <summary>¿Qué hace un egresado de Inteligencia Financiera y Contaduría de la UIC?</summary>
+                    <div class="faq-ans">
+                        <p>
+                            Un egresado gestiona y analiza la información financiera para apoyar la toma de decisiones clave en empresas de cualquier sector. Su labor práctica incluye:
                         </p>
                         <ul class="lista-fa">
-                            <li>Elaborar estados financieros.</li>
-                            <li>Diseñar estrategias fiscales eficientes.</li>
-                            <li>Supervisar el cumplimiento de normativas contables y tributarias.</li>
-                            <li>Participar activamente en procesos de auditoría y control interno.</li>
+                            <li>Elaborar e interpretar estados financieros con enfoque estratégico.</li>
+                            <li>Diseñar estrategias fiscales eficientes y cumplir normativas tributarias.</li>
+                            <li>Supervisar procesos de auditoría y control interno.</li>
+                            <li>Aplicar inteligencia de datos y herramientas fintech en la gestión financiera.</li>
                         </ul>
                     </div>
                 </details>
                 <details>
-                    <summary>¿En qué se diferencia Contaduría y Finanzas de Administración?</summary>
+                    <summary>¿Qué tan demandada es esta carera?</summary>
                     <div class="faq-ans">
                         <p>
-                            Aunque ambas comparten bases sólidas en finanzas corporativas, la diferencia
-                            entre <strong>Contaduría y Finanzas</strong> y Administración radica en su enfoque y campo
-                            laboral:
+                            La carrera es una de las profesiones con mayor demanda sostenida en el país. Los datos del mercado laboral (2025) lo confirman:
                         </p>
                         <ul class="lista-fa">
-                            <li><strong>Contaduría y Finanzas:</strong> Se enfoca rigurosamente en la precisión contable, el cumplimiento fiscal y la gestión detallada de la información financiera.</li>
-                            <li><strong>Administración y Dirección Estratégica: </strong> Prioriza la visión de largo plazo y el liderazgo organizacional para dirigir la empresa en su conjunto.</li>
+                            <li>Aproximadamente 542 mil personas trabajan como contadores, auditores y especialistas financieros en México.</li>
+                            <li>El sector financiero y de seguros registró más de 18,500 vacantes entre enero y abril de 2025.</li>
+                            <li>La informalidad en este sector es de solo 11.6%, muy por debajo del promedio nacional.</li>
                         </ul>
                     </div>
                 </details>
                 <details>
-                    <summary>¿Qué tan demandada es la carrera de Contaduría y Finanzas?</summary>
+                    <summary>¿El programa cuenta con Reconocimiento de Validez Oficial de Estudios (RVOE)?</summary>
                     <div class="faq-ans">
                         <p>
-                            La carrera de <strong>Contaduría y Finanzas</strong> es una de las profesiones con mayor
-                            demanda sostenida y estabilidad en el país. Los datos del mercado laboral
-                            (2025) lo confirman:
+                            Sí. La Licenciatura en Inteligencia Financiera y Contaduría cuenta con RVOE SEP No. 20261845, otorgado con fecha 17 de abril de 2026 por la Secretaría de Educación Pública.
+                            Tus estudios tienen plena validez oficial en todo México.
                         </p>
-                        <ul class="lista-fa">
-                            <li><strong>Alta empleabilidad:</strong> Existen aproximadamente 542 mil personas trabajando como contadores, auditores y especialistas financieros en México.</li>
-                            <li><strong>Oferta constante:</strong> El sector financiero y de seguros registró más de 18,500 vacantes entre enero y abril de 2025.</li>
-                            <li><strong>Seguridad formal:</strong> La informalidad en este sector es de solo 11.6%, ubicándose muy por debajo del promedio nacional.</li>
-                        </ul>
+
                     </div>
                 </details>
             </div>
@@ -2818,9 +4404,7 @@
                 <div>
                     <span class="badge-pill bg-doc-l c-doc">Licenciatura</span>
                     <h2 id="doc-h2"><em>Mercadotecnia</em></h2>
-                    <p class="prog-lead">La única carrera que equilibra análisis numérico con creatividad estratégica:
-                        el mercadólogo UIC sabe leer datos para tomar decisiones creativas, no solo hacer contenido.
-                        Desde el primer semestre, los estudiantes trabajan con PyMES y empresas reales.</p>
+                    <p class="prog-lead">El mercadólogo UIC no hace contenido: toma decisiones con datos. Esa diferencia vale un cargo directivo. Trabajas con PyMES y empresas reales desde el primer semestre — no esperas al último año para ver un brief real.<br>➜ Datos + creatividad = ventaja que se cotiza.</p>
                 </div>
                 <div class="info-box">
                     <div class="info-box-head bg-doc" style="color:var(--paper)">Datos del programa</div>
@@ -2909,6 +4493,16 @@
                         <li>Planeación de medios y experiencia de usuario</li>
                     </ul>
                 </div>
+                <div class="content-box">
+                    <h4 style="color: var(--doc);">Perfil de ingreso ideal</h4>
+                    <ul>
+                        <li>Pensamiento analítico combinado con creatividad</li>
+                        <li>Interés en el comportamiento del consumidor</li>
+                        <li>Afinidad por la tecnología y las redes sociales</li>
+                        <li>Habilidades de comunicación y persuasión</li>
+                        <li>Bachillerato terminado (cualquier área)</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="faq-wrap">
@@ -2919,7 +4513,7 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            La diferencia principal de la <strong>Licenciatura en Mercadotecnia de la UIC</strong> es que
+                            La diferencia principal es que
                             forma mercadólogos capaces de tomar decisiones creativas basadas en
                             números, no solo creadores de contenido o campañas. Nuestro programa
                             destaca porque:
@@ -2937,10 +4531,9 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            No necesariamente. Para ser <strong>mercadólogo</strong> el objetivo de la carrera no es
+                            No necesariamente. El objetivo no es
                             formarte como analista de datos o programador, sino como un estratega capaz
-                            de interpretar y utilizar los datos a tu favor. En la UIC desarrollarás habilidades
-                            para:
+                            de interpretar y utilizar los datos a tu favor. En la UIC desarrollarás habilidades para:
                         </p>
                         <ul class="lista-fa">
                             <li>Integrar la estadística y la analítica de datos de forma 100% aplicada.</li>
@@ -2955,7 +4548,7 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            Estudiar Mercadotecnia en la UIC es ideal para personas que buscan combinar
+                            Es ideal para personas que buscan combinar
                             el pensamiento analítico con el creativo para dominar el comportamiento del
                             consumidor. Te conviene estudiar aquí si te apasiona:
                         </p>
@@ -2977,8 +4570,10 @@
                 <div>
                     <span class="badge-pill bg-pst-l c-pst">Licenciatura</span>
                     <h2 id="pst-h2"><em>Relaciones Comerciales Internacionales</em></h2>
-                    <p class="prog-lead">Programa multidisciplinario que combina negocios internacionales, logística global, derecho aduanero, negociación intercultural y emprendimiento.
-                        Los alumnos comienzan a trabajar desde el séptimo semestre.
+                    <p class="prog-lead">Si alguna vez te has preguntado cómo llega un producto de China a una tienda en México — o
+                        cómo una empresa mexicana vende en Europa — eso lo hace un egresado de esta carrera. Logística global,
+                        negociación intercultural, aduanas y estrategia de negocios entre países. Inserción laboral desde el séptimo semestre.
+                        <br>➜ La carrera para quien quiere que su oficina sea el mundo.
                     </p>
                 </div>
                 <div class="info-box">
@@ -3061,8 +4656,18 @@
                         <li>Agencias aduanales y empresas importadoras/exportadoras</li>
                         <li>Cámaras de comercio e instituciones internacionales</li>
                         <li>Multinacionales: áreas de compras, logística y estrategia</li>
-                        <li>Sector público: Aduanas, Secretaría de Economía, Secretaría de Hacienda</li>
-                        <li>Misiones diplomáticas como agregados comerciales o culturales</li>
+                        <li>Sector público: Aduanas, Secretaría de Economía, SHCP</li>
+                        <li>Misiones diplomáticas como agregados comerciales</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--pst);">Perfil de ingreso ideal</h4>
+                    <ul>
+                        <li>Interés en los negocios y la política internacional</li>
+                        <li>Habilidades de negociación y comunicación intercultural</li>
+                        <li>Disposición para aprender idiomas</li>
+                        <li>Perfil emprendedor con visión global</li>
+                        <li>Bachillerato terminado (cualquier área)</li>
                     </ul>
                 </div>
             </div>
@@ -3075,7 +4680,7 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            Un egresado de <strong>Relaciones Comerciales Internacionales (RCI) de la UIC</strong>
+                            Un egresado de RCI
                             internacionaliza empresas mediante estrategias de planeación, gestión e
                             implementación a nivel global. Su perfil operativo y estratégico le permite:
                         </p>
@@ -3092,10 +4697,10 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            Sí, la carrera de <strong>Relaciones Comerciales Internacionales (RCI)</strong> incluye
+                            Sí, la carrera de RCI incluye
                             prácticas colaborativas reales en aduanas y en comercio exterior. Esta
                             inmersión profesional es guiada por una planta docente de especialistas
-                            activos en el sector, destacando a:
+                            activos en el sector, entre ellos:
                         </p>
                         <ul class="lista-fa">
                             <li>Dr. Jorge Javier Rodríguez Puig: Experto con despacho propio en temas aduaneros.</li>
@@ -3110,8 +4715,7 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            La principal diferencia de <strong>Relaciones Comerciales Internacionales (RCI)</strong> frente
-                            a Negocios Internacionales es que nuestro programa en la UIC es
+                            La principal diferencia es que RCI en la UIC es
                             multidisciplinario, combinando cuatro grandes áreas: negocios internacionales,
                             logística, relaciones internacionales y emprendimiento. Destaca además por:
                         </p>
@@ -3134,9 +4738,10 @@
                     <span class="badge-pill bg-tur-l c-tur">Licenciatura</span>
                     <h2 id="pst-h2"><em>Administración de Negocios Turísticos</em></h2>
                     <p class="prog-lead">
-                        Forma líderes capaces de diseñar y operar modelos de negocio innovadores en el sector turístico:
-                        hotelería, gastronomía, eventos MICE, agencias de viajes y turismo sostenible.
-                        Incluye 5 certificaciones profesionales, prácticas internacionales y experiencias reales desde el primer semestre.
+                        Forma líderes capaces de diseñar y operar modelos de negocio innovadores en el sector turístico: hotelería, gastronomía, eventos MICE,
+                        agencias de viajes y turismo sostenible. Incluye 5 certificaciones profesionales,
+                        prácticas internacionales y experiencias reales desde el primer semestre.
+                        <br>➜ 5 certificaciones incluidas en la carrera.
                     </p>
                 </div>
                 <div class="info-box">
@@ -3220,7 +4825,6 @@
                         <li>Agencias de viajes, touroperadoras y plataformas de reservaciones</li>
                         <li>Empresas organizadoras de eventos y recintos feriales</li>
                         <li>Aerolíneas, cruceros y parques temáticos</li>
-                        <li>Dependencias federales, estatales y municipales de turismo</li>
                         <li>Consultoría turística y organismos de promoción</li>
                     </ul>
                 </div>
@@ -3231,7 +4835,7 @@
                         <li>Certified in Congress Management (CCM)</li>
                         <li>Certificación CANIRAC (sector restaurantero)</li>
                         <li>Diplomado en Yield y Revenue Management</li>
-                        <li>Certificación Docente ANFECA (para quienes proyectan docencia)</li>
+                        <li>Certificación Docente ANFECA (opción docencia)</li>
                     </ul>
                 </div>
             </div>
@@ -3244,15 +4848,15 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            Un egresado de <strong>Administración de Negocios Turísticos de la UIC</strong> es un
+                            Un egresado de LANT es un
                             profesional versátil que coordina, desarrolla y gestiona proyectos y servicios
                             turísticos a nivel global. Su visión administrativa, humana y sostenible le
                             permite triunfar en:
                         </p>
                         <ul class="lista-fa">
-                            <li>Sectores múltiples: Empresas privadas, instituciones del sector público o mediante emprendimientos propios.</li>
-                            <li>Gestión global: Dirección de empresas internacionales de viajes y consultoría turística.</li>
-                            <li>Desarrollo experiencial: Organización de eventos de alto impacto y gestión gastronómica.</li>
+                            <li>Empresas privadas, instituciones del sector público o mediante emprendimientos propios.</li>
+                            <li>Dirección de empresas internacionales de viajes y consultoría turística.</li>
+                            <li>Organización de eventos de alto impacto y gestión gastronómica.</li>
                         </ul>
                     </div>
                 </details>
@@ -3262,15 +4866,14 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            La <strong>Licenciatura en Administración de Negocios Turísticos (LANT)</strong> se
-                            diferencia de otras carreras de turismo por su inmersión práctica inmediata y la
+                            La LANT se diferencia por su inmersión práctica inmediata y la
                             alta especialización profesional. En la UIC destacas frente a otros egresados
                             porque:
                         </p>
                         <ul class="lista-fa">
-                            <li>Participas en eventos y congresos reales(nacionales e internacionales) desde tu primer semestre.</li>
-                            <li>Puedes obtener hasta5 certificaciones profesionales a lo largo de tu licenciatura.</li>
-                            <li>Aprendes de unaplanta docente activa y experta: desde Front Office Managers de cadenas como Hilton, hasta directores de restaurantes y
+                            <li>Participas en eventos y congresos reales nacionales e internacionales desde el primer semestre.</li>
+                            <li>Puedes obtener hasta5 certificaciones profesionales a lo largo de la carrera.</li>
+                            <li>Aprendes de una planta docente activa y experta: desde Front Office Managers de cadenas como Hilton, hasta directores de restaurantes y
                                 productores de eventos.</li>
                         </ul>
                     </div>
@@ -3281,16 +4884,16 @@
                     </summary>
                     <div class="faq-ans">
                         <p>
-                            Sí, en <strong>Negocios Turísticos</strong> la formación global es un pilar de la carrera.
+                            Sí, en Negocios Turísticos la formación global es un pilar de la carrera.
                             El plan de estudios está diseñado para proyectar tu perfil al extranjero mediante:
                         </p>
                         <ul class="lista-fa">
-                            <li><strong>Prácticas profesionales (6to semestre):</strong> Trabajarás en empresas clave del sector turístico, ya sean nacionales o internacionales.</li>
-                            <li><strong>Inmersión en la industria:</strong> Participarás activamente en congresos y ferias turísticas internacionales como parte de tu formación académica práctica.</li>
+                            <li>Prácticas profesionales (6to semestre): trabajarás en empresas clave del sector turístico, ya sean nacionales o internacionales.</li>
+                            <li>Participación activa en congresos y ferias turísticas internacionales como parte de tu formación académica práctica.</li>
                         </ul>
                     </div>
                 </details>
-                <details>
+                <!-- <details>
                     <summary>
                         ¿A quién le conviene estudiar Negocios Turísticos?
                     </summary>
@@ -3306,16 +4909,667 @@
                             <li>Aprovechar las nuevas tecnologías para innovar dentro del sector turístico.</li>
                         </ul>
                     </div>
+                </details> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ MBA ═══ -->
+    <section id="mba" class="prog-sec" data-float="flt-mba" aria-labelledby="mba-h2">
+        <div class="wrap">
+            <div class="prog-head">
+                <div>
+                    <span class="badge-pill bg-mba-l c-mba">Maestría · En línea / Mixta</span>
+                    <h2 id="pst-h2"><em>Maestria en Administración de Negocios</em></h2>
+                    <p class="prog-lead">
+                        Lidera a nivel gerencial la planificación de estrategias, así como las políticas de desarrollo y sustentabilidad de una organización pública o privada.
+                        Programa ejecutivo diseñado para profesionales en activo que buscan puestos directivos.
+                        <br>➜ 5 periodos cuatrimestrales · Horarios flexibles.
+                    </p>
+                </div>
+                <div class="info-box">
+                    <div class="info-box-head bg-mba">Datos del programa</div>
+                    <div class="info-row"><span class="lbl">Nivel</span><span class="val">Maestria</span></div>
+                    <div class="info-row"><span class="lbl">Modalidad</span><span class="val">Mixta a distancia</span></div>
+                    <div class="info-row"><span class="lbl">Duración</span><span class="val">5 periodos cuatrimestrales</span></div>
+                    <div class="info-row"><span class="lbl">Área</span><span class="val">UIC Online - Posgrados</span></div>
+                    <div class="info-row"><span class="lbl">Director Acad.</span><span class="val">Dr. J. Noé Moctezuma Medina</span></div>
+                    <div class="info-row"><span class="val" style="text-align: left;"><strong>RVOE SEP No. 20180432</strong><br>Fecha de acuerdo: 31 de enero de 2018<br>UIC inscrita en Grupo 2 del PMI SEP</span></div>
+                </div>
+            </div>
+
+
+            <div class="prog-docente-card horizontal" style="background-color: #268b54;">
+
+                <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                <div class="pr-docente-img">
+                    <img src="../imagenes/negocios/Dr_Noe_Moctezuma.png" alt="Mtra. Claudia Vara López">
+                </div>
+
+                <!-- COLUMNA DERECHA (CONTENIDO) -->
+                <div class="pr-docente-content">
+
+                    <div class="pr-docente-header">
+                        <h3>Dr. J. Noé Moctezuma Medina</h3>
+                        <p>Director Académico · Maestria en Administración de Negocios · UIC</p>
+                    </div>
+
+                    <div class="pr-docente-body">
+
+                        <div class="row">
+                            <div class="col">
+                                <h4>FORMACIÓN ACADÉMICA</h4>
+                                <ul>
+                                    <li>Lic. en Administración (UIC)</li>
+                                    <li>Maestría en Administración de Organizaciones</li>
+                                    <li>Doctor en Ciencias de la Administración (UAM)</li>
+                                </ul>
+                            </div>
+                            <!-- <div class="col">
+                                <h4>CERTIFICACIONES INTERNACIONALES</h4>
+                                <ul>
+                                    <li>Certified Meeting Specialist (CMS)</li>
+                                    <li>Certified in Congress Management (CCM)</li>
+                                    <li>Certificación Docente ANFECA</li>
+                                </ul>
+                            </div> -->
+                        </div>
+
+                        <div class="row">
+                            <div class="col full">
+                                <h4>TRAYECTORIA PROFESIONAL</h4>
+                                <ul>
+                                    <li>Más de 30 años en estrategias de negocio y mercadotecnia para CompuSoluciones, EPSON México y Panasonic de México.</li>
+                                    <li>Miembro de la Red Mexicana de Investigadores en Estudios Organizacionales.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cols-3">
+                <div class="content-box">
+                    <h4 style="color: var(--mba);">Asignaturas principales</h4>
+                    <h4></h4>
+                    <ul>
+                        <li>Innovación Estratégica en las Organizaciones</li>
+                        <li>Emprendedores y la Competitividad Global</li>
+                        <li>Dirección de Operaciones</li>
+                        <li>Gestión Integral de la Calidad</li>
+                        <li>Estrategia de Negocios en las TIC</li>
+                        <li>Estadística y Análisis de Datos para Negocios</li>
+                        <li>Finanzas para Negocios · Administración de Proyectos</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--mba);">¿A quién va dirigido?</h4>
+                    <ul>
+                        <li>Lic. en Administración Estratégica o Empresarial</li>
+                        <li>Lic. en Relaciones Comerciales Internacionales</li>
+                        <li>Lic. en Mercadotecnia</li>
+                        <li>Lic. en Contaduría y Finanzas</li>
+                        <li>Administración Hotelera y Turismo</li>
+                        <li>Profesionales en puestos gerenciales que buscan formalizar su perfil directivo</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--mba);">Salidas profesionales</h4>
+                    <ul>
+                        <li>Gerente general o director de área en corporativos</li>
+                        <li>Consultor estratégico y de procesos de mejora continua</li>
+                        <li>Líder de proyectos de inversión e innovación</li>
+                        <li>Director de operaciones en organismos públicos y privados</li>
+                        <li>Emprendedor con perfil directivo sólido</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-wrap">
+                <h3 class="faq-title">Preguntas frecuentes</h3>
+                <details>
+                    <summary>
+                        ¿Qué diferencia a la MBA de la UIC de otras maestrías en administración?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            La Maestría en Administración de Negocios de la UIC destaca por su enfoque ejecutivo aplicado:
+                            el programa está diseñado para profesionales que ya trabajan y quieren escalar hacia puestos directivos.
+                            Sus principales ventajas son:
+                        </p>
+                        <ul class="lista-fa">
+                            <li>Modalidad mixta flexible que combina sesiones síncronas con trabajo asíncrono, sin sacrificar tu empleo actual.</li>
+                            <li>Currículo orientado a resultados: cada materia conecta directamente con problemas reales de las organizaciones.</li>
+                            <li>Descuentos de hasta el 50% y convenios especiales para egresados y comunidad UIC.</li>
+                        </ul>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿La maestría habilita para puestos directivos de inmediato?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            La MBA es un acelerador de carrera, no una garantía mágica: combina el perfil del egresado con su experiencia previa para convertirlo en un candidato de primer nivel para posiciones gerenciales y directivas.
+                            La UIC trabaja con más de 40 convenios empresariales que facilitan la vinculación laboral de sus alumnos de posgrado.
+                        </p>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿Cuánto tiempo toma terminar la Maestría en Administración de Negocios?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            El programa se estructura en 5 periodos cuatrimestrales, lo que permite completarlo en aproximadamente un año y ocho meses si se cursan las materias de forma continua.
+                            La flexibilidad de la modalidad mixta permite ajustar el número de materias por periodo según la carga laboral del alumno.
+                        </p>
+                    </div>
                 </details>
             </div>
         </div>
+    </section>
+
+    <!-- ═══ MAESTRIA EN COMERCIO INTERNACIONAL ═══ -->
+    <section id="mci" class="prog-sec" data-float="flt-mci" aria-labelledby="mci-h2">
+        <div class="wrap">
+            <div class="prog-head">
+                <div>
+                    <span class="badge-pill bg-mci-l c-mci">Maestría · En línea / Mixta</span>
+                    <h2 id="mci-h2"><em>Maestria en Comercio Internacional</em></h2>
+                    <p class="prog-lead">
+                        Forma profesionales que diseñan nuevas formas de gestión y desarrollo de organizaciones dentro de la normatividad internacional en materia de intercambio de bienes y servicios.
+                        El programa perfecto para quienes operan en sectores de logística, exportación e importación.
+                        <br>➜ Domina los mercados globales desde cualquier lugar.
+                    </p>
+                    </p>
+                </div>
+                <div class="info-box">
+                    <div class="info-box-head bg-mci">Datos del programa</div>
+                    <div class="info-row"><span class="lbl">Nivel</span><span class="val">Maestría</span></div>
+                    <div class="info-row"><span class="lbl">Modalidad</span><span class="val">Mixto a distancia</span></div>
+                    <div class="info-row"><span class="lbl">Duración</span><span class="val">5 periodos cuatrimestrales</span></div>
+                    <div class="info-row"><span class="lbl">Área</span><span class="val">UIC Online - Posgrados</span></div>
+                    <div class="info-row"><span class="lbl">Director Acad.</span><span class="val">Dr. J. Noé Moctezuma Medina</span></div>
+                    <div class="info-row"><span class="val" style="text-align: left;"><strong>RVOE SEP No. 2005299</strong><br>Fecha de acuerdo: 27 de mayo de 2005<br>UIC inscrita en Grupo 2 del PMI SEP</span></div>
+
+                </div>
+            </div>
+
+
+            <div class="prog-docente-card horizontal" style="background-color: #15537f;">
+
+                <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                <div class="pr-docente-img">
+                    <img src="../imagenes/negocios/Dr_Noe_Moctezuma.png" alt="Dr. J. Noé Moctezuma Medina">
+                </div>
+
+                <!-- COLUMNA DERECHA (CONTENIDO) -->
+                <div class="pr-docente-content">
+
+                    <div class="pr-docente-header">
+                        <h3>Dr. J. Noé Moctezuma Medina</h3>
+                        <p>Director Académico · Maestria en Administración de Negocios · UIC</p>
+                    </div>
+
+                    <div class="pr-docente-body">
+
+                        <div class="row">
+                            <div class="col">
+                                <h4>FORMACIÓN ACADÉMICA</h4>
+                                <ul>
+                                    <li>Lic. en Administración (UIC)</li>
+                                    <li>Maestría en Administración de Organizaciones</li>
+                                    <li>Doctor en Ciencias de la Administración (UAM)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col full">
+                                <h4>TRAYECTORIA PROFESIONAL</h4>
+                                <ul>
+                                    <li>Más de 30 años en estrategias de negocio y mercadotecnia para CompuSoluciones, EPSON México y Panasonic de México.</li>
+                                    <li>Miembro de la Red Mexicana de Investigadores en Estudios Organizacionales.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cols-3">
+                <div class="content-box">
+                    <h4 style="color: var(--mci);">Asignaturas principales</h4>
+                    <ul>
+                        <li>Estrategia de Logística Competitiva Internacional</li>
+                        <li>Tratados de Libre Comercio y Bloques Comerciales</li>
+                        <li>Estrategias Financieras para el Comercio Internacional</li>
+                        <li>Negociaciones Comerciales Internacionales</li>
+                        <li>Gestión de Contratos de Importación y Exportación</li>
+                        <li>Legislación en Comercio Exterior y Aduanas</li>
+                        <li>Plan de Negocios de Comercio Internacional</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--mci);">¿A quién va dirigido?</h4>
+                    <ul>
+                        <li>Lic. en Administración, Contaduría, RCI o Turismo</li>
+                        <li>Ingenieros con actividad en comercio exterior</li>
+                        <li>Profesionales en logística, aduanas o importación/exportación</li>
+                        <li>Directivos que buscan expandir operaciones internacionales</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--mci);">Salidas profesionales</h4>
+                    <ul>
+                        <li>Director de comercio exterior en empresas multinacionales</li>
+                        <li>Consultor en logística internacional y cadena de suministro</li>
+                        <li>Negociador comercial en cámaras de comercio</li>
+                        <li>Asesor en agencias aduanales y despachos especializados</li>
+                        <li>Analista de inteligencia de mercados internacionales</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-wrap">
+                <h3 class="faq-title">Preguntas frecuentes</h3>
+                <details>
+                    <summary>
+                        ¿La Maestría en Comercio Internacional es para quienes ya trabajan en el sector?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            Sí, aunque no es excluyente. El programa beneficia especialmente a profesionales que ya operan en áreas de importación, exportación,
+                            logística o comercio exterior y buscan un marco teórico-estratégico sólido.
+                            También es accesible para recién egresados con interés en el sector internacional que quieren diferenciarse desde el inicio de su carrera.
+                        </p>
+
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿El programa aborda los cambios recientes en los tratados comerciales de México?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            Sí. La asignatura de Tratados de Libre Comercio y Bloques Comerciales Internacionales se actualiza permanentemente para reflejar el panorama vigente,
+                            incluyendo el T-MEC, acuerdos con la Unión Europea y los principales bloques de Asia-Pacífico.
+                            El enfoque es práctico: análisis de implicaciones reales para negocios mexicanos en mercados globales.
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿Puedo estudiar esta maestría si mi licenciatura no fue en RCI ni en Administración?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            Sí. El programa está abierto a licenciados en Ciencias Sociales (Administración, Contaduría, Turismo, etc.) e ingenieros con actividad relacionada con el comercio.
+                            El proceso de admisión evalúa el perfil profesional y la motivación del aspirante. Si tienes dudas sobre tu elegibilidad, el equipo de admisiones puede orientarte sin compromiso.
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ MAESTRIA EN DIRECCION ESTRATEGICA Y GESTION DE LA INOVACION ═══ -->
+    <section id="mde" class="prog-sec" data-float="flt-mde" aria-labelledby="mde-h2">
+        <div class="wrap">
+            <div class="prog-head">
+                <div>
+                    <span class="badge-pill bg-mde-l c-mde">Maestría · En línea / Mixta</span>
+                    <h2 id="pst-h2"><em>Maestría en Dirección Estratégica y Gestión de la Innovación</em></h2>
+                    <p class="prog-lead">
+                        Profesionalización de la alta dirección estratégica con innovación tecnológica y digital.
+                        Adquiere la autoridad para dirigir operaciones de empresas nacionales y transnacionales, con habilidad para presentar escenarios estratégicos con enfoque global.
+                        <br>➜ 4 periodos semestrales · Alta dirección ejecutiva.
+                    </p>
+                </div>
+                <div class="info-box">
+                    <div class="info-box-head bg-mde">Datos del programa</div>
+                    <div class="info-row"><span class="lbl">Nivel</span><span class="val">Maestría</span></div>
+                    <div class="info-row"><span class="lbl">Modalidad</span><span class="val">Mixta a distancia</span></div>
+                    <div class="info-row"><span class="lbl">Duración</span><span class="val">4 periodos semestrales</span></div>
+                    <div class="info-row"><span class="lbl">Área</span><span class="val">UIC Online - Posgrados</span></div>
+                    <div class="info-row"><span class="lbl">Director</span><span class="val">Dr. J. Noé Moctezuma Medina</span></div>
+                    <div class="info-row"><span class="val" style="text-align: left;"><strong>RVOE SEP No. 20110846</strong><br>Fecha de acuerdo: 10 de octubre de 2011<br>UIC inscrita en Grupo 2 del PMI SEP</span></div>
+                </div>
+            </div>
+
+
+            <div class="prog-docente-card horizontal" style="background-color: #7a1b1f;">
+
+                <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                <div class="pr-docente-img">
+                    <img src="../imagenes/negocios/Dr_Noe_Moctezuma.png" alt="Dr. J. Noé Moctezuma Medina">
+                </div>
+
+                <!-- COLUMNA DERECHA (CONTENIDO) -->
+                <div class="pr-docente-content">
+
+                    <div class="pr-docente-header">
+                        <h3>Dr. J. Noé Moctezuma Medina</h3>
+                        <p>Director Académico · Maestria en Administración de Negocios · UIC</p>
+                    </div>
+
+                    <div class="pr-docente-body">
+
+                        <div class="row">
+                            <div class="col">
+                                <h4>FORMACIÓN ACADÉMICA</h4>
+                                <ul>
+                                    <li>Lic. en Administración (UIC)</li>
+                                    <li>Maestría en Administración de Organizaciones</li>
+                                    <li>Doctor en Ciencias de la Administración (UAM)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col full">
+                                <h4>TRAYECTORIA PROFESIONAL</h4>
+                                <ul>
+                                    <li>Más de 30 años en estrategias de negocio y mercadotecnia para CompuSoluciones, EPSON México y Panasonic de México.</li>
+                                    <li>Miembro de la Red Mexicana de Investigadores en Estudios Organizacionales.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cols-3">
+                <div class="content-box">
+                    <h4 style="color: var(--mde);">Asignaturas principales</h4>
+                    <ul>
+                        <li>Funciones y Competencias Directivas</li>
+                        <li>Gestión de la Innovación</li>
+                        <li>Creación de Nuevos Negocios</li>
+                        <li>Negocios Electrónicos y Sistemas Integrales de Gestión</li>
+                        <li>Cadenas de Valor y Gerencia de Innovación</li>
+                        <li>Dirección Estratégica · Mercadotecnia Estratégica</li>
+                        <li>Seminario de Investigación Aplicada</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--mde);">¿A quién va dirigido?</h4>
+                    <ul>
+                        <li>Licenciados en áreas económico-administrativas</li>
+                        <li>Profesionales en puestos directivos o con aspiración a ellos</li>
+                        <li>Líderes que buscan actualización en metodologías organizacionales</li>
+                        <li>Emprendedores que requieren marco estratégico formal</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--mde);">Salidas profesionales</h4>
+                    <ul>
+                        <li>Director de innovación (CIO / Chief Innovation Officer)</li>
+                        <li>Gerente de transformación digital en empresas</li>
+                        <li>Consultor en competitividad y productividad empresarial</li>
+                        <li>Líder de equipos multidisciplinarios de alto desempeño</li>
+                        <li>Emprendedor con dominio de estrategia digital global</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-wrap">
+                <h3 class="faq-title">Preguntas frecuentes</h3>
+                <details>
+                    <summary>
+                        ¿Qué diferencia a la Maestría en Dirección Estratégica de un MBA convencional?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            Mientras un MBA generalista cubre funciones empresariales amplias, esta maestría concentra su currículo en dos competencias específicas y muy demandadas en el mercado actual:
+                            la alta dirección estratégica y la gestión de la innovación tecnológica.
+                            El resultado es un directivo capaz de diseñar estrategias, liderar la transformación digital y llevar nuevos productos y servicios al mercado global con metodología rigurosa.
+                        </p>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿El programa es adecuado para quien ya ocupa un cargo directivo?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            Es precisamente para quienes ya dirigen o están próximos a dirigir. El formato mixto a distancia (sesiones síncronas + trabajo asíncrono)
+                            fue diseñado para no interrumpir la actividad profesional.
+                            Además, la estructura semestral en 4 periodos permite completar el programa en aproximadamente 2 años manteniendo plena dedicación laboral.
+                        </p>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿La innovación tecnológica en el programa cubre temas de inteligencia artificial y transformación digital?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            Sí. El programa incluye asignaturas como Negocios Electrónicos y Sistemas Integrales de Gestión Informatizada,
+                            Comercio Electrónico, Administración del Conocimiento y Análisis de Redes Sociales, y Valor Estratégico de la Información,
+                            todas actualizadas para reflejar el entorno digital actual, incluyendo inteligencia artificial aplicada a la gestión empresarial.
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ DOCOTRADO EN ADMINISTRACION ═══ -->
+    <section id="doa" class="prog-sec" data-float="flt-doa" aria-labelledby="doa-h2">
+        <div class="wrap">
+            <div class="prog-head">
+                <div>
+                    <span class="badge-pill bg-doa-l c-doa">Doctorado · En línea / Mixta</span>
+                    <h2 id="pst-h2"><em>Doctorado en Administración</em></h2>
+                    <p class="prog-lead">
+                        Formación de líderes consultores e investigadores capaces de crear modelos y estrategias en la administración del capital humano y financiero de cualquier organización.
+                        Produce conocimiento original con rigor metodológico para dar respuesta a problemáticas sociales y organizacionales.
+                        <br>➜ 3 acentuaciones: Finanzas · Innovación · Sustentabilidad.
+                    </p>
+                </div>
+                <div class="info-box">
+                    <div class="info-box-head bg-doa">Datos del programa</div>
+                    <div class="info-row"><span class="lbl">Nivel</span><span class="val">Doctorado</span></div>
+                    <div class="info-row"><span class="lbl">Modalidad</span><span class="val">Mixta a distancia</span></div>
+                    <div class="info-row"><span class="lbl">Duración</span><span class="val">4 periodos semestrales</span></div>
+                    <div class="info-row"><span class="lbl">Área</span><span class="val">UIC Online · Posgrados</span></div>
+                    <div class="info-row"><span class="lbl">Director</span><span class="val">Dr. J. Noé Moctezuma Medina</span></div>
+                    <div class="info-row"><span class="val" style="text-align: left;"><strong>RVOE SEP No. 20121906</strong><br>Fecha de acuerdo: 20 de septiembre de 2012<br>UIC inscrita en Grupo 2 del PMI SEP</div>
+
+                </div>
+            </div>
+
+
+            <div class="prog-docente-card horizontal" style="background-color: #6f3a1a;">
+
+                <!-- COLUMNA IZQUIERDA (IMAGEN) -->
+                <div class="pr-docente-img">
+                    <img src="../imagenes/negocios/Dr_Noe_Moctezuma.png" alt="Dr. J. Noé Moctezuma Medina">
+                </div>
+
+                <!-- COLUMNA DERECHA (CONTENIDO) -->
+                <div class="pr-docente-content">
+
+                    <div class="pr-docente-header">
+                        <h3>Dr. J. Noé Moctezuma Medina</h3>
+                        <p>Director Académico · Maestria en Administración de Negocios · UIC</p>
+                    </div>
+
+                    <div class="pr-docente-body">
+
+                        <div class="row">
+                            <div class="col">
+                                <h4>FORMACIÓN ACADÉMICA</h4>
+                                <ul>
+                                    <li>Lic. en Administración (UIC)</li>
+                                    <li>Maestría en Administración de Organizaciones</li>
+                                    <li>Doctor en Ciencias de la Administración (UAM)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col full">
+                                <h4>TRAYECTORIA PROFESIONAL</h4>
+                                <ul>
+                                    <li>Más de 30 años en estrategias de negocio y mercadotecnia para CompuSoluciones, EPSON México y Panasonic de México.</li>
+                                    <li>Miembro de la Red Mexicana de Investigadores en Estudios Organizacionales.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cols-3">
+                <div class="content-box">
+                    <h4 style="color: var(--doa);">Núcleo de asignaturas</h4>
+                    <ul>
+                        <li>Seminario de Investigación en Ciencias de la Administración</li>
+                        <li>Teoría y Tendencias del Estudio de las Organizaciones</li>
+                        <li>Filosofía de las Ciencias de la Administración</li>
+                        <li>Métodos Cuantitativos y Cualitativos</li>
+                        <li>Seminario de Proyectos y Protocolos de Investigación</li>
+                        <li>Seminario de Tesis</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--doa);">Áreas de acentuación</h4>
+                    <ul>
+                        <li><strong>Finanzas</strong> — Seminario Básico y Avanzado de Finanzas</li>
+                        <li><strong>Innovación, Competitividad y Productividad</strong> — Seminarios Básico y Avanzado</li>
+                        <li><strong>Gestión de la Sustentabilidad</strong> — Seminarios Básico y Avanzado</li>
+                        <li>La acentuación se elige al avanzar en el programa</li>
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <h4 style="color: var(--doa);">¿A quién va dirigido?</h4>
+                    <ul>
+                        <li>Profesionales con Maestría o MBA</li>
+                        <li>Posgrado en Ingenierías, Ciencias o Ciencias Sociales</li>
+                        <li>Investigadores y consultores que buscan el grado máximo</li>
+                        <li>Docentes universitarios que requieren grado doctoral</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-wrap">
+                <h3 class="faq-title">Preguntas frecuentes</h3>
+                <details>
+                    <summary>
+                        ¿Para qué sirve el Doctorado en Administración en el contexto empresarial actual?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            El Doctorado en Administración es el nivel más alto de formación en ciencias de la administración y
+                            habilita al egresado para generar conocimiento original con impacto real en organizaciones y en la sociedad. Es la credencial que abre las puertas a:
+                        </p>
+                        <ul class="lista-fa">
+                            <li>La consultoría de alto nivel y la investigación aplicada en organizaciones complejas.</li>
+                            <li>La docencia en posgrados y la dirección de tesis de maestría y doctorado.</li>
+                            <li>La publicación de investigación en revistas indexadas y la participación en foros internacionales.</li>
+                        </ul>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿En qué se diferencia un Doctorado en Administración de una segunda maestría?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            La diferencia esencial es la producción de conocimiento original. Una segunda maestría profundiza en áreas de práctica;
+                            el doctorado exige que el alumno genere investigación nueva —con rigor metodológico formal— que responda a problemáticas organizacionales o sociales no resueltas.
+                            El resultado es una tesis doctoral que contribuye al campo de las ciencias de la administración, no solo a la práctica individual.
+                        </p>
+
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿Cómo funciona la modalidad mixta del Doctorado en Administración?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            El programa combina asesorías síncronas calendarizadas (sesiones en vivo con el docente y compañeros) con trabajo asíncrono en línea
+                            (investigación, lecturas y avances de tesis a tu ritmo). Esta estructura permite mantener la vida profesional activa durante el programa,
+                            que se completa en 4 periodos semestrales.
+                        </p>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        ¿Cuándo debo elegir mi área de acentuación: Finanzas, Innovación o Sustentabilidad?
+                    </summary>
+                    <div class="faq-ans">
+                        <p>
+                            La acentuación se elige al avanzar en el programa, una vez que el alumno ha cursado el núcleo de asignaturas comunes y
+                            tiene claridad sobre la línea de investigación de su tesis doctoral.
+                            El director académico y el comité de tesis orientan esta decisión de acuerdo con el proyecto de investigación del estudiante.
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ ECOSISTEMA EMPRESARIAL ═══ -->
+    <section id="ecosistema" class="testi-sec" aria-labelledby="testi-h2">
+        <div class="wrap">
+            <p class="sec-label">Donde sucede la práctica</p>
+            <h2 class="sec-title" id="testi-h2">El ecosistema <em style="font-style:italic;color: var(--gold-d);">empresarial UIC</em></h2>
+            <p class="sec-sub">En la UIC los negocios no se estudian en abstracto: se operan. Tres pilares concretos diferencian la formación desde el primer día.</p>
+
+            <div class="testi-grid">
+
+                <div class="testi-card">
+                    <div class="testi-stripe bg-lic"></div>
+                    <span class="eco-icon">⚙️</span>
+                    <div class="testi-name2">Simuladores de negocios reales</div>
+                    <p class="testi-quote">La práctica clínica desde el primer año no es un slogan, es real. Llegué al internado con herramientas que muchos egresados de otras universidades no tienen ni en quinto semestre.</p>
+                    <span class="testi-result bg-lic-l c-lic">Desde el primer año · Administración</span>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stripe bg-mst"></div>
+                    <span class="eco-icon">🤝</span>
+                    <div class="testi-name2">+40 convenios corporativos activos</div>
+                    <p class="testi-quote">La División de Negocios mantiene convenios activos con empresas de los sectores financiero, logístico, turístico, comercial y de consultoría.
+                        Esto se traduce en prácticas profesionales, proyectos reales de clase y — en varios casos — contratación directa antes de egresar.
+                        En RCI los alumnos ya trabajan desde el séptimo semestre.</p>
+                    <span class="testi-result bg-mst-l c-mst">Práctica real · Todos los programas</span>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stripe bg-doc"></div>
+                    <span class="eco-icon">🎓</span>
+                    <div class="testi-name2">Docentes que dirigen empresas</div>
+                    <p class="testi-quote">Ningún profesor en la División de Negocios llega al salón solo con una maestría y un PowerPoint.
+                        Todos tienen trayectoria profesional activa: despachos propios, empresas fundadas, cargos directivos en corporativos nacionales e internacionales.
+                        Lo que enseñan lo están viviendo mientras lo enseñan.</p>
+                    <span class="testi-result bg-doc-l c-doc">+35 años de práctica en industria</span>
+                </div>
+            </div>
+            <div style="background:var(--gold-dim);border:1px solid var(--gold-light);border-radius:var(--radius);padding:1.3rem 1.6rem;margin-top:2rem;font-size:1.1rem;color:var(--slate);line-height:1.8">
+                ⚡ <strong>¿Por qué importa el ecosistema?</strong> La brecha entre egresados que consiguen empleo en menos de 3 meses y quienes tardan más de un año no es el promedio — es la red de contactos y la experiencia práctica. La División de Negocios UIC está construida para cerrar esa brecha antes de que la enfrentes.
+            </div>
+        </div>
+
     </section>
 
     <!-- ═══ CUERPO DOCENTE ═══ -->
     <section id="faculty" class="faculty-sec" aria-labelledby="fac-h2">
         <div class="wrap">
             <p class="sec-label">Autoridad académica</p>
-            <h2 class="sec-title" id="fac-h2">Cuerpo docente</h2>
+            <h2 class="sec-title" id="fac-h2">Cuerpo <em style="font-style:italic;color: var(--gold-d);">docente</em></h2>
             <p class="sec-sub" style="margin-bottom:0">
                 Profesores activos en la industria, con trayectoria ejecutiva comprobable, publicaciones y certificaciones nacionales e internacionales.
             </p>
@@ -3434,77 +5688,12 @@
         </div>
     </section>
 
-    <!-- ═══ TESTIMONIOS ═══ -->
-    <section id="testimonios" class="testi-sec" aria-labelledby="testi-h2" style="display:none">
-        <div class="wrap">
-            <p class="sec-label">Voces de egresados</p>
-            <h2 class="sec-title" id="testi-h2">Quienes ya lo vivieron</h2>
-            <p class="sec-sub">Psicólogos y psicoanalistas formados en la UIC que hoy ejercen en consulta privada, instituciones y academia.</p>
-
-            <div class="testi-grid">
-
-                <div class="testi-card">
-                    <div class="testi-stripe bg-lic"></div>
-                    <p class="testi-quote">La práctica clínica desde el primer año no es un slogan, es real. Llegué al internado con herramientas que muchos egresados de otras universidades no tienen ni en quinto semestre.</p>
-                    <span class="testi-result bg-lic-l c-lic">Consultorio privado · CDMX</span>
-                    <div class="testi-author">
-                        <div class="testi-initials bg-lic">MG</div>
-                        <div>
-                            <div class="testi-name">Mariana G.</div>
-                            <div class="testi-prog">Egresada · Licenciatura en Psicología</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testi-card">
-                    <div class="testi-stripe bg-mst"></div>
-                    <p class="testi-quote">La Maestría me dio el marco teórico y la supervisión clínica que necesitaba para abrir consultorio con confianza. Hoy tengo lista de espera. El enfoque psicoanalítico relacional cambió mi forma de escuchar.</p>
-                    <span class="testi-result bg-mst-l c-mst">18 pacientes en lista de espera</span>
-                    <div class="testi-author">
-                        <div class="testi-initials bg-mst">CT</div>
-                        <div>
-                            <div class="testi-name">Carlos T.</div>
-                            <div class="testi-prog">Egresado · Maestría en Psicoterapia Psicoanalítica</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testi-card">
-                    <div class="testi-stripe bg-doc"></div>
-                    <p class="testi-quote">Vengo de Monterrey. La modalidad mixta lo hizo posible sin dejar mi práctica. Terminé el Doctorado con una tesis publicada en revista indexada y hoy dirijo un seminario de posgrado.</p>
-                    <span class="testi-result bg-doc-l c-doc">Publicación indexada + docencia de posgrado</span>
-                    <div class="testi-author">
-                        <div class="testi-initials bg-doc">RS</div>
-                        <div>
-                            <div class="testi-name">Roberto S.</div>
-                            <div class="testi-prog">Egresado · Doctorado en Psicoanálisis</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testi-card">
-                    <div class="testi-stripe bg-pst"></div>
-                    <p class="testi-quote">El Postdoctorado fue lo que me faltaba. Los docentes de España, Chile y Argentina trajeron perspectivas que no encontré en ningún otro programa en México. El psicoanálisis relacional abrió dimensiones completamente nuevas en mi trabajo.</p>
-                    <span class="testi-result bg-pst-l c-pst">Docente internacional invitada</span>
-                    <div class="testi-author">
-                        <div class="testi-initials bg-pst">AL</div>
-                        <div>
-                            <div class="testi-name">Ana L.</div>
-                            <div class="testi-prog">Egresada · Postdoctorado en Psicoanálisis Contemporáneo</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
     <!-- ═══ CLÍNICAS ═══ -->
     <section id="clinicas" class="clinicas-sec" aria-labelledby="clinicas-h2" style="display:none">
         <div class="wrap">
             <p class="sec-label">Dónde sucede la práctica</p>
             <div class="imagen-box">
-                <h2 class="sec-title" id="clinicas-h2">Clínicas universitarias<br />de práctica real</h2>
+                <h2 class="sec-title" id="clinicas-h2">El ecosistema<br />de práctica real</h2>
                 <p class="sec-sub">La UIC no simula la clínica: la ofrece. Los estudiantes atienden población real desde los primeros semestres, con supervisión directa de profesores clínicos activos.</p>
             </div>
             <div class="clinicas-grid">
@@ -3597,62 +5786,65 @@
     </section>
 
     <!-- ═══ ACREDITACIONES ═══ -->
-    <section id="acreditaciones" class="acred-sec" aria-labelledby="acred-h2" style="display: none;">
+    <section id="acreditaciones" class="acred-sec" aria-labelledby="acred-h2" style="display: block">
         <div class="wrap">
             <p class="sec-label">Reconocimientos y membresías</p>
-            <h2 class="sec-title" id="acred-h2">Respaldo institucional<br />y académico</h2>
-            <p class="sec-sub2">La UIC forma parte de redes académicas internacionales de primer nivel. Para el estudiante, esto significa acceso a comunidades de práctica, congresos, publicaciones y formación de talla mundial.</p>
+            <h2 class="sec-title" id="acred-h2">Respaldo institucional<em style="font-style:italic;color: var(--gold-d);">y académico</em></h2>
+            <p class="sec-sub2">La División de Negocios de la UIC opera bajo estándares de calidad reconocidos nacional e internacionalmente.
+                Para el estudiante, esto significa que su grado tiene valor en el mercado laboral y en instituciones de todo el mundo.
+            </p>
 
             <div class="acred-grid">
 
                 <div class="acred-card">
-                    <div class="acred-sigla">IARPP</div>
+                    <div class="acred-sigla">ANFECA</div>
                     <div class="acred-divider"></div>
-                    <div class="acred-name">International Association for Relational Psychoanalysis and Psychotherapy</div>
-                    <p class="acred-desc">Organización internacional de referencia en psicoanálisis relacional. La UIC es la única institución mexicana con afiliación activa y capítulo propio.</p>
+                    <div class="acred-name">Asociación Nacional de Facultades y Escuelas de Contaduría y Administración</div>
+                    <p class="acred-desc">Nuestros docentes cuentan con certificación ANFECA, la máxima credencial de excelencia pedagógica en el área económico-administrativa en México.</p>
                 </div>
 
                 <div class="acred-card">
-                    <div class="acred-sigla">AMPPR</div>
+                    <div class="acred-sigla">CACECA</div>
                     <div class="acred-divider"></div>
-                    <div class="acred-name">Asociación Mexicana de Psicoterapia Psicoanalítica Relacional</div>
-                    <p class="acred-desc">Asociación nacional que nuclea a los principales formadores en psicoterapia psicoanalítica de México. Docentes UIC son miembros fundadores y directivos.</p>
+                    <div class="acred-name">Consejo de Acreditación en la Enseñanza de la Contaduría y Administración</div>
+                    <p class="acred-desc">Organismo acreditador independiente que certifica la calidad de los programas académicos en contaduría y administración en México.
+                        Docentes UIC son pares evaluadores activos.</p>
                 </div>
 
                 <div class="acred-card">
-                    <div class="acred-sigla">CNPC</div>
+                    <div class="acred-sigla">FIMPES</div>
                     <div class="acred-divider"></div>
-                    <div class="acred-name">Colegio Nacional de Psicoanalistas Clínicos</div>
-                    <p class="acred-desc">Organismo de certificación y ética para psicoanalistas clínicos en México. El Dr. Vargas Arreola funge como secretario suplente; varios docentes UIC son miembros activos.</p>
+                    <div class="acred-name">Federación de Instituciones Mexicanas Particulares de Educación Superior</div>
+                    <p class="acred-desc">La UIC cuenta con la acreditación institucional de FIMPES, garantía de calidad académica y gestión institucional responsable en el sistema de educación superior privada de México.</p>
                 </div>
 
                 <div class="acred-card">
-                    <div class="acred-sigla">SNI</div>
+                    <div class="acred-sigla">ANUIES</div>
                     <div class="acred-divider"></div>
-                    <div class="acred-name">Sistema Nacional de Investigadores · CONAHCyT</div>
-                    <p class="acred-desc">Varios docentes del cuerpo académico UIC son miembros del SNI Nivel 1, el máximo reconocimiento a investigadores activos en México.</p>
+                    <div class="acred-name">Asociación Nacional de Universidades e Instituciones de Educación Superior</div>
+                    <p class="acred-desc">La UIC es miembro activo de ANUIES, que agrupa a las principales instituciones de educación superior de México y garantiza el reconocimiento mutuo de grados académicos.</p>
                 </div>
 
                 <div class="acred-card">
                     <div class="acred-sigla">SEP</div>
                     <div class="acred-divider"></div>
                     <div class="acred-name">Reconocimiento de Validez Oficial de Estudios</div>
-                    <p class="acred-desc">Todos los programas de la UIC cuentan con RVOE otorgado por la Secretaría de Educación Pública. Tus estudios tienen plena validez oficial en México.</p>
+                    <p class="acred-desc">Todos los programas de la División de Negocios UIC cuentan con RVOE otorgado por la Secretaría de Educación Pública. Tus estudios tienen plena validez oficial en todo México.</p>
                 </div>
 
                 <div class="acred-card">
-                    <div class="acred-sigla">+45</div>
+                    <div class="acred-sigla">21</div>
                     <div class="acred-divider"></div>
-                    <div class="acred-name">Años formando psicólogos y psicoanalistas en México</div>
-                    <p class="acred-desc">Trayectoria que respalda la solidez académica y la red de egresados activos en todo el país y Latinoamérica.</p>
+                    <div class="acred-name">Acuerdos de Intercambio Académico Internacional</div>
+                    <p class="acred-desc">La UIC mantiene 21 acuerdos de intercambio académico internacional, permitiendo a sus alumnos expandir su formación y red de contactos en el extranjero</p>
                 </div>
 
             </div>
 
             <div class="rvoe-banner">
                 <div class="rvoe-text">
-                    <div class="rvoe-badge">Programas con RVOE:<br><br></div>
-                    <p>La Licenciatura en Psicología, la Maestría en Psicoterapia Psicoanalítica, el Doctorado en Psicoanálisis y el Postdoctorado en Psicoanálisis Contemporáneo cuentan con Reconocimiento de Validez Oficial de Estudios de la Secretaría de Educación Pública. Tus estudios son reconocidos en todo México.</p>
+                    <div class="rvoe-badge">Programas con RVOE vigente:<br><br></div>
+                    <p>La Licenciatura en Administración y Dirección Estratégica, la Licenciatura en Inteligencia Financiera y Contaduría (RVOE No. 20261845, 17 de abril de 2026), la Licenciatura en Mercadotecnia, la Licenciatura en Relaciones Comerciales Internacionales, la Licenciatura en Administración de Negocios Turísticos, la Maestría en Administración de Negocios (RVOE No. 20180432), la Maestría en Comercio Internacional (RVOE No. 2005299), la Maestría en Dirección Estratégica y Gestión de la Innovación (RVOE No. 20110846) y el Doctorado en Administración (RVOE No. 20121906) cuentan con Reconocimiento de Validez Oficial de Estudios de la Secretaría de Educación Pública.</p>
                 </div>
             </div>
         </div>
@@ -3841,7 +6033,7 @@
 
 
 
-        const PROGRAM_IDS = ['administracion', 'contaduria', 'mercadotecnia', 'rci', 'turismo'];
+        const PROGRAM_IDS = ['administracion', 'contaduria', 'mercadotecnia', 'rci', 'turismo', 'mba', 'mci', 'mde', 'doa'];
         const programSections = document.querySelectorAll('.prog-sec');
         const links = document.querySelectorAll('.prog-nav a');
         const pcards = document.querySelectorAll('.pcard');
@@ -3920,29 +6112,6 @@
                 form.find('[name="digformacont_txt_c"]').val(jQuery(this).val());
             });
         });
-        // PAÍS
-        // jQuery('#pais').change(function() {
-        //     var opcion = jQuery(this).val();
-        //     var pais = jQuery('#pais');
-        //     var lada = jQuery('#lada');
-        //     var tel = jQuery('#phone_work');
-        //     var dial = jQuery('#dial_code');
-
-        //     if (opcion == 'México') {
-        //         jQuery('#estado_txt').parent().removeClass('dnone');
-        //         jQuery('#estado_txt').attr('required', 'required');
-        //     } else {
-        //         jQuery('#estado_txt').parent().addClass('dnone');
-        //         jQuery('#estado_txt').removeAttr('required');
-        //         jQuery('#estado_txt').val('').trigger('change');
-        //     }
-        //     lada.val(jQuery(this).find(':selected').attr('data-lada'))
-        //     dial.val(jQuery(this).find(':selected').attr('data-lada'))
-        // });
-        // jQuery(function() {
-        //     var pageURL = jQuery(location).attr("href");
-        //     jQuery('#url-result').val(pageURL)
-        // });
 
         jQuery('.float-trigger').each(function() {
             var form = jQuery(this);
@@ -3970,101 +6139,6 @@
             jQuery('[id="url-result"]').val(pageURL);
         });
     </script>
-    <!-- <footer class="bg-black text-white pt-16 pb-8 border-t-4 border-[#006847]">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-
-              
-                <div>
-                    <img src="https://www.uic.mx/licenciaturas/wp-content/uploads/2024/05/Logo-50-Universidad-Intercontinental-horizontal-blanco-scaled.png"
-                        alt="Logo UIC Blanco"
-                        class="h-14 mb-6"
-                        onerror="this.src='https://uic.mx/ia-html/UIC2/imagenes/logo-uic.png'">
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        Más de 45 años formando líderes con valores humanos y visión global. Orgullosamente UIC.
-                    </p>
-                    <div class="flex space-x-4">
-                        <a href="https://facebook.com/uicmx" class="text-slate-400 hover:text-white transition-colors">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
-                            </svg>
-                        </a>
-                        <a href="https://instagram.com/uicmx" class="text-slate-400 hover:text-white transition-colors">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.668-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
-                            </svg>
-                        </a>
-                        <a href="https://linkedin.com/school/universidad-intercontinental" class="text-slate-400 hover:text-white transition-colors">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-               
-                <div>
-                    <h4 class="text-white font-bold mb-6 text-lg">Oferta Académica</h4>
-                    <ul class="space-y-4 text-sm text-slate-400">
-                        <li><a href="https://uic.mx/licenciaturas/" class="hover:text-green-400 transition-colors" target="_blank">Licenciaturas</a></li>
-                        <li><a href="https://uic.mx/posgrados/" class="hover:text-green-400 transition-colors" target="_blank">Posgrados</a></li>
-                        <li><a href="https://uic.mx/educacion-continua/" class="hover:text-green-400 transition-colors" target="_blank">Educación Continua</a></li>
-                        <li><a href="https://www.uic.mx/bachillerato/" class="hover:text-green-400 transition-colors" target="_blank">Bachillerato</a></li>
-                        <li><a href="https://educacionenlinea.uic.mx/" class="hover:text-green-400 transition-colors" target="_blank">Programas en Línea</a></li>
-
-                    </ul>
-                </div>
-
-               
-                <div>
-                    <h4 class="text-white font-bold mb-6 text-lg">Vida Universitaria</h4>
-                    <ul class="space-y-4 text-sm text-slate-400">
-                        <li><a href="https://uic.mx/becas/" class="hover:text-green-400 transition-colors" target="_blank">Becas y Apoyo</a></li>
-                        <li><a href="https://servicios2.uic.edu.mx/Estudiantes/Paginas/Login.aspx" class="hover:text-green-400 transition-colors" target="_blank">Servicios Estudiantiles</a></li>
-                        <li><a href="https://www.uic.mx/internacionalizacion/" class="hover:text-green-400 transition-colors" target="_blank">Internacionalización</a></li>
-                        <li><a href="https://www.uic.mx/formacion-integral/" class="hover:text-green-400 transition-colors" target="_blank">Formación integral</a></li>
-                        <li><a href="https://www.uic.mx/coordinacion-de-impulso-social-y-empresarial/empleabilidad-y-egresados/" class="hover:text-green-400 transition-colors" target="_blank">Inserción laboral</a></li>
-                    </ul>
-                </div>
-
-                
-                <div>
-                    <h4 class="text-white font-bold mb-6 text-lg">Contacto</h4>
-                    <ul class="space-y-4 text-sm text-slate-400">
-                        <li class="flex items-start">
-                            <svg class="w-5 h-5 mr-3 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                            </svg>
-                            <span>Av. Insurgentes Sur 4303, Santa Úrsula Xitla, Tlalpan, CDMX.</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-3 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
-                            <a href="tel:5554817300" class="hover:text-white transition-colors">55 5481 7300</a>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-3 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                            </svg>
-                            <a href="mailto:informes@uic.edu.mx" class="hover:text-white transition-colors">informes@uic.edu.mx</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-           
-            <div class="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 space-y-4 md:space-y-0">
-                <div class="flex space-x-6">
-                    <a href="https://www.uic.mx/aviso-de-privacidad/" class="hover:text-white" target="_blank">Aviso de Privacidad</a>
-                    <a href="https://www.uic.mx/reglamentos/" class="hover:text-white" target="_blank">Reglamentos</a>
-                    <a href="https://www.uic.mx/reglamentos/" class="hover:text-white" target="_blank">Código de ética</a>
-                </div>
-                <p>© 2026 Universidad Intercontinental. Todos los derechos reservados.</p>
-            </div>
-        </div>
-    </footer> -->
     <footer class="bg-black text-white pt-1 pb-8 border-t-4 border-[#ddb96a]">
         <div class="max-w-7xl mx-auto px-4">
             <!-- Footer Bottom: Legal -->
@@ -4162,27 +6236,6 @@
         mobileLinks.forEach(link => {
             link.addEventListener('click', () => toggleMenu(false));
         });
-
-
-
-        // document.addEventListener('DOMContentLoaded', () => {
-        //     const menuToggle = document.querySelector('.menu-toggle');
-        //     const heroNav = document.querySelector('.hero-nav');
-        //     const dropdown = document.querySelector('.dropdown');
-
-        //     // Abrir/Cerrar menú hamburguesa
-        //     menuToggle.addEventListener('click', () => {
-        //         heroNav.classList.toggle('is-active');
-        //     });
-
-        //     // Abrir/Cerrar dropdown en móvil al tocar "Institucional"
-        //     dropdown.addEventListener('click', (e) => {
-        //         if (window.innerWidth <= 992) {
-        //             e.preventDefault(); // Evita que el link recargue la página
-        //             dropdown.classList.toggle('is-open');
-        //         }
-        //     });
-        // });
 
 
         document.addEventListener('DOMContentLoaded', () => {
