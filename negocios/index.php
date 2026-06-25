@@ -2931,7 +2931,6 @@
                     <button class="float-btn bg-mba" onclick="submitFloat('flt-mba')" name="Submit" id="send">Solicitar información →</button>
                     <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-mba.html">
                     <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
-                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
                     <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
                 </div>
@@ -3307,7 +3306,6 @@
                     <button class="float-btn bg-mci" onclick="submitFloat('flt-mci')" name="Submit" id="send">Solicitar información →</button>
                     <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-comercioint.html">
                     <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
-                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
                     <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
                 </div>
@@ -3683,7 +3681,6 @@
                     <button class="float-btn bg-mde" onclick="submitFloat('flt-mde')" name="Submit" id="send">Solicitar información →</button>
                     <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-direstrategica.html">
                     <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
-                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
                     <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
                 </div>
@@ -4059,7 +4056,6 @@
                     <button class="float-btn bg-doa" onclick="submitFloat('flt-doa')" name="Submit" id="send">Solicitar información →</button>
                     <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-docadmon.html">
                     <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
-                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
                     <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
                 </div>

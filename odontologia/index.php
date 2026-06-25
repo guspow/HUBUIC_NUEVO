@@ -9,254 +9,370 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ══ PRIMARY SEO ══ -->
-    <title>Psicología y Psicoanálisis · Universidad Intercontinental · Ciudad de México</title>
-    <meta name="description" content="Licenciatura en Psicología, Maestría en Psicoterapia Psicoanalítica, Doctorado y Postdoctorado en Psicoanálisis en la Universidad Intercontinental (UIC). Formación humanista con clínica real en CDMX." />
-    <meta name="keywords" content="licenciatura psicología CDMX, maestría psicoterapia psicoanalítica México, doctorado psicoanálisis México, postdoctorado psicoanálisis contemporáneo, Universidad Intercontinental UIC, posgrado psicoanálisis Ciudad de México" />
+    <title>Odontología Digital · UIC México</title>
+    <meta name="description" content="Domina la odontología digital con los cursos de Educación Continua de la UIC. Aprende Blue Sky Plan, prótesis total digital y flujos CAD/CAM en Ciudad de México. Inscripciones abiertas.">
+    <link rel="icon" href="https://www.uic.mx/licenciaturas/wp-content/uploads/favicon_uic.png">
+    <meta name="keywords" content="odontología digital, cursos odontología CDMX, Blue Sky Plan, guías quirúrgicas, prótesis total digital, CAD/CAM dental, educación continua odontología, UIC Universidad Intercontinental">
     <meta name="robots" content="index, follow" />
-
+    <meta name="author" content="Universidad Intercontinental – Educación Continua">
+    <meta name="language" content="Spanish">
+    <meta name="geo.region" content="MX-CMX">
+    <meta name="geo.placename" content="Ciudad de México">
 
     <!-- ══ OPEN GRAPH ══ -->
-    <link rel="canonical" href="https://uic.mx/psicologia/">
+    <link rel="canonical" href="https://www.uic.mx/educacion-continua/odontologia-digital/">
+    <link rel="alternate" hreflang="es-mx" href="https://www.uic.mx/educacion-continua/odontologia-digital/">
+    <link rel="alternate" hreflang="x-default" href="https://www.uic.mx/educacion-continua/odontologia-digital/">
 
+    <!-- ═══════════════════════════════════════════════════
+        OPEN GRAPH (AEO / GEO / Social)
+    ═══════════════════════════════════════════════════ -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Psicología y Psicoanálisis · UIC México">
-    <meta property="og:description" content="Licenciatura, Maestría, Doctorado y Postdoctorado en Psicología y Psicoanálisis en la UIC.">
-    <meta property="og:image" content="https://uic.mx/ia-html/UIC_NUEVO/imagenes/Psicologiaypsicoanalisis.jpg">
+    <meta property="og:title" content="Cursos de Odontología Digital – Educación Continua UIC">
+    <meta property="og:description" content="Diseño de guías quirúrgicas en Blue Sky Plan, Prótesis Total Digital y Odontología Digital desde cero. Cursos presenciales en la UIC, Ciudad de México.">
+    <meta property="og:image" content="https://www.uic.mx/imagenes/odontologia/header.jpg">
+    <meta property="og:url" content="https://www.uic.mx/odontologia/">
+    <meta property="og:image:alt" content="Cursos de Odontología Digital en la UIC">
+    <meta property="og:locale" content="es_MX">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:url" content="https://uic.mx/psicologia/">
-    <meta property="og:locale" content="es_MX">
+    <meta property="og:image:type" content="image/jpg">
 
-    <!-- ══ SCHEMA.ORG JSON-LD ══ -->
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cursos de Odontología Digital – UIC Educación Continua">
+    <meta name="twitter:description" content="Diseño de guías quirúrgicas, Prótesis Total Digital y Odontología Digital. Únete en la Universidad Intercontinental, CDMX.">
+    <meta name="twitter:image" content="https://www.uic.mx/educacion-continua/wp-content/uploads/Odontologia-Digital_Header-300x169.jpg">
 
+
+
+    <!-- ═══════════════════════════════════════════════════
+       SCHEMA.ORG — JSON-LD COMPLETO
+       CollectionPage + ItemList + Course×3 +
+       EducationalOrganization + BreadcrumbList + FAQPage
+    ═══════════════════════════════════════════════════ -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@graph": [{
-                    "@type": ["CollegeOrUniversity", "EducationalOrganization"],
-                    "@id": "https://uic.mx/psicologia//#org",
+                    "@type": "WebPage",
+                    "@id": "https://www.uic.mx/odontologia/#webpage",
+                    "url": "https://www.uic.mx/odontologia/",
+                    "name": "Odontología Digital – UIC México",
+                    "description": "Programas de odontología digital de la Universidad Intercontinental: Blue Sky Plan, Prótesis Total Digital y fundamentos de Odontología Digital.",
+                    "inLanguage": "es-MX",
+                    "datePublished": "2024-01-01",
+                    "dateModified": "2025-04-01",
+                    "isPartOf": {
+                        "@id": "https://www.uic.mx/#website"
+                    },
+                    "about": {
+                        "@type": "Thing",
+                        "name": "Odontología Digital",
+                        "description": "Conjunto de tecnologías digitales aplicadas a la práctica odontológica, incluyendo CAD/CAM, planificación implantológica y fabricación digital de prótesis."
+                    },
+                    "breadcrumb": {
+                        "@id": "https://www.uic.mx/odontologia/#breadcrumb"
+                    },
+                    "mainEntity": {
+                        "@id": "https://www.uic.mx/odontologia/#course-list"
+                    }
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://www.uic.mx/#website",
+                    "url": "https://www.uic.mx",
                     "name": "Universidad Intercontinental",
-                    "alternateName": "UIC",
-                    "url": "https://www.uic.edu.mx",
-                    "logo": "https://www.uic.mx/licenciaturas/wp-content/uploads/2024/05/Logo-50-Universidad-Intercontinental-horizontal-blanco-scaled.png",
-                    "image": "https://uic.mx/ia-html/UIC_NUEVO/imagenes/Psicologiaypsicoanalisis.jpg",
+                    "publisher": {
+                        "@id": "https://www.uic.mx/#organization"
+                    }
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "@id": "https://www.uic.mx/#organization",
+                    "name": "Universidad Intercontinental",
+                    "alternateName": ["UIC", "UIC México"],
+                    "url": "https://www.uic.mx",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://www.uic.mx/educacion-continua/wp-content/uploads/Logo-50-Universidad-Intercontinental-horizontal-blanco-scaled.png",
+                        "caption": "Logo Universidad Intercontinental 50 aniversario"
+                    },
                     "address": {
                         "@type": "PostalAddress",
-                        "addressLocality": "Ciudad de México",
-                        "addressCountry": "MX",
-                        "streetAddress": "Avenida Insurgentes Sur 4303, Colonia Santa Úrsula Xitla, Alcaldía Tlalpan",
-                        "postalCode": "14420"
+                        "streetAddress": "Av. Insurgentes Sur 4303",
+                        "addressLocality": "Santa Úrsula Xitla, Tlalpan",
+                        "addressRegion": "Ciudad de México",
+                        "postalCode": "14420",
+                        "addressCountry": "MX"
                     },
-                    "sameAs": ["https://www.facebook.com/UICMexico", "https://www.instagram.com/uic_mexico", "https://www.youtube.com/@UICeduMx2014", "https://twitter.com/uicmx?lang=es", "https://mx.linkedin.com/school/universidad-intercontinental", "https://www.tiktok.com/@uic.mx"]
-                },
-                {
-                    "@type": "Course",
-                    "@id": "#lic",
-                    "name": "Licenciatura en Psicología",
-                    "description": "Programa de licenciatura que forma psicólogos con competencias clínicas, educativas, neuropsicológicas y de investigación. Disponible en modalidad escolarizada (4 años), a distancia (2 años 8 meses) y en línea (2 años 3 meses).",
-                    "provider": {
-                        "@id": "https://uic.mx/psicologia//#org"
-                    },
-                    "teaches": ["Psicología clínica", "Evaluación psicológica", "Neuropsicología", "Psicopatología", "Intervención psicoeducativa", "Psicología de la salud"],
-                    "courseMode": ["onsite", "online", "blended"],
-                    "hasCourseInstance": [{
-                            "@type": "CourseInstance",
-                            "courseMode": "onsite",
-                            "name": "Modalidad Escolarizada",
-                            "duration": "P4Y"
+                    "telephone": "+52-55-5487-1300",
+                    "contactPoint": [{
+                            "@type": "ContactPoint",
+                            "telephone": "+52-55-5487-1300",
+                            "contactType": "customer service",
+                            "availableLanguage": "Spanish"
                         },
                         {
-                            "@type": "CourseInstance",
-                            "courseMode": "online",
-                            "name": "Modalidad a Distancia",
-                            "duration": "P2Y8M"
-                        },
-                        {
-                            "@type": "CourseInstance",
-                            "courseMode": "blended",
-                            "name": "Modalidad en Línea",
-                            "duration": "P2Y3M"
+                            "@type": "ContactPoint",
+                            "telephone": "+52-55-4439-8846",
+                            "contactType": "sales",
+                            "contactOption": "WhatsApp",
+                            "availableLanguage": "Spanish"
                         }
                     ],
-                    "instructor": {
-                        "@type": "Person",
-                        "name": "Dr. William Alves de Oliveira",
-                        "jobTitle": "Director de la Licenciatura en Psicología",
-                        "worksFor": {
-                            "@id": "https://www.uic.edu.mx/#org"
-                        }
-                    }
-                },
-                {
-                    "@type": "Course",
-                    "@id": "#mst",
-                    "name": "Maestría en Psicoterapia Psicoanalítica",
-                    "description": "Posgrado de especialización clínica para psicólogos titulados. Forma psicoterapeutas en la práctica psicoanalítica contemporánea y relacional. Modalidad mixta, 5 semestres.",
-                    "provider": {
-                        "@id": "https://uic.mx/psicologia//#org"
-                    },
-                    "educationalLevel": "Maestría",
-                    "teaches": ["Psicoterapia psicoanalítica", "Psicoanálisis relacional", "Supervisión clínica", "Neuropsicoanálisis", "Metodología cualitativa", "Diagnóstico psicodinámico"],
-                    "courseMode": "blended",
-                    "hasCourseInstance": [{
-                        "@type": "CourseInstance",
-                        "courseMode": "blended",
-                        "name": "Modalidad Mixta",
-                        "duration": "P2Y6M"
-                    }],
-                    "instructor": {
-                        "@type": "Person",
-                        "@id": "#dr-rva"
-                    }
-                },
-                {
-                    "@type": "Course",
-                    "@id": "#doc",
-                    "name": "Doctorado en Psicoanálisis",
-                    "description": "Programa doctoral de alta especialización para formar investigadores y clínicos avanzados. Produce conocimiento psicoanalítico original. Modalidad mixta, 3 semestres y un verano. 4 áreas de acentuación.",
-                    "provider": {
-                        "@id": "https://uic.mx/psicologia//#org"
-                    },
-                    "educationalLevel": "Doctorado",
-                    "teaches": ["Investigación psicoanalítica", "Clínica avanzada", "Psicoanálisis contemporáneo", "Didáctica psicoanalítica", "Neuropsicoanálisis", "Ética psicoanalítica"],
-                    "courseMode": "blended",
-                    "hasCourseInstance": [{
-                        "@type": "CourseInstance",
-                        "courseMode": "blended",
-                        "name": "Modalidad Mixta",
-                        "duration": "P1Y6M"
-                    }],
-                    "instructor": {
-                        "@type": "Person",
-                        "@id": "#dr-rva"
-                    }
-                },
-                {
-                    "@type": "Course",
-                    "@id": "#post",
-                    "name": "Postdoctorado en Psicoanálisis Contemporáneo",
-                    "description": "Programa postdoctoral para doctores en ejercicio. Actualización en psicoanálisis relacional, intersubjetivo y las fronteras actuales del campo. 100% a distancia, 3 semestres. Cuerpo docente internacional.",
-                    "provider": {
-                        "@id": "https://uic.mx/psicologia//#org"
-                    },
-                    "educationalLevel": "Postdoctorado",
-                    "teaches": ["Psicoanálisis relacional", "Psicoanálisis intersubjetivo", "Modelos del inconsciente", "Investigación postdoctoral", "Neuropsicoanálisis avanzado"],
-                    "courseMode": "online",
-                    "hasCourseInstance": [{
-                        "@type": "CourseInstance",
-                        "courseMode": "online",
-                        "name": "Modalidad a Distancia",
-                        "duration": "P1Y6M"
-                    }],
-                    "instructor": {
-                        "@type": "Person",
-                        "@id": "#dr-rva"
-                    }
-                },
-                {
-                    "@type": "Person",
-                    "@id": "#dr-rva",
-                    "name": "Dr. Roberto Vargas Arreola",
-                    "jobTitle": "Director de Posgrados en Psicoanálisis",
-                    "worksFor": {
-                        "@id": "https://uic.mx/psicologia//#docentes"
-                    },
-                    "knowsAbout": ["Psicoanálisis relacional", "Parejas y familia contemporáneas", "Psicoanálisis en contextos actuales", "Intervención clínica psicoanalítica"],
-                    "description": "Director de los programas de posgrado en psicoanálisis de la UIC. Doctor en Psicoanálisis con área en Pareja y familia. Analista y supervisor didáctico. Miembro IARPP, vocal AMPPR, secretario suplente CNPC. Director de Dasein: Espacio de Psicoterapia.",
-                    "hasCredential": {
-                        "@type": "EducationalOccupationalCredential",
-                        "credentialCategory": "Doctor en Psicoanálisis"
-                    },
-                    "author": [{
-                            "@type": "Book",
-                            "name": "La piel del mundo: Una mirada del Psicoanálisis Relacional a las familias contemporáneas"
-                        },
-                        {
-                            "@type": "Book",
-                            "name": "La Dignidad Compartida: Ética desde el Psicoanálisis Relacional frente a la violencia y la cosificación"
-                        },
-                        {
-                            "@type": "CreativeWork",
-                            "name": "PRAD – Perfil Relacional para Adolescentes (instrumento clínico)"
-                        }
-                    ]
-                },
-                {
-                    "@type": "FAQPage",
-                    "mainEntity": [{
-                            "@type": "Question",
-                            "name": "¿Qué programas de psicología ofrece la Universidad Intercontinental?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "La UIC ofrece cuatro programas: Licenciatura en Psicología (escolarizada, distancia y en línea), Maestría en Psicoterapia Psicoanalítica (mixta, 5 semestres), Doctorado en Psicoanálisis (mixta, 3 semestres + verano) y Postdoctorado en Psicoanálisis Contemporáneo (a distancia, 3 semestres)."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "¿Cuál es la diferencia entre la Maestría en Psicoterapia Psicoanalítica y el Doctorado en Psicoanálisis de la UIC?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "La Maestría privilegia la formación clínica aplicada: el alumno desarrolla habilidades para atender pacientes. El Doctorado se orienta a la producción original de conocimiento psicoanalítico: el doctorando investiga, teoriza y genera aportes al campo. En el doctorado, el caso clínico es fuente epistemológica, no solo práctica."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "¿La Licenciatura en Psicología de la UIC está disponible en línea?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Sí. La Licenciatura en Psicología se ofrece en modalidad escolarizada (4 años), a distancia (aprox. 2 años 8 meses) y en línea (aprox. 2 años 3 meses). Todas las modalidades tienen el mismo plan de estudios y respaldo académico."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "¿A quién va dirigido el Postdoctorado en Psicoanálisis Contemporáneo de la UIC?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "A doctores en ejercicio que buscan actualización en las corrientes más recientes del psicoanálisis relacional e intersubjetivo. El programa es 100% a distancia, con docentes internacionales de España, Chile y Argentina."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "¿Qué perfil de ingreso se requiere para el Doctorado en Psicoanálisis de la UIC?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Título de maestría en psicología, psicoterapia, salud mental, pedagogía o humanidades con componente clínico. Expediente sobresaliente, conocimientos sólidos de las escuelas psicoanalíticas, psicopatología dinámica y técnica psicoanalítica."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "¿Qué diferencia a la Licenciatura en Psicología de la UIC de otras universidades?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "La UIC destaca por integrar una perspectiva humanista y psicoanalítica que complementa los enfoques empíricos tradicionales. Además, te formarás con un cuerpo docente de alto nivel que incluye: Clínicos activos en el campo.Investigadores pertenecientes al SNI (Sistema Nacional de Investigadores). Docentes con certificaciones internacionales en TCC, DBT y neuropsicología."
-                            }
-                        }
+                    "sameAs": [
+                        "https://www.facebook.com/uicmx",
+                        "https://www.instagram.com/uicmx/",
+                        "https://es.wikipedia.org/wiki/Universidad_Intercontinental"
                     ]
                 },
                 {
                     "@type": "BreadcrumbList",
+                    "@id": "https://www.uic.mx/educacion-continua/odontologia-digital/#breadcrumb",
                     "itemListElement": [{
                             "@type": "ListItem",
                             "position": 1,
                             "name": "Inicio",
-                            "item": "https://uic.mx/psicologia/"
+                            "item": "https://www.uic.mx"
                         },
                         {
                             "@type": "ListItem",
                             "position": 2,
-                            "name": "Programas",
-                            "item": "https://uic.mx/psicologia//#programas"
+                            "name": "Educación Continua",
+                            "item": "https://www.uic.mx/educacion-continua/"
                         },
                         {
                             "@type": "ListItem",
                             "position": 3,
-                            "name": "Psicología y Psicoanálisis",
-                            "item": "https://uic.mx/psicologia//#programas"
+                            "name": "Odontología Digital",
+                            "item": "https://www.uic.mx/educacion-continua/odontologia-digital/"
+                        }
+                    ]
+                },
+                {
+                    "@type": "ItemList",
+                    "@id": "https://www.uic.mx/educacion-continua/odontologia-digital/#course-list",
+                    "name": "Cursos de Odontología Digital – UIC Educación Continua",
+                    "description": "Tres cursos especializados en tecnología digital aplicada a la odontología, impartidos por la Universidad Intercontinental en Ciudad de México.",
+                    "numberOfItems": 3,
+                    "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "url": "https://www.uic.mx/educacion-continua/diseno-de-guias-quirurgicas-en-blue-sky-plan/",
+                            "item": {
+                                "@id": "https://www.uic.mx/educacion-continua/diseno-de-guias-quirurgicas-en-blue-sky-plan/#course"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "url": "https://www.uic.mx/educacion-continua/protesis-total-digital-fundamentos-y-aplicacion-clinica/",
+                            "item": {
+                                "@id": "https://www.uic.mx/educacion-continua/protesis-total-digital-fundamentos-y-aplicacion-clinica/#course"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "url": "https://www.uic.mx/educacion-continua/odontologia-digital-fundamentos-y-aplicaciones-desde-cero/",
+                            "item": {
+                                "@id": "https://www.uic.mx/educacion-continua/odontologia-digital-fundamentos-y-aplicaciones-desde-cero/#course"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "Course",
+                    "@id": "https://www.uic.mx/educacion-continua/diseno-de-guias-quirurgicas-en-blue-sky-plan/#course",
+                    "name": "Diseño de Guías Quirúrgicas en Blue Sky Plan",
+                    "description": "Aprende a planificar y diseñar guías quirúrgicas para implantes dentales mediante el software Blue Sky Plan. El curso cubre desde la importación de DICOM hasta la exportación del archivo para impresión 3D, integrando planificación implantológica digital precisa.",
+                    "url": "https://www.uic.mx/educacion-continua/diseno-de-guias-quirurgicas-en-blue-sky-plan/",
+                    "image": "https://www.uic.mx/educacion-continua/wp-content/uploads/Odontologia-Digital_Header-300x169.jpg",
+                    "provider": {
+                        "@id": "https://www.uic.mx/#organization"
+                    },
+                    "inLanguage": "es",
+                    "educationalLevel": "Professional",
+                    "teaches": "Planificación implantológica digital, diseño de guías quirúrgicas, software Blue Sky Plan, flujo de trabajo DICOM-STL",
+                    "about": [{
+                            "@type": "Thing",
+                            "name": "Blue Sky Plan"
+                        },
+                        {
+                            "@type": "Thing",
+                            "name": "Guías Quirúrgicas Dentales"
+                        },
+                        {
+                            "@type": "Thing",
+                            "name": "Planificación de Implantes"
+                        }
+                    ],
+                    "occupationalCategory": "Odontólogo, Implantólogo, Cirujano Maxilofacial",
+                    "courseMode": ["onsite"],
+                    "coursePrerequisites": "Título de Licenciatura en Cirujano Dentista o área afín",
+                    "hasCourseInstance": {
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "location": {
+                            "@type": "Place",
+                            "name": "Universidad Intercontinental – Campus Sur",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "streetAddress": "Av. Insurgentes Sur 4303",
+                                "addressLocality": "Tlalpan",
+                                "addressRegion": "CDMX",
+                                "postalCode": "14420",
+                                "addressCountry": "MX"
+                            }
+                        }
+                    }
+                },
+                {
+                    "@type": "Course",
+                    "@id": "https://www.uic.mx/educacion-continua/protesis-total-digital-fundamentos-y-aplicacion-clinica/#course",
+                    "name": "Prótesis Total Digital: Fundamentos y Aplicación Clínica",
+                    "description": "Curso práctico sobre el flujo de trabajo digital completo para la fabricación de prótesis totales. Cubre desde el registro oclusal digital, diseño CAD en software especializado, hasta el fresado o impresión 3D de bases y dientes protésicos con aplicación clínica inmediata.",
+                    "url": "https://www.uic.mx/educacion-continua/protesis-total-digital-fundamentos-y-aplicacion-clinica/",
+                    "image": "https://www.uic.mx/educacion-continua/wp-content/uploads/Protesis-Total-Digital_Header-300x163.jpg",
+                    "provider": {
+                        "@id": "https://www.uic.mx/#organization"
+                    },
+                    "inLanguage": "es",
+                    "educationalLevel": "Professional",
+                    "teaches": "Prótesis total digital, CAD/CAM dental, diseño protésico, impresión 3D dental, software protésico",
+                    "about": [{
+                            "@type": "Thing",
+                            "name": "Prótesis Total Digital"
+                        },
+                        {
+                            "@type": "Thing",
+                            "name": "CAD/CAM Dental"
+                        },
+                        {
+                            "@type": "Thing",
+                            "name": "Impresión 3D en Odontología"
+                        }
+                    ],
+                    "occupationalCategory": "Prostodoncista, Cirujano Dentista, Técnico Dental",
+                    "courseMode": ["onsite"],
+                    "coursePrerequisites": "Título de Licenciatura en Cirujano Dentista o Técnico en Prótesis Dental",
+                    "hasCourseInstance": {
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "location": {
+                            "@type": "Place",
+                            "name": "Universidad Intercontinental – Campus Sur",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "streetAddress": "Av. Insurgentes Sur 4303",
+                                "addressLocality": "Tlalpan",
+                                "addressRegion": "CDMX",
+                                "postalCode": "14420",
+                                "addressCountry": "MX"
+                            }
+                        }
+                    }
+                },
+                {
+                    "@type": "Course",
+                    "@id": "https://www.uic.mx/educacion-continua/odontologia-digital-fundamentos-y-aplicaciones-desde-cero/#course",
+                    "name": "Odontología Digital: Fundamentos y Aplicaciones desde Cero",
+                    "description": "Introducción integral al ecosistema digital en odontología para profesionales que desean iniciar su transformación digital. Cubre escáner intraoral, software de diseño dental, tecnologías de fabricación (fresado y fotopolimerización) y su integración en la práctica clínica diaria.",
+                    "url": "https://www.uic.mx/educacion-continua/odontologia-digital-fundamentos-y-aplicaciones-desde-cero/",
+                    "image": "https://www.uic.mx/educacion-continua/wp-content/uploads/Odontologia-Digital_Header-300x169.jpg",
+                    "provider": {
+                        "@id": "https://www.uic.mx/#organization"
+                    },
+                    "inLanguage": "es",
+                    "educationalLevel": "Introductory",
+                    "teaches": "Escáneres intraorales, software dental CAD/CAM, fresado dental, impresión 3D, flujo de trabajo digital clínico",
+                    "about": [{
+                            "@type": "Thing",
+                            "name": "Odontología Digital"
+                        },
+                        {
+                            "@type": "Thing",
+                            "name": "Escáner Intraoral"
+                        },
+                        {
+                            "@type": "Thing",
+                            "name": "Tecnología Dental CAD/CAM"
+                        }
+                    ],
+                    "occupationalCategory": "Cirujano Dentista, Estudiante de Posgrado en Odontología",
+                    "courseMode": ["onsite"],
+                    "coursePrerequisites": "Título o último año de Licenciatura en Cirujano Dentista",
+                    "hasCourseInstance": {
+                        "@type": "CourseInstance",
+                        "courseMode": "onsite",
+                        "location": {
+                            "@type": "Place",
+                            "name": "Universidad Intercontinental – Campus Sur",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "streetAddress": "Av. Insurgentes Sur 4303",
+                                "addressLocality": "Tlalpan",
+                                "addressRegion": "CDMX",
+                                "postalCode": "14420",
+                                "addressCountry": "MX"
+                            }
+                        }
+                    }
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://www.uic.mx/educacion-continua/odontologia-digital/#faq",
+                    "mainEntity": [{
+                            "@type": "Question",
+                            "name": "¿Qué es la odontología digital y por qué es importante aprenderla?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "La odontología digital integra tecnologías como escáneres intraorales, software CAD/CAM, fresado automatizado e impresión 3D en la práctica clínica. Permite mayor precisión diagnóstica, reducción de errores de laboratorio y tiempos de entrega más cortos. Los odontólogos que dominan estas herramientas amplían su oferta de servicios y mejoran la experiencia del paciente."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿Para quién son los cursos de odontología digital de la UIC?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Los cursos están dirigidos a cirujanos dentistas, prostodoncistas, implantólogos, cirujanos maxilofaciales y técnicos en prótesis dental que deseen actualizar su práctica con herramientas digitales. El curso 'Odontología Digital desde Cero' está diseñado también para recién egresados que quieran incorporar el flujo digital desde el inicio de su carrera."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿Qué es Blue Sky Plan y para qué sirve en implantología?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Blue Sky Plan es un software de planificación implantológica gratuito que permite importar tomografías DICOM, posicionar virtualmente implantes dentales y diseñar guías quirúrgicas exportables en formato STL para impresión 3D. Su uso facilita cirugías guiadas de alta precisión, reduciendo riesgos anatómicos y mejorando la predictibilidad del tratamiento."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿En qué consiste la prótesis total digital?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "La prótesis total digital es un flujo de trabajo clínico-laboratorial que reemplaza los pasos convencionales de impresión y vaciado por escaneo digital, diseño asistido por computadora (CAD) y fabricación automatizada por fresado o impresión 3D. Ofrece mayor predictibilidad estética, mejor adaptación de la base protésica y posibilidad de duplicar o reparar la prótesis a partir del archivo digital guardado."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿Cómo me inscribo a los cursos de Educación Continua de la UIC?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Puedes inscribirte haciendo clic en el botón de cada curso o contactando directamente a la UIC vía WhatsApp al número 55 4439 8846. También puedes llamar al 55 5487 1300 para obtener información sobre fechas, costos y disponibilidad de lugares."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "¿Los cursos otorgan constancia o certificado?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Sí. La Universidad Intercontinental, institución con más de 48 años de trayectoria académica, acreditada ante FIMPES y miembro de la ANUIES, emite constancias de participación y/o diplomas de acuerdo al tipo de curso. Consulta los detalles específicos de cada programa en su página de inscripción."
+                            }
                         }
                     ]
                 }
-
             ]
         }
     </script>
@@ -295,7 +411,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="../css/psicologia.css">
+    <link rel="stylesheet" href="../css/odontologia.css">
     <script src="https://www.google.com/recaptcha/api.js?render=6LekquUoAAAAAGMnfbnWFjD7VfrLHLjvNOfIP-Ae"></script>
 </head>
 
@@ -305,41 +421,6 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFSZ7BH"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <!-- ═══ BREADCRUMB ═══ -->
-    <!-- <div class="bc-bar">
-        <div class="bc-container">
-            <div class="hero-logo-wrap">
-                <img src="https://www.uic.mx/licenciaturas/wp-content/uploads/2024/05/Logo-50-Universidad-Intercontinental-horizontal-blanco-scaled.png" alt="Logo Universidad Intercontinental" class="hero-logo">
-            </div>
-
-            <button class="menu-toggle" aria-label="Abrir menú">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-            <nav class="hero-nav">
-                <ul class="hero-menu">
-                    <li><a href="https://www.uic.mx/nosotros/">Sobre UIC</a></li>
-                    <li><a href="#licenciatura">Licenciatura</a></li>
-                    <li><a href="#maestria">Maestría</a></li>
-                    <li><a href="#doctorado">Doctorado</a></li>
-                    <li><a href="#postdoctorado">Postdoctorado</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-link">
-                            Institucional <span class="arrow-icon"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Nosotros</a></li>
-                            <li><a href="#">Filosofía Institucional</a></li>
-                            <li><a href="#">Modelo Educativo</a></li>
-                            <li><a href="#">Noticias</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div> -->
 
     <div class="fixed top-0 left-0 w-full bg-[#064c23] shadow-md z-[1000] h-14">
         <div class="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
@@ -354,11 +435,6 @@
             <!-- NAVEGACIÓN ESCRITORIO -->
             <nav class="hidden lg:flex items-center space-x-8">
                 <a href="https://www.uic.mx/nosotros/" class="text-sm font-bold text-white/90 hover:text-white transition-colors" target="_blank">Sobre UIC</a>
-
-                <!-- Botón con bg-lime-600 -->
-                <!-- <a href="#" class="bg-lime-600 text-white px-5 py-2.5 rounded-full text-xs font-extrabold shadow-md hover:bg-lime-700 transition-all transform hover:scale-105 active:scale-95 uppercase tracking-wide" id="openFormBtn">
-                    Solicita informes
-                </a> -->
             </nav>
 
             <!-- BOTÓN MENÚ MÓVIL -->
@@ -386,11 +462,6 @@
 
         <nav class="flex flex-col space-y-6">
             <a href="https://www.uic.mx/nosotros/" class="mobile-link text-xl font-bold text-white border-b border-white/10 pb-2">Sobre UIC</a>
-
-            <!-- Botón móvil con bg-lime-600 -->
-            <!-- <a href="#" class="mobile-link bg-lime-600 text-white text-center py-4 rounded-xl font-extrabold uppercase text-sm shadow-lg">
-                Solicita informes
-            </a> -->
         </nav>
     </div>
 
@@ -400,36 +471,26 @@
     <header class="hero" role="banner">
         <div class="hero-inner">
             <div class="au">
-                <p class="hero-eyebrow">Universidad Intercontinental · Ciudad de México</p>
-                <h1>Psicología &<br /><em>Psicoanálisis</em></h1>
-                <p class="hero-sub">Fórmate con pacientes reales: Tu carrera en Psicología y Psicoanálisis comienza aquí.<br><br>
-                    En la UIC no simulamos la clínica, la vives. Desarrolla la seguridad para ejercer y construir un consultorio exitoso desde la licenciatura hasta el postdoctorado. Regístrate ahora y descarga los planes de estudio completos.
+                <p class="hero-eyebrow">Universidad Intercontinental · Educación continua</p>
+                <h1>Cursos de<br /><em>Odontología Digital</em> <br>en la UIC</h1>
+                <p class="hero-sub">
+                    Domina el flujo de trabajo digital completo: desde la planificación implantológica con Blue Sky Plan
+                    hasta el diseño y fabricación de prótesis totales mediante CAD/CAM. Tres programas especializados,
+                    respaldados por 50 años de excelencia académica.
                 </p>
-                <!-- <div class="hero-pills">
-                <span class="pill">Licenciatura</span>
-                <span class="pill">Maestría</span>
-                <span class="pill">Doctorado</span>
-                <span class="pill">Postdoctorado</span>
-                <span class="pill">IARPP · AMPPR</span>
-                <span class="pill">Clínica real</span>
-            </div> -->
             </div>
             <div class="hero-stats au d2">
                 <div class="stat">
-                    <div class="stat-n">4</div>
-                    <div class="stat-l">Programas de formación especializados</div>
-                </div>
-                <div class="stat">
                     <div class="stat-n">3</div>
-                    <div class="stat-l">Modalidades de estudio disponibles</div>
+                    <div class="stat-l">Cursos especiaizados</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-n">+25</div>
-                    <div class="stat-l">Docentes activos con práctica clínica</div>
+                    <div class="stat-n">50</div>
+                    <div class="stat-l">Años de trayectoria</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-n">IARPP</div>
-                    <div class="stat-l">Afiliación internacional activa</div>
+                    <div class="stat-n">100%</div>
+                    <div class="stat-l">Aplicación clíica</div>
                 </div>
             </div>
         </div>
@@ -439,83 +500,652 @@
     <nav class="prog-nav" aria-label="Programas">
         <div class="prog-nav-inner">
             <a href="#hub"><span class="dot" style="background:var(--gold)"></span>Todos los programas</a>
-            <a href="#licenciatura"><span class="dot bg-lic"></span>Licenciatura</a>
-            <a href="#maestria"><span class="dot bg-mst"></span>Maestría</a>
-            <a href="#doctorado"><span class="dot bg-doc"></span>Doctorado</a>
-            <a href="#postdoctorado"><span class="dot bg-pst"></span>Postdoctorado</a>
-            <a href="#faculty">Cuerpo docente</a>
-            <!-- <a href="#testimonios">Testimonios</a> -->
-            <a href="#clinicas">Clínicas</a>
-            <a href="#acreditaciones">Reconocimientos</a>
+            <a href="#prog"><span class="dot bg-lic"></span>Implantología</a>
+            <a href="#prog"><span class="dot bg-mst"></span>Prostodoncia</a>
+            <a href="#prog"><span class="dot bg-doc"></span>Fundamentos</a>
+            <a href="#guia">Guia de selección</a>
+
         </div>
     </nav>
 
-    <!-- ═══ HUB OVERVIEW ═══ -->
     <section id="hub" class="hub" aria-labelledby="hub-h2">
         <div class="wrap">
-            <p class="sec-label">Oferta académica completa</p>
-            <h2 class="sec-title" id="hub-h2">Elige tu nivel de<br />formación en psicología</h2>
-            <p class="sec-sub">Un itinerario académico completo en ciencias de la mente: desde la formación profesional inicial hasta la investigación postdoctoral de vanguardia.</p>
-
-            <div class="card-grid">
-                <a class="pcard" href="#licenciatura">
-                    <div class="pcard-stripe bg-lic"></div>
-                    <div class="pcard-body">
-                        <div class="pcard-level c-lic">Licenciatura</div>
-                        <h3>Psicología</h3>
-                        <p class="pcard-desc">Formación integral en evaluación, intervención clínica, salud y neuropsicología.</p>
-                        <div class="pcard-meta">
-                            <span class="tag">Escolarizada</span><span class="tag">Distancia</span><span class="tag">En línea</span>
+            <p class="sec-label">Contexto clínico</p>
+            <h2 class="sec-title" id="hub-h2">¿Por qué adoptar el flujo en tu práctica odontológica?</h2>
+            <p class="sec-sub">La odontología digital integra herramientas como escáneres intraorales e impresión 3D para optimizar tus tiempos clínicos y elevar la precisión de tus diagnósticos.
+                Al ofrecer <strong>resultados más estéticos y predecibles</strong>, mejoras la experiencia de tus pacientes y facilitas la aceptación de planes de tratamiento integrales.
+            </p>
+            <br>
+            <div class="card-grid-dos">
+                <a class="pcard" href="#administracion">
+                    <div class="pcard-stripe bg-gold">
+                        <br>
+                        <div class="why-card__icon bg-lic">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+                                <circle cx="11" cy="11" r="8" />
+                                <path d="m21 21-4.35-4.35" />
+                            </svg>
                         </div>
-                        <div class="pcard-link c-lic">Ver programa</div>
+                    </div>
+                    <br><br>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-lic"> </div>
+                        <h3>Mayor seguridad y predictibilidad</h3>
+                        <p class="pcard-desc">Implementar ﬂujos digitales permite alcanzar una mayor <strong>seguridad y predictibilidad clínica</strong> en cada procedimiento.</p>
+                        <!-- <div class="pcard-meta">
+                            <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Alta dirección</span>
+                        </div> -->
+                        <!-- <div class="pcard-link c-lic">Ver programa</div> -->
                     </div>
                 </a>
-                <a class="pcard" href="#maestria">
-                    <div class="pcard-stripe bg-mst"></div>
-                    <div class="pcard-body">
-                        <div class="pcard-level c-mst">Maestría</div>
-                        <h3>Psicoterapia Psicoanalítica</h3>
-                        <p class="pcard-desc">Especialización clínica psicoanalítica relacional para psicólogos titulados. 5 semestres.</p>
-                        <div class="pcard-meta">
-                            <span class="tag">Modalidad mixta</span><span class="tag">Clínica real</span>
+                <a class="pcard" href="#contaduria">
+                    <div class="pcard-stripe bg-gold">
+                        <br>
+                        <div class="why-card__icon bg-lic">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
                         </div>
-                        <div class="pcard-link c-mst">Ver programa</div>
+                    </div>
+                    <br><br>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-mst"> </div>
+                        <h3>Eﬁciencia en tiempos de trabajo</h3>
+                        <p class="pcard-desc">El uso de planiﬁcación virtual y fabricación automatizada permite un <strong>menor tiempo de trabajo</strong> tanto en el consultorio como en el laboratorio dental.</p>
+                        <!-- <div class="pcard-meta">
+                            <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Fiscal · Fintech</span>
+                        </div> -->
+                        <!-- <div class="pcard-link c-mst">Ver programa</div> -->
                     </div>
                 </a>
-                <a class="pcard" href="#doctorado">
-                    <div class="pcard-stripe bg-doc"></div>
-                    <div class="pcard-body">
-                        <div class="pcard-level c-doc">Doctorado</div>
-                        <h3>Psicoanálisis</h3>
-                        <p class="pcard-desc">Alta especialización para producir conocimiento psicoanalítico original. 4 acentuaciones.</p>
-                        <div class="pcard-meta">
-                            <span class="tag">Mixta</span><span class="tag">3 sem + verano</span>
+                <a class="pcard" href="#mercadotecnia">
+                    <div class="pcard-stripe bg-gold">
+                        <br>
+                        <div class="why-card__icon bg-lic">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                            </svg>
                         </div>
-                        <div class="pcard-link c-doc">Ver programa</div>
+                    </div>
+                    <br><br>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-doc"> </div>
+                        <h3>Resultados altamente predecibles</h3>
+                        <p class="pcard-desc">El manejo de archivos digitales como STL y DICOM asegura resultados con <strong>alta predictibilidad estética y funcional</strong>.</p>
+                        <!-- <div class="pcard-meta">
+                            <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Digital · Marcas</span>
+                        </div>
+                        <div class="pcard-link c-doc">Ver programa</div> -->
                     </div>
                 </a>
-                <a class="pcard" href="#postdoctorado">
-                    <div class="pcard-stripe bg-pst"></div>
-                    <div class="pcard-body">
-                        <div class="pcard-level c-pst">Postdoctorado</div>
-                        <h3>Psicoanálisis Contemporáneo</h3>
-                        <p class="pcard-desc">Actualización de alto nivel para doctores. Docentes internacionales. 100% en línea</p>
-                        <div class="pcard-meta">
-                            <span class="tag">Internacional</span>
+                <a class="pcard" href="#rci">
+                    <div class="pcard-stripe bg-gold">
+                        <br>
+                        <div class="why-card__icon bg-lic">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                                <path d="M16 3.13a4 4 0 010 7.75" />
+                            </svg>
                         </div>
-                        <div class="pcard-link c-pst">Ver programa</div>
+                    </div>
+                    <br><br>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-pst"> </div>
+                        <h3>Diferenciación profesional</h3>
+                        <p class="pcard-desc">Capacitarse en estas tecnologías representa una <strong> oportunidad comercial directa</strong>, escalable y con alto valor agregado en el mercado odontológico actual.</p>
+                        <!-- <div class="pcard-meta">
+                            <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Logística · Aduanas</span>
+                        </div>
+                        <div class="pcard-link c-pst">Ver programa</div> -->
                     </div>
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- ═══ HUB OVERVIEW ═══ -->
+    <section id="prog" class="hub" aria-labelledby="hub-h2">
+        <div class="wrap">
+            <p class="sec-label">Programas disponibles</p>
+            <h2 class="sec-title" id="hub-h2">Nuestros tres cursos de Odontología Digital</h2>
+            <p class="sec-sub">Modalidad presencial · Campus UIC, Insurgentes Sur, CDMX</p>
+            <br>
+            <div class="courses-grid">
+
+                <!-- CURSO 1 -->
+                <article
+                    class="course-card"
+                    aria-labelledby="curso1-title"
+                    itemscope
+                    itemtype="https://schema.org/Course"
+                    itemprop="hasPart">
+                    <div class="pcard-stripe bg-lic"></div>
+                    <div class="course-card__image-wrap">
+                        <img
+                            src="https://www.uic.mx/educacion-continua/wp-content/uploads/Odontologia-Digital_Header-300x169.jpg"
+                            alt="Curso de diseño de guías quirúrgicas en Blue Sky Plan – UIC"
+                            width="300" height="169"
+                            loading="lazy"
+                            itemprop="image">
+                        <span class="course-card__badge">Implantología</span>
+                        <span class="course-card__level">Intermedio–Avanzado</span>
+                    </div>
+                    <div class="course-card__body">
+                        <h3 class="course-card__title" id="curso1-title" itemprop="name">
+                            Diseño de Guías Quirúrgicas en Blue Sky Plan
+                        </h3>
+                        <p class="course-card__desc" itemprop="description">
+                            Desarrolla habilidades teórico-prácticas para la planiﬁcación, diseño e impresión de guías quirúrgicas personalizadas utilizando <strong>Blue Sky Plan</strong>.
+                            El curso cubre el ﬂujo digital completo: desde la integración y segmentación de archivos <strong> DICOM y STL </strong> hasta la exportación para impresión 3D,
+                            integrando criterios de precisión, eﬁcacia y seguridad clínica aplicados a casos reales.
+                        </p>
+                        <div class="course-card__topics" aria-label="Temas del curso">
+                            <span class="topic-tag">Blue Sky Plan</span>
+                            <span class="topic-tag">Archivos DICOM / STL</span>
+                            <span class="topic-tag">Guías para implantes</span>
+                            <span class="topic-tag">Guías de reducción ósea</span>
+                            <span class="topic-tag">Impresión 3D</span>
+                        </div>
+                    </div>
+                    <div class="course-card__footer">
+                        <div class="course-card__meta">
+                            <span>
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                </svg>
+                                <strong>Para:</strong>&nbsp;Cirujanos Dentistas y especialistas en Periodoncia, <br>Implantología, Cirugía Bucal y Maxilofacial
+                            </span>
+                            <span>
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                    <line x1="16" y1="2" x2="16" y2="6" />
+                                    <line x1="8" y1="2" x2="8" y2="6" />
+                                    <line x1="3" y1="10" x2="21" y2="10" />
+                                </svg>
+                                <strong>Modalidad:</strong>&nbsp;Presencial · CDMX
+                            </span>
+                        </div>
+                        <a
+                            href="https://www.uic.mx/educacion-continua/diseno-de-guias-quirurgicas-en-blue-sky-plan/"
+                            class="btn-course"
+                            aria-label="Ver detalles e inscripción: Diseño de Guías Quirúrgicas en Blue Sky Plan"
+                            itemprop="url">
+                            Ver curso
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- CURSO 2 -->
+                <article
+                    class="course-card"
+                    aria-labelledby="curso2-title"
+                    itemscope
+                    itemtype="https://schema.org/Course"
+                    itemprop="hasPart">
+                    <div class="pcard-stripe bg-mst"></div>
+                    <div class="course-card__image-wrap">
+                        <img
+                            src="https://www.uic.mx/educacion-continua/wp-content/uploads/Protesis-Total-Digital_Header-300x163.jpg"
+                            alt="Curso de Prótesis Total Digital: fundamentos y aplicación clínica – UIC"
+                            width="300" height="163"
+                            loading="lazy"
+                            itemprop="image">
+                        <span class="course-card__badge">Prostodoncia</span>
+                        <span class="course-card__level">Intermedio</span>
+                    </div>
+                    <div class="course-card__body">
+                        <h3 class="course-card__title" id="curso2-title" itemprop="name">
+                            Prótesis Total Digital: Fundamentos y aplicación clínica
+                        </h3>
+                        <p class="course-card__desc" itemprop="description">
+                            Formación intermedia que integra bases analógicas con un ﬂujo de trabajo digital completo para el diseño y elaboración de prótesis totales.
+                            El participante desarrollará habilidades en <strong>Digital Smile Design (DSD)</strong> y diseño CAD especializado en <strong>EXOCAD</strong>,
+                            culminando con la creación de un enﬁlado, un prototipo y una <strong> prótesis deﬁnitiva impresa en resina </strong>con caracterización realista.
+                        </p>
+                        <div class="course-card__topics" aria-label="Temas del curso">
+                            <span class="topic-tag">Flujo híbrido </span>
+                            <span class="topic-tag">EXOCAD</span>
+                            <span class="topic-tag">Digital Smile Design</span>
+                            <span class="topic-tag">DSD</span>
+                            <span class="topic-tag">Impresión 3D</span>
+                            <span class="topic-tag">Caracterización de encía</span>
+                        </div>
+                    </div>
+                    <div class="course-card__footer">
+                        <div class="course-card__meta">
+                            <span>
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                </svg>
+                                <strong>Para:</strong>&nbsp;Dentistas y estudiantes con conocimiento básico en ExoCad
+                            </span>
+                            <span>
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                    <line x1="16" y1="2" x2="16" y2="6" />
+                                    <line x1="8" y1="2" x2="8" y2="6" />
+                                    <line x1="3" y1="10" x2="21" y2="10" />
+                                </svg>
+                                <strong>Modalidad:</strong>&nbsp;Presencial · CDMX
+                            </span>
+                        </div>
+                        <a
+                            href="https://www.uic.mx/educacion-continua/protesis-total-digital-fundamentos-y-aplicacion-clinica/"
+                            class="btn-course"
+                            aria-label="Ver detalles e inscripción: Prótesis Total Digital"
+                            itemprop="url">
+                            Ver curso
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- CURSO 3 -->
+                <article
+                    class="course-card"
+                    aria-labelledby="curso3-title"
+                    itemscope
+                    itemtype="https://schema.org/Course"
+                    itemprop="hasPart">
+                    <div class="pcard-stripe bg-doc"></div>
+                    <div class="course-card__image-wrap">
+                        <img
+                            src="https://www.uic.mx/educacion-continua/wp-content/uploads/Odontologia-Digital_Header-300x169.jpg"
+                            alt="Curso de Odontología Digital: fundamentos y aplicaciones desde cero – UIC"
+                            width="300" height="169"
+                            loading="lazy"
+                            itemprop="image">
+                        <span class="course-card__badge">Fundamentos</span>
+                        <span class="course-card__level">Introductorio</span>
+                    </div>
+                    <div class="course-card__body">
+                        <h3 class="course-card__title" id="curso3-title" itemprop="name">
+                            Odontología Digital: Fundamentos y aplicaciones desde cero
+                        </h3>
+                        <p class="course-card__desc" itemprop="description">
+                            Programa diseñado para introducir al profesional en el ecosistema digital desde un nivel básico.
+                            Desarrolla competencias para implementar tecnologías de diagnóstico y planiﬁcación mediante el uso de <strong> escáneres intraorales
+                                (iTero, 3Shape Trios, Medit, Primescan)</strong>, software <strong>CAD/CAM</strong> e <strong>impresión 3D</strong>, integrando estas herramientas en la práctica clínica diaria.
+                        </p>
+                        <div class="course-card__topics" aria-label="Temas del curso">
+                            <span class="topic-tag">Escaneo intraoral</span>
+                            <span class="topic-tag">Archivos STL</span>
+                            <span class="topic-tag">PLY</span>
+                            <span class="topic-tag">DICOM</span>
+                            <span class="topic-tag">Diseño CAD</span>
+                            <span class="topic-tag">Impresión 3D</span>
+                            <span class="topic-tag">Postprocesado</span>
+                            <span class="topic-tag">Validación clínica</span>
+                        </div>
+                    </div>
+                    <div class="course-card__footer">
+                        <div class="course-card__meta">
+                            <span>
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                </svg>
+                                <strong>Para:</strong>&nbsp;Odontólogos, titulados y estudiantes
+                            </span>
+                            <span>
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                    <line x1="16" y1="2" x2="16" y2="6" />
+                                    <line x1="8" y1="2" x2="8" y2="6" />
+                                    <line x1="3" y1="10" x2="21" y2="10" />
+                                </svg>
+                                <strong>Modalidad:</strong>&nbsp;Presencial · CDMX
+                            </span>
+                        </div>
+                        <a
+                            href="https://www.uic.mx/educacion-continua/odontologia-digital-fundamentos-y-aplicaciones-desde-cero/"
+                            class="btn-course"
+                            aria-label="Ver detalles e inscripción: Odontología Digital desde Cero"
+                            itemprop="url">
+                            Ver curso
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- <div class="card-grid">
+                <a class="pcard" href="#administracion">
+                    <div class="pcard-stripe bg-lic"></div>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-lic">Licenciatura</div>
+                        <div class="course-card__image-wrap">
+                            <img
+                                src="https://www.uic.mx/educacion-continua/wp-content/uploads/Odontologia-Digital_Header-300x169.jpg"
+                                alt="Curso de diseño de guías quirúrgicas en Blue Sky Plan – UIC"
+                                width="300" height="169"
+                                loading="lazy"
+                                itemprop="image">
+                            <span class="course-card__badge">Implantología</span>
+                            <span class="course-card__level">Intermedio–Avanzado</span>
+                        </div>
+                        <h3>Administración y Dirección Estratégica</h3>
+                        <p class="pcard-desc">Forma líderes con visión estrategica, simuladores de negocios y capacidad de dirección a nivel ejecutivo</p>
+                        <div class="pcard-meta">
+                            <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Alta dirección</span>
+                        </div>
+                        <div class="pcard-link c-lic">Ver programa</div>
+                    </div>
+                </a>
+                <a class="pcard" href="#contaduria">
+                    <div class="pcard-stripe bg-mst"></div>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-mst">Licenciatura</div>
+                        <h3>Contaduría y Finanzas</h3>
+                        <p class="pcard-desc">Gestión financiera, fiscal y contable con enfoque estratégico. Alta empleabilidad en todos los sectores.</p>
+                        <div class="pcard-meta">
+                            <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Fiscal · Fintech</span>
+                        </div>
+                        <div class="pcard-link c-mst">Ver programa</div>
+                    </div>
+                </a>
+                <a class="pcard" href="#mercadotecnia">
+                    <div class="pcard-stripe bg-doc"></div>
+                    <div class="pcard-body">
+                        <div class="pcard-level c-doc">Licenciatura</div>
+                        <h3>Mercadotecnia</h3>
+                        <p class="pcard-desc">Equilibra análisis de datos con creatividad estratégica. Marketing digital, neuromarketing y branding.</p>
+                        <div class="pcard-meta">
+                            <span class="tag">Presencial</span><span class="tag">4 años</span><span class="tag">Digital · Marcas</span>
+                        </div>
+                        <div class="pcard-link c-doc">Ver programa</div>
+                    </div>
+                </a>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="guia" class="hub" aria-labelledby="hub-h2">
+        <div class="wrap">
+            <p class="sec-label">Guia de Selección</p>
+            <h2 class="sec-title" id="hub-h2">¿Qué curso es el indicado para ti?</h2>
+            <p class="sec-sub">
+                Cada programa está diseñado para un perfil y momento de carrera específico. Esta tabla te ayuda a identificar cuál se ajusta mejor a tus objetivos clínicos.
+            </p>
+            <br>
+            <div class="compare-table-wrap">
+                <table class="compare-table" role="table" aria-label="Comparativa de cursos de odontología digital">
+                    <caption style="display:none">Comparativa de los tres cursos de odontología digital de la UIC</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Programa</th>
+                            <th scope="col">Protocolos en Blue Sky Plan (Curso)</th>
+                            <th scope="col">Prótesis Total Digital (Diplomado)</th>
+                            <th scope="col">Odontología Digital desde Cero (Curso)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Nivel</strong></td>
+                            <td>Especializado (Intermedio Avanzado)</td>
+                            <td>Especializado (Profesional)</td>
+                            <td>Introductorio</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Perfil principal</strong></td>
+                            <td>Cirujanos Dentistas, Periodoncistas, Implantólogos y Maxilofaciales</td>
+                            <td>Especialistas en Prótesis Bucal, Dentistas y estudiantes de último semestre</td>
+                            <td>Odontólogos y estudiantes sin experiencia previa en ﬂujos digitales</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Software central</strong></td>
+                            <td>Blue Sky Plan</td>
+                            <td><strong>EXOCAD</strong> (Versiones 3.1, 3.2, 3.3) y Digital Smile Design (DSD)</td>
+                            <td>Ecosistema CAD/CAM (Exocad, 3Shape, DentalCAD)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fabricación digital</strong></td>
+                            <td>Guías quirúrgicas (unitarias, parciales, edéntulos y de <strong>reducción ósea</strong>)</td>
+                            <td><strong>Prótesis deﬁnitiva impresa en resina</strong>, prototipos y enﬁlado digital</td>
+                            <td>Escaneo intraoral, modelos digitales y fundamentos de impresión 3D</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Aplicación inmediata</strong></td>
+                            <td>Planiﬁcación y ejecución de cirugía guiada de alta precisión</td>
+                            <td>Rehabilitación estética y funcional de pacientes edéntulos</td>
+                            <td>Integración del ﬂujo digital en el diagnóstico y consulta diaria</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Requisitos</strong></td>
+                            <td>Licenciatura en Odontología o especialidad afín</td>
+                            <td><strong> Conocimiento básico en ExoCad</strong> (Indispensable)</td>
+                            <td>Ninguna experiencia previa requerida en herramientas digitales</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Duración y valor</strong></td>
+                            <td>50 horas | Constancia UIC</td>
+                            <td>90 horas | <strong>Diploma UIC</strong></td>
+                            <td>40 horas | Constancia UIC</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FAQ ── -->
+    <section class="faq-section" aria-labelledby="faq-title">
+        <div class="wrap">
+            <p class="sec-label">Preguntas frecuentes</p>
+            <h2 id="faq-title" class="sec-title">Todo lo que necesitas saber antes de inscribirte</h2>
+
+            <br>
+
+            <div class="faq-grid" id="faq-list">
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        aria-expanded="false"
+                        aria-controls="faq-ans-1"
+                        id="faq-q-1">
+                        ¿A quiénes están dirigidos exactamente estos programas?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-ans-1" role="region" aria-labelledby="faq-q-1">
+                        <p>
+                            Los programas cubren desde niveles introductorios para <strong>odontólogos generales y estudiantes</strong>,
+                            hasta especializaciones para <strong>Implantólogos, Periodoncistas, Prostodoncistas y Cirujanos Maxilofaciales</strong>.
+                            Incluso, el diplomado de Prótesis permite el ingreso a estudiantes de último semestre de la UIC.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        aria-expanded="false"
+                        aria-controls="faq-ans-2"
+                        id="faq-q-2">
+                        ¿Qué requisitos técnicos o de software necesito cubrir?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-ans-2" role="region" aria-labelledby="faq-q-2">
+                        <p>
+                            Varía según el programa:
+                        </p>
+                        <ul class="lista-fa">
+                            <li><strong>Blue Sky Plan:</strong> Requiere el software homónimo (acceso gratuito).</li>
+                            <li><strong>Odontología Digital desde cero: </strong> No requiere experiencia previa con herramientas digitales.</li>
+                            <li><strong>Prótesis Total Digital: </strong> Es indispensable contar con <strong>Exocad (versión 3.1,
+                                    3.2 o 3.3)</strong> y tener conocimientos básicos en su manejo.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        aria-expanded="false"
+                        aria-controls="faq-ans-3"
+                        id="faq-q-3">
+                        ¿Los programas incluyen práctica con pacientes o casos reales?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-ans-3" role="region" aria-labelledby="faq-q-3">
+                        <p>
+                            Sí, tienen un enfoque 100% aplicado. El curso de Blue Sky incluye <strong>talleres prácticos de escaneo y diseño de guías</strong>.
+                            Por su parte, el Diplomado de Prótesis Total Digital cuenta con una <strong>fase clínica</strong> donde el alumno realiza el ﬂujo completo:
+                            desde el escaneo inicial hasta la entrega y controles de la prótesis deﬁnitiva.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        aria-expanded="false"
+                        aria-controls="faq-ans-4"
+                        id="faq-q-4">
+                        ¿Qué tipo de tecnología y equipos conoceré en los cursos?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-ans-4" role="region" aria-labelledby="faq-q-4">
+                        <p>
+                            Tendrás contacto con el ecosistema digital líder del mercado, incluyendo <strong> escáneres intraorales (iTero, 3Shape Trios, Medit, Primescan)</strong>,
+                            software de diseño <strong>CAD/CAM (Exocad, DentalCAD)</strong> y diversas tecnologías de <strong>impresión 3D (SLA, DLP, LCD, FDM).</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        aria-expanded="false"
+                        aria-controls="faq-ans-5"
+                        id="faq-q-5">
+                        ¿Qué validez académica tienen estos programas de la UIC?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-ans-5" role="region" aria-labelledby="faq-q-5">
+                        <p>
+                            Al concluir satisfactoriamente, recibirás un documento oﬁcial respaldado por el prestigio de la Universidad Intercontinental:
+                        </p>
+                        <ul class="lista-fa">
+                            <li><strong>Cursos:</strong> Recibirás una constancia con valor curricular.</li>
+                            <li><strong>Diplomado: </strong> Se otorga un <strong>Diploma</strong> con aval universitario.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button
+                        class="faq-question"
+                        aria-expanded="false"
+                        aria-controls="faq-ans-6"
+                        id="faq-q-6">
+                        ¿Cuáles son las formas de pago y beneﬁcios por inscripción?
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-ans-6" role="region" aria-labelledby="faq-q-6">
+                        <p>
+                            El precio varía según el programa. Contamos con un <strong>10% de descuento por pronto pago</strong>,
+                            además de tarifas especiales para empresas en convenio (15%), comunidad EXAUIC (20%) y opciones de pago en parcialidades.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="uic-info" aria-labelledby="uic-title">
+        <div class="wrap">
+            <!-- <p class="sec-label">Preguntas frecuentes</p> -->
+            <h2 id="faq-title" class="sec-title">Respaldados por la Universidad Intercontinental</h2>
+
+            <p class="sec-sub2">
+                Respaldados por la Universidad Intercontinental La Universidad Intercontinental (UIC) es una institución de inspiración cristiana que celebra 50 años de trayectoria académica al sur de la Ciudad de México. Se distingue por ser la única universidad mexicana integrante de la Federación Internacional de Universidades Católicas (FIUC), además de contar con la máxima acreditación de FIMPES y la membresía de la ANUIES.
+                <br>
+                A través de la Dirección de Educación Continua, la UIC ofrece programas de actualización profesional inmediata como cursos, talleres y diplomados de alta especialidad. Los programas de odontología digital son diseñados y dirigidos por especialistas clínicos con amplia experiencia en la implementación práctica de tecnologías dentales de vanguardia.
+
+            </p>
+
+            <div class="uic-content">
+                <div class="uic-credentials" role="list" aria-label="Acreditaciones y reconocimientos">
+                    <div class="uic-cred-item" role="listitem">
+                        <span class="cred-dot" aria-hidden="true"></span>
+                        <span>Acreditada por FIMPES – Federación de Instituciones Mexicanas Particulares de Educación Superior</span>
+                    </div>
+                    <div class="uic-cred-item" role="listitem">
+                        <span class="cred-dot" aria-hidden="true"></span>
+                        <span>Miembro de la ANUIES – Asociación Nacional de Universidades e Instituciones de Educación Superior</span>
+                    </div>
+                    <div class="uic-cred-item" role="listitem">
+                        <span class="cred-dot" aria-hidden="true"></span>
+                        <span>Única universidad mexicana en la FIUC – Federación Internacional de Universidades Católicas</span>
+                    </div>
+                    <div class="uic-cred-item" role="listitem">
+                        <span class="cred-dot" aria-hidden="true"></span>
+                        <span>50+ años de excelencia académica en la Ciudad de México</span>
+                    </div>
+                </div>
+                <br>
+
+                <aside class="uic-contact-card" aria-label="Datos de contacto UIC">
+                    <h3>Contáctanos para más información</h3>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z" />
+                            </svg>
+                            <span>Teléfono: <a href="tel:5554871300">55 5487 1300</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="#25D366" stroke="none">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            <span>WhatsApp: <a href="https://api.whatsapp.com/send?phone=525544398846&text=%C2%A1Hola!%20Quiero%20informaci%C3%B3n%20sobre%20cursos%20de%20odontolog%C3%ADa%20digital" target="_blank" rel="noopener">55 4439 8846</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <span>Av. Insurgentes Sur 4303, Santa Úrsula Xitla, Tlalpan, CP 14420, CDMX</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <line x1="2" y1="12" x2="22" y2="12" />
+                                <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+                            </svg>
+                            <span>Web: <a href="https://www.uic.mx/educacion-continua/" target="_blank" rel="noopener">uic.mx/educacion-continua</a></span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <!-- ═══════════════════════════════════════════════════
             FLOATING FORMS (one per program)
         ═══════════════════════════════════════════════════ -->
 
-    <!-- FLOAT: Licenciatura -->
-    <div class="float-trigger" id="flt-lic" role="complementary" aria-label="Formulario Licenciatura en Psicología">
+    <!-- FLOAT: Administracion -->
+    <div class="float-trigger" id="flt-lic" role="complementary" aria-label="Formulario Licenciatura en Administración y Direccion Estrategica">
         <button class="float-tab bg-lic" onclick="toggleFloat('flt-lic')" aria-expanded="false" aria-controls="flt-lic-panel">
             <i class="fas fa-phone"></i> Solicitar información
         </button>
@@ -523,7 +1153,7 @@
             <div class="float-panel" id="flt-lic-panel">
                 <div class="float-panel-head bg-lic">
                     <div>
-                        <div class="title">Licenciatura en Psicología</div>
+                        <div class="title">Licenciatura en Administración y Dirección Estrategica</div>
                         <div class="subtitle">Recibe información sin compromiso</div>
                     </div>
                     <button type="button" class="float-close" onclick="closeFloat('flt-lic')" aria-label="Cerrar formulario">×</button>
@@ -840,7 +1470,7 @@
                     <input type="hidden" id="autoriza" name="autoriza" value="1">
 
                     <!-- Oferta -->
-                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Psicología">
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Administración y Dirección Estratégica">
 
                     <!-- Forma de contacto -->
                     <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
@@ -882,7 +1512,7 @@
 
 
                     <button class="float-btn bg-lic" onclick="submitFloat('flt-lic')" name="Submit" id="send">Solicitar información →</button>
-                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://www.uic.mx/gracias-psicologia/">
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://www.uic.mx/licenciaturas/gracias-administracion-y-direccion-estrategica">
                     <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
                     <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
@@ -891,21 +1521,21 @@
         </form>
     </div>
 
-    <!-- FLOAT: Maestría -->
-    <div class="float-trigger" id="flt-mst" role="complementary" aria-label="Formulario Maestría en Psicoterapia Psicoanalítica">
+    <!-- FLOAT: Contaduria -->
+    <div class="float-trigger" id="flt-mst" role="complementary" aria-label="Formulario Licenciatura en Contaduria y Finanzas">
         <button class="float-tab bg-mst" onclick="toggleFloat('flt-mst')" aria-expanded="false" aria-controls="flt-mst-panel">
             <i class="fas fa-phone"></i> Solicitar información
         </button>
-        <form id="WebToLeadForm" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm">
+        <form id="WebToLeadForm" action="https://hook.us1.make.com/2mk3ouv2dc515gqufsd4hlmnf2atnnfg" method="POST" name="WebToLeadForm">
             <div class="float-panel" id="flt-mst-panel">
                 <div class="float-panel-head bg-mst">
                     <div>
-                        <div class="title">Maestría en Psicoterapia</div>
+                        <div class="title">Licenciatura en Contaduria y Finanzas</div>
                         <div class="subtitle">Recibe información sin compromiso</div>
                     </div>
                     <button class="float-close" onclick="closeFloat('flt-mst')" aria-label="Cerrar formulario">×</button>
                 </div>
-                <div class="float-body" id="flt-lic-form-wrap">
+                <div class="float-body" id="flt-mst-form-wrap">
                     <div class="float-field">
                         <div style="display:grid; grid-template-columns:1fr; gap:8px">
                             <div>
@@ -1214,7 +1844,7 @@
                     <input type="hidden" id="autoriza" name="autoriza" value="1">
                     <input name="digescprocede_txt_c" id="digescprocede_txt_c" type="hidden">
                     <!-- Oferta -->
-                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Maestría en Psicoterapia Psicoanalítica">
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Contaduría y Finanzas">
                     <!-- Forma de contacto -->
                     <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
                     <!-- Campus de interés -->
@@ -1259,7 +1889,7 @@
 
 
                     <button class="float-btn bg-mst" onclick="submitFloat('flt-mst')" name="Submit" id="send">Solicitar información →</button>
-                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-maestriapsicoterapia.html">
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://uic.mx/licenciaturas/gracias-contaduria-y-finanzas">
                     <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
                     <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
@@ -1269,8 +1899,8 @@
         </form>
     </div>
 
-    <!-- FLOAT: Doctorado -->
-    <div class="float-trigger" id="flt-doc" role="complementary" aria-label="Formulario Doctorado en Psicoanálisis">
+    <!-- FLOAT: Mercadotecnia -->
+    <div class="float-trigger" id="flt-doc" role="complementary" aria-label="Formulario Licenciatura en Mercadotecnia">
         <button class="float-tab bg-doc" style="color:var(--paper)" onclick="toggleFloat('flt-doc')" aria-expanded="false" aria-controls="flt-doc-panel">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M4 4h16v16H4z" />
@@ -1278,16 +1908,16 @@
             </svg>
             Solicita información
         </button>
-        <form id="WebToLeadForm" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm">
+        <form id="WebToLeadForm" action="https://hook.us1.make.com/2mk3ouv2dc515gqufsd4hlmnf2atnnfg" method="POST" name="WebToLeadForm">
             <div class="float-panel" id="flt-doc-panel">
                 <div class="float-panel-head bg-doc">
                     <div>
-                        <div class="title">Doctorado en Psicoanálisis</div>
+                        <div class="title">Licenciatura en Mercadotecnia </div>
                         <div class="subtitle">Recibe información sin compromiso</div>
                     </div>
                     <button class="float-close" onclick="closeFloat('flt-doc')" aria-label="Cerrar formulario">×</button>
                 </div>
-                <div class="float-body" id="flt-lic-form-wrap">
+                <div class="float-body" id="flt-doc-form-wrap">
                     <div class="float-field">
                         <div style="display:grid; grid-template-columns:1fr; gap:8px">
                             <div>
@@ -1599,14 +2229,14 @@
                     <input type="hidden" id="autoriza" name="autoriza" value="1">
 
                     <!-- Oferta -->
-                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Doctorado en Psicoanálisis">
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Mercadotecnia">
 
                     <!-- Forma de contacto -->
                     <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
                     <!-- Horario de contacto -->
                     <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
                     <!-- Campus de interés -->
-                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Posgrados Mixtos a Distancia">
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Campus Sur">
 
                     <!-- Turno de interés -->
                     <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
@@ -1626,8 +2256,8 @@
                     <!-- OTROS DATOS -->
                     <input type="hidden" name="utm_term" id="Term" value="">
                     <input type="hidden" name="utm_keyword" id="Keyword" value="">
-                    <input type="hidden" name="utm_clientID" id="Client_ID" value="">
-                    <input type="hidden" name="utm_referrer" id="Referrer" value="">
+                    <input type="hidden" name="utm_clientid" id="utm_clientid" value="">
+                    <input type="hidden" name="utm_referrer" id="utm_referrer" value="">
                     <!-- Oferta de interés UTM -->
                     <input name="utmoferinteres_txt_c" id="utmoferinteres_txt_c" type="hidden">
                     <!-- Estaus Digital -->
@@ -1639,7 +2269,7 @@
 
 
                     <button class="float-btn bg-doc" onclick="submitFloat('flt-doc')" name="Submit" id="send">Solicitar información →</button>
-                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-docpsico.html">
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://uic.mx/licenciaturas/gracias-mercadotecnia">
                     <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
                     <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
@@ -1649,21 +2279,21 @@
         </form>
     </div>
 
-    <!-- FLOAT: Postdoctorado -->
-    <div class="float-trigger" id="flt-pst" role="complementary" aria-label="Formulario Postdoctorado en Psicoanálisis">
+    <!-- FLOAT: RCI -->
+    <div class="float-trigger" id="flt-pst" role="complementary" aria-label="Licenciatura en Relaciones Comerciales Internacionales">
         <button class="float-tab bg-pst" onclick="toggleFloat('flt-pst')" aria-expanded="false" aria-controls="flt-pst-panel">
             <i class="fas fa-phone"></i> Solicitar información
         </button>
-        <form id="WebToLeadForm" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm">
+        <form id="WebToLeadForm" action="https://hook.us1.make.com/2mk3ouv2dc515gqufsd4hlmnf2atnnfg" method="POST" name="WebToLeadForm">
             <div class="float-panel" id="flt-pst-panel">
                 <div class="float-panel-head bg-pst">
                     <div>
-                        <div class="title">Postdoctorado en Psicoanálisis</div>
+                        <div class="title">Licneciatura en Relaciones Comerciales Internacionales</div>
                         <div class="subtitle">Recibe información sin compromiso</div>
                     </div>
                     <button class="float-close" onclick="closeFloat('flt-pst')" aria-label="Cerrar formulario">×</button>
                 </div>
-                <div class="float-body" id="flt-lic-form-wrap">
+                <div class="float-body" id="flt-pst-form-wrap">
                     <div class="float-field">
                         <div style="display:grid; grid-template-columns:1fr; gap:8px">
                             <div>
@@ -1975,14 +2605,390 @@
                     <input type="hidden" id="autoriza" name="autoriza" value="1">
 
                     <!-- Oferta -->
-                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Postdoctorado en Psicoanálisis Contemporáneo">
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Relaciones Comerciales Internacionales">
 
                     <!-- Forma de contacto -->
                     <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
                     <!-- Horario de contacto -->
                     <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
                     <!-- Campus de interés -->
-                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Posgrados Mixtos a Distancia">
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Campus Sur">
+
+                    <!-- Turno de interés -->
+                    <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
+
+                    <!-- Lada -->
+                    <input name="dial_code" id="dial_code" type="hidden">
+                    <!-- Fuente digital UTM ACTUALIZADO MAYO 2022-->
+                    <input name="utm_source" id="utmsource_txt_c" type="hidden" placeholder="Fuente digital UTM">
+                    <!-- Medio digital UTM ACTUALIZADO MAYO 2022 -->
+                    <input name="utm_medium" id="utmmedio_txt_c" type="hidden" placeholder="Medio digital UTM">
+                    <!-- Campaña digital ACTUALIZADO MAYO 2022 UTM -->
+                    <input name="utm_campaign" id="utmcampana_txt_c" type="hidden" placeholder="Campaña digital UTM">
+                    <!-- Contenido digital ACTUALIZADO NOVIEMBRE 2022 UTM -->
+                    <input name="utm_content" id="utmcontent_txt_c" type="hidden" placeholder="Contenido digital UTM">
+                    <!-- URL -->
+                    <input name="url" id="url-result" type="hidden">
+                    <!-- OTROS DATOS -->
+                    <input type="hidden" name="utm_term" id="Term" value="">
+                    <input type="hidden" name="utm_keyword" id="Keyword" value="">
+                    <input type="hidden" name="utm_clientid" id="Client_ID" value="">
+                    <input type="hidden" name="utm_referrer" id="Referrer" value="">
+                    <!-- Oferta de interés UTM -->
+                    <input name="utmoferinteres_txt_c" id="utmoferinteres_txt_c" type="hidden">
+                    <!-- Estaus Digital -->
+                    <input name="estadodigital_list_c" id="estadodigital_list_c" type="hidden" value="Nuevo">
+                    <!-- Medio -->
+                    <input name="medio_gen_list_c" id="medio_gen_list_c" type="hidden" value="Medios Digitales">
+                    <!-- Periodo -->
+                    <input name="periodoingreso_list_c" id="periodoingreso_list_c" type="hidden" value="">
+
+
+                    <button class="float-btn bg-pst" onclick="submitFloat('flt-pst')" name="Submit" id="send">Solicitar información →</button>
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://uic.mx/licenciaturas/gracias-relaciones-comerciales-internacionales">
+                    <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
+                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
+                    <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
+                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- FLOAT: Turismo -->
+    <div class="float-trigger" id="flt-tur" role="complementary" aria-label="Administración de Negocios Turísticos">
+        <button class="float-tab bg-tur" onclick="toggleFloat('flt-tur')" aria-expanded="false" aria-controls="flt-tur-panel">
+            <i class="fas fa-phone"></i> Solicitar información
+        </button>
+        <form id="WebToLeadForm" action="https://hook.us1.make.com/2mk3ouv2dc515gqufsd4hlmnf2atnnfg" method="POST" name="WebToLeadForm">
+            <div class="float-panel" id="flt-tur-panel">
+                <div class="float-panel-head bg-tur">
+                    <div>
+                        <div class="title">Postdoctorado en Psicoanálisis</div>
+                        <div class="subtitle">Recibe información sin compromiso</div>
+                    </div>
+                    <button class="float-close" onclick="closeFloat('flt-tur')" aria-label="Cerrar formulario">×</button>
+                </div>
+                <div class="float-body" id="flt-tur-form-wrap">
+                    <div class="float-field">
+                        <div style="display:grid; grid-template-columns:1fr; gap:8px">
+                            <div>
+                                <!-- <label for="first_name">Nombre(s)</label> -->
+                                <input name="first_name" id="first_name" type="text" required placeholder="Nombre(s)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-field">
+
+                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px">
+                            <div>
+                                <!-- <label for="last_name">Apellido Paterno</label> -->
+                                <input name="last_name" id="last_name" type="text" required placeholder="Apellido Paterno">
+                            </div>
+                            <div>
+                                <!-- <label for="last_name2_c">Apellido Materno</label> -->
+                                <input name="last_name2_c" id="last_name2_c" type="text" placeholder="Apellido Materno">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="float-field">
+                        <!-- <label for="email1">Correo electrónico</label> -->
+                        <input name="email1" id="email1" type="email" required="required" placeholder="Correo Electrónico" autocomplete="off">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="digescprocede_txt_c">Escuela de Procedencia</label> -->
+                        <input name="digescprocede_txt_c" id="digescprocede_txt_c" type="text" placeholder="Escuela de procedencia" required="required">
+                    </div>
+                    <div class="float-field">
+                        <!-- <label for="pais">País</label> -->
+                        <select name="pais_txt" id="pais" required="required">
+                            <option value="" selected="selected">Selecciona un país</option>
+                            <option data-lada="52">México</option>
+                            <optgroup label="Other countries">
+                                <option data-lada="213">Algeria </option>
+                                <option data-lada="376">Andorra </option>
+                                <option data-lada="244">Angola</option>
+                                <option data-lada="1264">Anguilla</option>
+                                <option data-lada="1268">Antigua &amp; Barbuda</option>
+                                <option data-lada="54">Argentina</option>
+                                <option data-lada="374">Armenia</option>
+                                <option data-lada="297">Aruba </option>
+                                <option data-lada="61">Australia</option>
+                                <option data-lada="43">Austria</option>
+                                <option data-lada="994">Azerbaijan</option>
+                                <option data-lada="1242">Bahamas</option>
+                                <option data-lada="973">Bahrain</option>
+                                <option data-lada="880">Bangladesh</option>
+                                <option data-lada="1246">Barbados</option>
+                                <option data-lada="375">Belarus</option>
+                                <option data-lada="32">Belgium</option>
+                                <option data-lada="501">Belize</option>
+                                <option data-lada="229">Benin</option>
+                                <option data-lada="1441">Bermuda</option>
+                                <option data-lada="975">Bhutan</option>
+                                <option data-lada="591">Bolivia</option>
+                                <option data-lada="387">Bosnia Herzegovina</option>
+                                <option data-lada="267">Botswana</option>
+                                <option data-lada="55">Brazil</option>
+                                <option data-lada="673">Brunei </option>
+                                <option data-lada="359">Bulgaria</option>
+                                <option data-lada="226">Burkina Faso</option>
+                                <option data-lada="257">Burundi</option>
+                                <option data-lada="855">Cambodia</option>
+                                <option data-lada="237">Cameroon</option>
+                                <option data-lada="1">Canada</option>
+                                <option data-lada="238">Cape Verde Islands</option>
+                                <option data-lada="1345">Cayman Islands</option>
+                                <option data-lada="236">Central African Republic </option>
+                                <option data-lada="56">Chile</option>
+                                <option data-lada="86">China</option>
+                                <option data-lada="57">Colombia</option>
+                                <option data-lada="269">Comoros </option>
+                                <option data-lada="242">Congo </option>
+                                <option data-lada="682">Cook Islands </option>
+                                <option data-lada="506">Costa Rica </option>
+                                <option data-lada="385">Croatia </option>
+                                <option data-lada="53">Cuba </option>
+                                <option data-lada="90392">Cyprus North </option>
+                                <option data-lada="357">Cyprus South </option>
+                                <option data-lada="42">Czech Republic </option>
+                                <option data-lada="45">Denmark </option>
+                                <option data-lada="253">Djibouti </option>
+                                <option data-lada="1809">Dominica </option>
+                                <option data-lada="1809">Dominican Republic </option>
+                                <option data-lada="593">Ecuador </option>
+                                <option data-lada="20">Egypt </option>
+                                <option data-lada="503">El Salvador </option>
+                                <option data-lada="240">Equatorial Guinea </option>
+                                <option data-lada="291">Eritrea </option>
+                                <option data-lada="372">Estonia</option>
+                                <option data-lada="251">Ethiopia </option>
+                                <option data-lada="500">Falkland Islands</option>
+                                <option data-lada="298">Faroe Islands </option>
+                                <option data-lada="679">Fiji </option>
+                                <option data-lada="358">Finland </option>
+                                <option data-lada="33">France </option>
+                                <option data-lada="594">French Guiana </option>
+                                <option data-lada="689">French Polynesia </option>
+                                <option data-lada="241">Gabon </option>
+                                <option data-lada="220">Gambia </option>
+                                <option data-lada="7880">Georgia </option>
+                                <option data-lada="49">Germany </option>
+                                <option data-lada="233">Ghana </option>
+                                <option data-lada="350">Gibraltar </option>
+                                <option data-lada="30">Greece </option>
+                                <option data-lada="299">Greenland </option>
+                                <option data-lada="1473">Grenada </option>
+                                <option data-lada="590">Guadeloupe </option>
+                                <option data-lada="671">Guam </option>
+                                <option data-lada="502">Guatemala </option>
+                                <option data-lada="224">Guinea </option>
+                                <option data-lada="245">Guinea - Bissau</option>
+                                <option data-lada="592">Guyana </option>
+                                <option data-lada="509">Haiti </option>
+                                <option data-lada="504">Honduras </option>
+                                <option data-lada="852">Hong Kong </option>
+                                <option data-lada="36">Hungary </option>
+                                <option data-lada="354">Iceland </option>
+                                <option data-lada="91">India </option>
+                                <option data-lada="62">Indonesia </option>
+                                <option data-lada="98">Iran </option>
+                                <option data-lada="964">Iraq </option>
+                                <option data-lada="353">Ireland </option>
+                                <option data-lada="972">Israel </option>
+                                <option data-lada="39">Italy </option>
+                                <option data-lada="1876">Jamaica </option>
+                                <option data-lada="81">Japan </option>
+                                <option data-lada="962">Jordan </option>
+                                <option data-lada="7">Kazakhstan </option>
+                                <option data-lada="254">Kenya </option>
+                                <option data-lada="686">Kiribati </option>
+                                <option data-lada="850">Korea North </option>
+                                <option data-lada="82">Korea South </option>
+                                <option data-lada="965">Kuwait </option>
+                                <option data-lada="996">Kyrgyzstan </option>
+                                <option data-lada="856">Laos </option>
+                                <option data-lada="371">Latvia </option>
+                                <option data-lada="961">Lebanon </option>
+                                <option data-lada="266">Lesotho </option>
+                                <option data-lada="231">Liberia </option>
+                                <option data-lada="218">Libya </option>
+                                <option data-lada="417">Liechtenstein </option>
+                                <option data-lada="370">Lithuania </option>
+                                <option data-lada="352">Luxembourg </option>
+                                <option data-lada="853">Macao </option>
+                                <option data-lada="389">Macedonia </option>
+                                <option data-lada="261">Madagascar </option>
+                                <option data-lada="265">Malawi </option>
+                                <option data-lada="60">Malaysia </option>
+                                <option data-lada="960">Maldives </option>
+                                <option data-lada="223">Mali </option>
+                                <option data-lada="356">Malta </option>
+                                <option data-lada="692">Marshall Islands </option>
+                                <option data-lada="596">Martinique </option>
+                                <option data-lada="222">Mauritania </option>
+                                <option data-lada="269">Mayotte </option>
+                                <option data-lada="691">Micronesia </option>
+                                <option data-lada="373">Moldova </option>
+                                <option data-lada="377">Monaco </option>
+                                <option data-lada="976">Mongolia </option>
+                                <option data-lada="1664">Montserrat </option>
+                                <option data-lada="212">Morocco </option>
+                                <option data-lada="258">Mozambique </option>
+                                <option data-lada="95">Myanmar </option>
+                                <option data-lada="264">Namibia </option>
+                                <option data-lada="674">Nauru </option>
+                                <option data-lada="977">Nepal </option>
+                                <option data-lada="31">Netherlands </option>
+                                <option data-lada="687">New Caledonia </option>
+                                <option data-lada="64">New Zealand </option>
+                                <option data-lada="505">Nicaragua </option>
+                                <option data-lada="227">Niger</option>
+                                <option data-lada="234">Nigeria</option>
+                                <option data-lada="683">Niue</option>
+                                <option data-lada="672">Norfolk Islands</option>
+                                <option data-lada="670">Northern Marianas</option>
+                                <option data-lada="47">Norway</option>
+                                <option data-lada="968">Oman</option>
+                                <option data-lada="680">Palau</option>
+                                <option data-lada="507">Panama</option>
+                                <option data-lada="675">Papua New Guinea</option>
+                                <option data-lada="595">Paraguay</option>
+                                <option data-lada="51">Peru</option>
+                                <option data-lada="63">Philippines</option>
+                                <option data-lada="48">Poland</option>
+                                <option data-lada="351">Portugal</option>
+                                <option data-lada="1787">Puerto Rico</option>
+                                <option data-lada="974">Qatar</option>
+                                <option data-lada="262">Reunion</option>
+                                <option data-lada="40">Romania</option>
+                                <option data-lada="7">Russia</option>
+                                <option data-lada="250">Rwanda</option>
+                                <option data-lada="378">San Marino</option>
+                                <option data-lada="239">Sao Tome &amp; Principe</option>
+                                <option data-lada="966">Saudi Arabia</option>
+                                <option data-lada="221">Senegal</option>
+                                <option data-lada="381">Serbia</option>
+                                <option data-lada="248">Seychelles</option>
+                                <option data-lada="232">Sierra Leone</option>
+                                <option data-lada="65">Singapore</option>
+                                <option data-lada="421">Slovak Republic</option>
+                                <option data-lada="386">Slovenia</option>
+                                <option data-lada="677">Solomon Islands</option>
+                                <option data-lada="252">Somalia</option>
+                                <option data-lada="27">South Africa</option>
+                                <option data-lada="34">Spain </option>
+                                <option data-lada="94">Sri Lanka</option>
+                                <option data-lada="290">St. Helena</option>
+                                <option data-lada="1869">St. Kitts</option>
+                                <option data-lada="1758">St. Lucia</option>
+                                <option data-lada="249">Sudan</option>
+                                <option data-lada="597">Suriname</option>
+                                <option data-lada="268">Swaziland</option>
+                                <option data-lada="46">Sweden</option>
+                                <option data-lada="41">Switzerland</option>
+                                <option data-lada="963">Syria</option>
+                                <option data-lada="886">Taiwan</option>
+                                <option data-lada="7">Tajikstan</option>
+                                <option data-lada="66">Thailand</option>
+                                <option data-lada="228">Togo</option>
+                                <option data-lada="676">Tonga</option>
+                                <option data-lada="1868">Trinidad &amp; Tobago</option>
+                                <option data-lada="216">Tunisia</option>
+                                <option data-lada="90">Turkey</option>
+                                <option data-lada="7">Turkmenistan</option>
+                                <option data-lada="993">Turkmenistan</option>
+                                <option data-lada="1649">Turks &amp; Caicos Islands</option>
+                                <option data-lada="688">Tuvalu </option>
+                                <option data-lada="256">Uganda</option>
+                                <option data-lada="44">UK</option>
+                                <option data-lada="380">Ukraine </option>
+                                <option data-lada="971">United Arab Emirates</option>
+                                <option data-lada="598">Uruguay</option>
+                                <option data-lada="1">USA</option>
+                                <option data-lada="7">Uzbekistan</option>
+                                <option data-lada="678">Vanuatu</option>
+                                <option data-lada="379">Vatican City</option>
+                                <option data-lada="58">Venezuela</option>
+                                <option data-lada="84">Vietnam</option>
+                                <option data-lada="1284">Virgin Islands - British</option>
+                                <option data-lada="1340">Virgin Islands - US</option>
+                                <option data-lada="681">Wallis &amp; Futuna</option>
+                                <option data-lada="969">Yemen (North)</option>
+                                <option data-lada="967">Yemen (South)</option>
+                                <option data-lada="260">Zambia</option>
+                                <option data-lada="263">Zimbabwe</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <!-- Estado -->
+                    <div class="float-field dnone">
+                        <!-- <label for="estado_txt">Estado</label> -->
+                        <select id="estado_txt" name="estado_txt" placeholder="Estado de residencia">
+                            <option value="" selected="selected">Estado de residencia</option>
+                            <option value="1">Aguascalientes</option>
+                            <option value="2">Baja California</option>
+                            <option value="3">Baja California Sur</option>
+                            <option value="4">Campeche</option>
+                            <option value="5">Chiapas</option>
+                            <option value="6">Chihuahua</option>
+                            <option value="7">Ciudad de México</option>
+                            <option value="8">Coahuila de Zaragoza</option>
+                            <option value="9">Colima</option>
+                            <option value="10">Durango</option>
+                            <option value="11">Estado de México</option>
+                            <option value="12">Guanajuato</option>
+                            <option value="13">Guerrero</option>
+                            <option value="14">Hidalgo</option>
+                            <option value="15">Jalísco</option>
+                            <option value="16">Michoacán de Ocampo</option>
+                            <option value="17">Morelos</option>
+                            <option value="18">Nayarit</option>
+                            <option value="19">Nuevo León</option>
+                            <option value="20">Oaxaca</option>
+                            <option value="21">Puebla</option>
+                            <option value="22">Querétaro</option>
+                            <option value="23">Quintana Roo</option>
+                            <option value="24">San Luis Potosí</option>
+                            <option value="25">Sinaloa</option>
+                            <option value="26">Sonora</option>
+                            <option value="27">Tabasco</option>
+                            <option value="28">Tamaulipas</option>
+                            <option value="29">Tlaxcala</option>
+                            <option value="30">Veracruz</option>
+                            <option value="31">Yucatán</option>
+                            <option value="32">Zacatecas</option>
+                        </select>
+                    </div>
+                    <!-- End estado -->
+                    <div class="float-field">
+                        <input type="text" id="lada" name="lada" readonly style="width:16%; margin-right:1%" placeholder="Lada">
+                        <input type="tel" name="phone_work" id="phone_work" placeholder="Teléfono a 10 dígitos" required maxlength="12" minlength="4" pattern="[0-9]{10}" inputmode="numeric" style="width:80%">
+                    </div>
+                    <div class="float-field">
+                        <select name="forma" id="forma" aria-required="true" aria-invalid="false" required="required">
+                            <option value="" selected="true" disabled="disabled">Forma de contacto</option>
+                            <option value="Whatsapp">Whatsapp</option>
+                            <option value="Videoconferencia">Videoconferencia</option>
+                            <option value="Llamada telefónica">Llamada telefónica</option>
+                        </select>
+                    </div>
+
+                    <!--/*** Ocultos ***/-->
+
+                    <input type="hidden" id="autoriza" name="autoriza" value="1">
+
+                    <!-- Oferta -->
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="Administración de Negocios Turísticos">
+
+                    <!-- Forma de contacto -->
+                    <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
+                    <!-- Horario de contacto -->
+                    <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
+                    <!-- Campus de interés -->
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Campus Sur">
 
                     <!-- Turno de interés -->
                     <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
@@ -2014,8 +3020,8 @@
                     <input name="periodoingreso_list_c" id="periodoingreso_list_c" type="hidden" value="NA">
 
 
-                    <button class="float-btn bg-pst" onclick="submitFloat('flt-pst')" name="Submit" id="send">Solicitar información →</button>
-                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://educacionenlinea.uic.mx/gracias/tp-postdoctpsico.html">
+                    <button class="float-btn bg-tur" onclick="submitFloat('flt-tur')" name="Submit" id="send">Solicitar información →</button>
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="https://www.uic.mx/licenciaturas/gracias-administracion-de-negocios-turisticos">
                     <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
                     <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
                     <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
@@ -2025,751 +3031,8 @@
         </form>
     </div>
 
-    <!-- ═══ LICENCIATURA ═══ -->
-    <section id="licenciatura" class="prog-sec" data-float="flt-lic" aria-labelledby="lic-h2">
-        <div class="wrap">
-            <div class="prog-head">
-                <div>
-                    <span class="badge-pill bg-lic-l c-lic">Licenciatura</span>
-                    <h2 id="lic-h2">Licenciatura en <em>Psicología</em></h2>
-                    <p class="prog-lead">Formación integral para comprender el comportamiento humano y acompañar personas en contextos clínicos, educativos, organizacionales y comunitarios. <br>➜ Tres modalidades para adaptarse a tu vida.</p>
-                </div>
-                <div class="info-box">
-                    <div class="info-box-head bg-lic">Datos del programa</div>
-                    <div class="info-row"><span class="lbl">Nivel</span><span class="val">Licenciatura</span></div>
-                    <div class="info-row"><span class="lbl">Modalidades</span><span class="val">Escolarizada · Distancia · Línea</span></div>
-                    <div class="info-row"><span class="lbl">Duración</span><span class="val">4 años / 2a 8m / 2a 3m</span></div>
-                    <div class="info-row"><span class="lbl">Área</span><span class="val">Ciencias de la Salud</span></div>
-                    <div class="info-row"><span class="lbl">Director</span><span class="val">Dr. William Alves de Oliveira</span></div>
-                </div>
-            </div>
+    <!-- ========================================================== -->
 
-            <div class="cols-3">
-                <div class="content-box">
-                    <h4 style="color: var(--lic);">¿Qué aprenderás?</h4>
-                    <ul>
-                        <li>Evaluación e intervención psicológica</li>
-                        <li>Psicopatología y diagnóstico clínico</li>
-                        <li>Neuropsicología y biología del comportamiento</li>
-                        <li>Teorías de la personalidad y del desarrollo</li>
-                        <li>Psicología de la salud y medicina conductual</li>
-                        <li>Metodología de investigación científica</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h4 style="color: var(--lic);">Campo laboral</h4>
-                    <ul>
-                        <li>Consulta clínica privada y hospitalaria</li>
-                        <li>Instituciones de salud pública y privada</li>
-                        <li>Centros educativos y psicopedagógicos</li>
-                        <li>Recursos humanos y desarrollo organizacional</li>
-                        <li>Intervención comunitaria</li>
-                        <li>Investigación y docencia universitaria</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h4 style="color: var(--lic);">Perfil de ingreso ideal</h4>
-                    <ul>
-                        <li>Interés genuino en el comportamiento humano</li>
-                        <li>Habilidades para la escucha empática</li>
-                        <li>Apertura a la reflexión crítica</li>
-                        <li>Disposición para práctica clínica supervisada</li>
-                        <li>Bachillerato terminado (cualquier área)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="faq-wrap">
-                <h3 class="faq-title">Preguntas frecuentes</h3>
-                <details>
-                    <summary>¿En qué modalidades está disponible la Licenciatura en Psicología de la UIC?</summary>
-                    <div class="faq-ans">
-                        <p>
-                            La Licenciatura en Psicología de la UIC se imparte en <strong>tres modalidades distintas</strong>
-                            que comparten el mismo plan de estudios y calidad académica:
-                        </p>
-                        <ul class="lista-fa">
-                            <li><strong> Escolarizada (Presencial):</strong> Clases en campus con una duración de 4 años.</li>
-                            <li><strong> A distancia:</strong> Uso de plataforma virtual con sesiones online; duración de 2 años y 8 meses (idealmente).<br></li>
-                            <li><strong> En línea:</strong> Formato 100% en línea, tú decides cuándo estudiar, optimizado para una duración de 2 años
-                                y 3 meses (llevando 2 materias de forma continua y sin interrupciones).</li>
-                        </ul>
-                    </div>
-                </details>
-                <details>
-                    <summary>¿Cuál es el campo laboral de un egresado de la Licenciatura en Psicología de la UIC?</summary>
-                    <div class="faq-ans">
-                        <p>
-                            El campo laboral de un psicólogo egresado de la UIC es extenso debido a una formación integral que abarca las perspectivas clínica,
-                            psicoanalítica, cognitivo-conductual y neuropsicológica. Podrás desempeñarte como:
-                        </p>
-                        <ul class="lista-fa">
-                            <li> <strong>Psicólogo Clínico:</strong> En instituciones de salud o consulta privada.</li>
-                            <li> <strong>Evaluador Psicológico:</strong> Especialista en diagnóstico y psicometría.</li>
-                            <li> <strong>Interventor Psicoeducativo:</strong> Apoyo y desarrollo en entornos escolares.</li>
-                            <li> <strong>Especialista en Capital Humano:</strong> Reclutamiento, selección y desarrollo organizacional.</li>
-                            <li> <strong>Investigador:</strong> Generación de conocimiento científico en salud mental.</li>
-                        </ul>
-                    </div>
-                </details>
-                <details>
-                    <summary>¿La Licenciatura en Psicología de la UIC tiene práctica clínica con pacientes reales?</summary>
-                    <div class="faq-ans">
-                        <p>
-                            Sí, la práctica clínica con pacientes reales es un pilar fundamental de nuestra licenciatura.
-                            Los estudiantes realizan sus prácticas bajo supervisión directa de profesores
-                            clínicos activos en instalaciones universitarias propias como:
-                        </p>
-                        <ul class="lista-fa">
-                            <li> <strong>Centro de Atención a la Salud Integral "ASI":</strong> Enfoque en salud general y comunitaria.</li>
-                            <li> <strong>Centro Universitario de Atención a la Infancia:</strong> Especializado en intervención infantil.</li>
-                        </ul>
-                    </div>
-                </details>
-                <details>
-                    <summary>¿Qué diferencia a la Licenciatura en Psicología de la UIC de otras universidades?</summary>
-                    <div class="faq-ans">
-                        <p>
-                            El principal diferenciador de la UIC es la <strong>integración de una perspectiva humanista y
-                                psicoanalítica</strong> que complementa los enfoques empíricos y científicos tradicionales.
-                            Además, la excelencia académica está respaldada por un cuerpo docente de élite que incluye:
-                        </p>
-                        <ul class="lista-fa">
-                            <li> <strong>Clínicos activos</strong> con experiencia directa en pacientes.</li>
-                            <li> <strong>Investigadores del SNI </strong>(Sistema Nacional de Investigadores).</li>
-                            <li> <strong>Especialistas certificados </strong> internacionalmente en TCC, DBT y neuropsicología.</strong></li>
-                        </ul>
-                    </div>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ MAESTRÍA ═══ -->
-    <section id="maestria" class="prog-sec" data-float="flt-mst" aria-labelledby="mst-h2">
-        <div class="wrap">
-            <div class="prog-head">
-                <div>
-                    <span class="badge-pill bg-mst-l c-mst">Maestría</span>
-                    <h2 id="mst-h2">Maestría en Psicoterapia <em>Psicoanalítica</em></h2>
-                    <p class="prog-lead">Especialización clínica para psicólogos titulados que buscan competencias profundas en la práctica psicoterapéutica desde una perspectiva psicoanalítica contemporánea y relacional. <br>➜ Cinco semestres con clínica supervisada real.</p>
-                </div>
-                <div class="info-box">
-                    <div class="info-box-head bg-mst">Datos del programa</div>
-                    <div class="info-row"><span class="lbl">Nivel</span><span class="val">Maestría</span></div>
-                    <div class="info-row"><span class="lbl">Modalidad</span><span class="val">Mixta (presencial + en línea)</span></div>
-                    <div class="info-row"><span class="lbl">Duración</span><span class="val">5 semestres (16 semanas c/u)</span></div>
-                    <div class="info-row"><span class="lbl">Área</span><span class="val">Posgrados en Psicoanálisis</span></div>
-                    <div class="info-row"><span class="lbl">Director</span><span class="val">Dr. Roberto Vargas Arreola</span></div>
-                </div>
-            </div>
-
-            <div class="cols-3">
-                <div class="content-box">
-                    <h4 style="color: var(--mst);">Competencias que desarrollas</h4>
-                    <ul>
-                        <li>Técnica psicoanalítica y psicoterapéutica</li>
-                        <li>Supervisión y diagnóstico psicodinámico</li>
-                        <li>Metodología cualitativa aplicada</li>
-                        <li>Psicosomática y corporalidad</li>
-                        <li>Neuropsicoanálisis introductorio</li>
-                        <li>Organizaciones de la personalidad</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h4 style="color: var(--mst);">¿A quién está dirigida?</h4>
-                    <ul>
-                        <li>Psicólogos titulados con vocación clínica</li>
-                        <li>Clínicos que buscan especialización psicoanalítica</li>
-                        <li>Profesionales en consulta privada</li>
-                        <li>Docentes de psicología clínica</li>
-                        <li>Quienes proyectan continuar al doctorado</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h4 style="color: var(--mst);">Salidas profesionales</h4>
-                    <ul>
-                        <li>Consulta privada de psicoterapia</li>
-                        <li>Clínicas e instituciones de salud mental</li>
-                        <li>Supervisión clínica de equipos</li>
-                        <li>Docencia en posgrados</li>
-                        <li>Clínicas universitarias y hospitalarias</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="faq-wrap">
-                <h3 class="faq-title">Preguntas frecuentes</h3>
-                <details>
-                    <summary>¿En qué se diferencia la Maestría en Psicoterapia Psicoanalítica del Doctorado en Psicoanálisis?</summary>
-                    <div class="faq-ans">
-                        <p>
-                            La diferencia fundamental radica en el enfoque: la <strong>Maestría es de carácter profesionalizante (práctica clínica)</strong>,
-                            mientras que el <strong>Doctorado es de carácter investigativo (teoría y conocimiento)</strong>.
-                        </p>
-                        <ul class="lista-fa">
-                            <li> <strong> Maestría:</strong> Su núcleo es el desarrollo de habilidades clínicas para ejercer como psicoterapeuta y atender pacientes directamente</li>
-                            <li> <strong> Doctorado:</strong> Se orienta a la producción de conocimiento original, utilizando la clínica como fuente de investigación y teorización.</li>
-                        </ul>
-                    </div>
-                </details>
-                <details>
-                    <summary>¿La maestría incluye supervisión de casos con pacientes reales?</summary>
-                    <div class="faq-ans">
-                        <p>
-                            Sí, la supervisión clínica de casos reales es el eje central de esta maestría.
-                            La práctica se realiza a través de la <strong>Clínica Universitaria CUPPIE</strong> de la UIC, bajo la coordinación del Dr. Roberto Reyes,
-                            destacado psiquiatra y doctor en psicoanálisis, garantizando un acompañamiento profesional de primer nivel.
-                        </p>
-                    </div>
-                </details>
-                <details>
-                    <summary>¿Qué perfil de ingreso se requiere para la Maestría en Psicoterapia Psicoanalítica?</summary>
-                    <div class="faq-ans">
-                        <p>
-                            Para ingresar a este posgrado, el aspirante debe cumplir con los siguientes requisitos profesionales y personales:
-                        </p>
-                        <ul class="lista-fa">
-                            <li><strong>Título de licenciatura:</strong> En Psicología o áreas de la salud afines.</li>
-                            <li><strong>Conocimientos técnicos:</strong> Bases sólidas en psicopatología y técnica de entrevista clínica.</li>
-                            <li><strong>Motivación ética:</strong> Compromiso genuino con la práctica psicoterapéutica y disposición para mantener un proceso de análisis personal.</li>
-                        </ul>
-                    </div>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ DOCTORADO ═══ -->
-    <section id="doctorado" class="prog-sec" data-float="flt-doc" aria-labelledby="doc-h2">
-        <div class="wrap">
-            <div class="prog-head">
-                <div>
-                    <span class="badge-pill bg-doc-l c-doc">Doctorado</span>
-                    <h2 id="doc-h2">Doctorado en <em>Psicoanálisis</em></h2>
-                    <p class="prog-lead">Alta especialización para formar investigadores y pensadores del psicoanálisis
-                        capaces de producir conocimiento que transforme la realidad clínica y social.<br>
-                        ➜ Cuatro áreas de acentuación optativas para personalizar la formación doctoral.</p>
-                </div>
-                <div class="info-box">
-                    <div class="info-box-head bg-doc" style="color:var(--paper)">Datos del programa</div>
-                    <div class="info-row"><span class="lbl">Nivel</span><span class="val">Doctorado</span></div>
-                    <div class="info-row"><span class="lbl">Modalidad</span><span class="val">Mixta</span></div>
-                    <div class="info-row"><span class="lbl">Duración</span><span class="val">3 semestres + verano</span></div>
-                    <div class="info-row"><span class="lbl">Acentuaciones</span><span class="val">Niños · Parejas · Neuropsi · Grupos</span></div>
-                    <div class="info-row"><span class="lbl">Director</span><span class="val">Dr. Roberto Vargas Arreola</span></div>
-                </div>
-            </div>
-
-            <div class="cols-3">
-                <div class="content-box">
-                    <h4 style="color: var(--doc);">¿Qué se aprende en el Doctorado?</h4>
-                    <ul>
-                        <li>Producción de investigación psicoanalítica original</li>
-                        <li>Psicoanálisis freudiano y contemporáneo avanzado</li>
-                        <li>Clínica con casos complejos y de larga data</li>
-                        <li>Didáctica psicoanalítica y formación de terapeutas</li>
-                        <li>Ética y epistemología del psicoanálisis</li>
-                        <li>Intervención según área de acentuación</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h4 style="color: var(--doc);">Salidas del Doctor en Psicoanálisis</h4>
-                    <ul>
-                        <li>Práctica clínica psicoanalítica de nivel avanzado</li>
-                        <li>Docencia en posgrados y doctorados</li>
-                        <li>Dirección de tesis y formación de analistas</li>
-                        <li>Investigación académica y publicación científica</li>
-                        <li>Intervención institucional y psicosocial</li>
-                        <li>Consultoría organizacional y análisis cultural</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h4 style="color: var(--doc);">Áreas de acentuación</h4>
-                    <ul>
-                        <li><strong>Niños y adolescentes</strong> — clínica infantil y del desarrollo</li>
-                        <li><strong>Parejas y familias</strong> — vínculos contemporáneos e intersubjetividad</li>
-                        <li><strong>Neuropsicoanálisis</strong> — articulación con neurociencias</li>
-                        <li><strong>Grupos e instituciones</strong> — dinámica grupal y organizacional</li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="faq-wrap">
-                <h3 class="faq-title">Preguntas frecuentes</h3>
-                <details>
-                    <summary>
-                        ¿A quién le conviene estudiar el Doctorado en Psicoanálisis de la UIC?
-                    </summary>
-                    <div class="faq-ans">
-                        <p>
-                            Este doctorado es ideal para <strong>psicoterapeutas y psicoanalistas activos</strong> que desean profundizar en su técnica ante casos
-                            complejos que los manuales estandarizados no alcanzan a cubrir.
-                            Es el programa indicado para quienes buscan ir más allá de los enfoques tradicionales y enfrentar la singularidad clínica
-                            con mayor rigor teórico.
-                        </p>
-                    </div>
-                </details>
-                <details>
-                    <summary>
-                        ¿Qué hace diferente al Doctorado en Psicoanálisis frente a un Doctorado en Psicología?
-                    </summary>
-                    <div class="faq-ans">
-                        <p>
-                            La diferencia clave es la metodología de generación de conocimiento: el Doctorado en Psicología suele ser cuantitativo y empírico,
-                            mientras que el <strong>Doctorado en Psicoanálisis de la UIC</strong> utiliza el caso clínico como el núcleo generador de teoría .
-                            Aquí, la implicación del analista y la ética profesional son partes esenciales del trabajo de investigación doctoral.
-                        </p>
-                    </div>
-                </details>
-                <details>
-                    <summary>
-                        ¿El Doctorado en Psicoanálisis habilita para ejercer clínica?
-                    </summary>
-                    <div class="faq-ans">
-                        <p>
-                            No por sí mismo; el proceso de clínica inicial proviene de la licenciatura y la maestría.
-                            Sin embargo, este doctorado actúa como un <strong>catalizador profesional</strong> que te permite:
-                        </p>
-                        <ul class="lista-fa">
-                            <li><strong>Atender casos de alta complejidad</strong> con mayor profundidad.</li>
-                            <li>Incrementar significativamente tu <strong>posicionamiento y prestigio</strong> en el sector.</li>
-                            <li>Convertirte en un <strong>referente académico</strong> a través de publicaciones especializadas.</li>
-                        </ul>
-                    </div>
-                </details>
-                <details>
-                    <summary>
-                        ¿Cuál es el futuro profesional de un Doctor en Psicoanálisis?
-                    </summary>
-                    <div class="faq-ans">
-                        <p>
-                            El egresado proyecta su carrera hacia la alta dirección académica, la formación de nuevos especialistas y el análisis cultural.
-                            Las salidas profesionales incluyen:
-                        </p>
-                        <ul class="lista-fa">
-                            <li><strong>Docencia y Supervisión:</strong> Profesor de posgrado y director de tesis avanzadas.</li>
-                            <li><strong>Impacto Social:</strong> Consultoría en proyectos comunitarios sobre violencia, migración y trauma.</li>
-                            <li><strong>Análisis Interdisciplinario:</strong> Diálogo con la filosofía, políticas públicas y humanidades.</li>
-                        </ul>
-                    </div>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ POSTDOCTORADO ═══ -->
-    <section id="postdoctorado" class="prog-sec" data-float="flt-pst" aria-labelledby="pst-h2">
-        <div class="wrap">
-            <div class="prog-head">
-                <div>
-                    <span class="badge-pill bg-pst-l c-pst">Postdoctorado</span>
-                    <h2 id="pst-h2">Postdoctorado en Psicoanálisis <em>Contemporáneo</em></h2>
-                    <p class="prog-lead">El nivel más alto de formación en psicoanálisis disponible en México:
-                        para doctores en ejercicio que buscan las corrientes más recientes del campo.<br>
-                        ➜ Cuerpo docente internacional de España, Chile y Argentina. 100% a distancia.</p>
-                </div>
-                <div class="info-box">
-                    <div class="info-box-head bg-pst">Datos del programa</div>
-                    <div class="info-row"><span class="lbl">Nivel</span><span class="val">Postdoctorado</span></div>
-                    <div class="info-row"><span class="lbl">Modalidad</span><span class="val">100% a distancia</span></div>
-                    <div class="info-row"><span class="lbl">Duración</span><span class="val">3 semestres</span></div>
-                    <div class="info-row"><span class="lbl">Requisito</span><span class="val">Grado de Doctor en área afín</span></div>
-                    <div class="info-row"><span class="lbl">Director</span><span class="val">Dr. Roberto Vargas Arreola</span></div>
-                </div>
-            </div>
-
-            <div class="cols-3">
-                <div class="content-box">
-                    <h4 style="color: var(--pst);">Ejes de formación postdoctoral</h4>
-                    <ul>
-                        <li>Psicoanálisis relacional contemporáneo</li>
-                        <li>Teorías intersubjetivas del self</li>
-                        <li>Modelos del inconsciente actuales</li>
-                        <li>Fronteras con las neurociencias</li>
-                        <li>Investigación postdoctoral avanzada</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h4 style="color: var(--pst);">Perfil del participante</h4>
-                    <ul>
-                        <li>Doctor en Psicoanálisis, Psicología o afines</li>
-                        <li>Clínico activo con práctica consolidada</li>
-                        <li>Interés en las vanguardias del campo</li>
-                        <li>Académicos en búsqueda de actualización internacional</li>
-                        <li>Investigadores del psicoanálisis</li>
-                    </ul>
-                </div>
-                <div class="content-box">
-                    <h4 style="color: var(--pst);">Ventajas del programa</h4>
-                    <ul>
-                        <li>Docentes de España, Argentina y Chile</li>
-                        <li>Modalidad 100% a distancia</li>
-                        <li>Vinculación con IARPP y redes internacionales</li>
-                        <li>Máximo nivel académico del campo en México</li>
-                        <li>Proyección hacia publicación internacional</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="faq-wrap">
-                <h3 class="faq-title">Preguntas frecuentes</h3>
-                <details>
-                    <summary>
-                        ¿Qué es un Postdoctorado en Psicoanálisis y para qué sirve?
-                    </summary>
-                    <div class="faq-ans">
-                        <p>
-                            Es el <strong>máximo nivel de formación académica</strong> en este campo.
-                            Su propósito es permitir que los doctores alcancen tres objetivos estratégicos:
-                        </p>
-                        <ul class="lista-fa">
-                            <li><strong>Actualización de vanguardia:</strong> Especialización en psicoanálisis relacional, intersubjetivo y neuropsicoanálisis.</li>
-                            <li><strong>Investigación de alto impacto:</strong> Desarrollo de proyectos científicos avanzados.</li>
-                            <li><strong>Liderazgo académico: </strong> Consolidación como autoridad internacional en su especialidad.</li>
-                        </ul>
-                    </div>
-                </details>
-                <details>
-                    <summary>
-                        ¿El Postdoctorado en Psicoanálisis de la UIC tiene docentes internacionales?
-                    </summary>
-                    <div class="faq-ans">
-                        <p>
-                            Sí, el cuerpo docente cuenta con autoridades internacionales de renombre. Entre ellos destacan:
-                        </p>
-                        <ul class="lista-fa">
-                            <li><strong>Dra. Laura Molet Estaper (España):</strong> Experta en trastornos de la conducta alimentaria.</li>
-                            <li><strong>Dr. André Sassenfeld (Chile):</strong> Autor referente en psicoanálisis relacional.</li>
-                            <li><strong>Dra. Eva Rotenberg (Argentina):</strong> Especialista en clínica de niños, adolescentes y familias.</li>
-                        </ul>
-                    </div>
-                </details>
-                <details>
-                    <summary>
-                        ¿Se puede estudiar el Postdoctorado sin dejar de trabajar?
-                    </summary>
-                    <div class="faq-ans">
-                        <p>
-                            Sí, el programa está diseñado específicamente para profesionales con agendas de alta exigencia.
-                            Ofrece una estructura que facilita la conciliación laboral:
-                        </p>
-                        <ul class="lista-fa">
-                            <li> <strong>Modalidad 100% a distancia:</strong> Sin traslados necesarios.</li>
-                            <li> <strong>Duración estructurada:</strong> Tres semestres de formación intensiva.</li>
-                            <li> <strong>Flexibilidad: Permite mantener activa la práctica clínica y la actividad académica simultáneamente.</li>
-                        </ul>
-                    </div>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ CUERPO DOCENTE ═══ -->
-    <section id="faculty" class="faculty-sec" aria-labelledby="fac-h2">
-        <div class="wrap">
-            <p class="sec-label">Autoridad académica</p>
-            <h2 class="sec-title" id="fac-h2">Cuerpo docente</h2>
-            <p class="sec-sub" style="margin-bottom:0">Profesores-investigadores activos con práctica clínica vigente y producción académica reconocida a nivel nacional e internacional.</p>
-
-            <div class="author-card" itemscope itemtype="https://schema.org/Person">
-                <div class="docente-img">
-                    <img src="../imagenes/Midelvia.jpg" alt="" width="100%">
-                </div>
-                <div>
-                    <h3 itemprop="name">Dra. Midelvia Argelia Viveros Paulín</h3>
-                    <p class="role" itemprop="jobTitle">
-                        Directora Divisional de Ciencias de la Salud · Universidad Intercontinental
-                    </p>
-                    <p itemprop="description">
-                        Doctora en Psicología y directora de la División de Ciencias de la Salud de la UIC,
-                        área que agrupa la Licenciatura en Psicología y los posgrados en psicoanálisis.
-                        Con amplia trayectoria en docencia, dirección académica e investigación,
-                        ha encabezado iniciativas institucionales de salud universitaria y coordinado los centros de práctica
-                        clínica de la división. Referente en psicología clínica, vínculo afectivo y salud mental dentro de la comunidad UIC.
-                    </p>
-                </div>
-            </div>
-
-            <div class="faculty-grid">
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dr. William Alves de Oliveira.</div>
-                    <div class="fc-degree">Director · Licenciatura en Psicología</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Doctor y especialista en terapias cognitivas, conductuales y contextuales, con experiencia docente, clínica e investigadora en México, Brasil y España. Su trayectoria integra salud aplicada, medicina conductual e intervención psicológica con adolescentes y adultos. Ha participado en estancias de investigación, comités de ética y bioética, publicaciones científicas y redes de salud colectiva e intercultural. Además, cuenta con formación especializada en DBT, análisis funcional, primeros auxilios psicológicos e intervenciones clínicas basadas en evidencia, aplicadas a adicciones, trauma complejo y regulación emocional.</em>.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dr. Roberto Vargas Arreola</div>
-                    <div class="fc-degree">Director · Posgrados en Psicoanálisis</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Psicoanálisis relacional, pareja y familia contemporáneas. Miembro IARPP, vocal AMPPR, secretario suplente CNPC. Autor del instrumento PRAD y los libros <em>La piel del mundo</em> y <em>La Dignidad Compartida</em>. Director de Dasein: Espacio de Psicoterapia.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dra. Daniela Flores Mosri</div>
-                    <div class="fc-degree">Doctorado en Psicoanálisis Contemporáneo</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Neuropsicoanálisis. Editora en jefe del <em>Journal Neuropsychoanalysis</em> (2021). Coordinadora regional IARPP México. Ex-SNI.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dr. José Ángel Aguilar Gil</div>
-                    <div class="fc-degree">Doctorado en Psicoanálisis</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Psicoanálisis grupal y relacional, sexualidad humana. Fundador del Capítulo Mexicano de la IARPP. Presidente de la AMPPR.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dr. André Sassenfeld</div>
-                    <div class="fc-degree">Doctor en Psicoanálisis (Chile)</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Trauma, corporalidad, psicoanálisis relacional. Autor de 9 libros. Past president IARPP Chile. Director CETERE.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dra. Laura Molet Estaper</div>
-                    <div class="fc-degree">Postdoctorado en Psicoanálisis (España)</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Trastornos alimentarios, psicoanálisis contemporáneo. Autora de <em>El dolor es sordo</em>, traducido al inglés.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dra. Liliana Rivera Fong</div>
-                    <div class="fc-degree">Doctorado en Psicología y Salud (UNAM)</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Psicooncología, TCC, medicina conductual. Miembro del SNI Nivel 1 (2025–2029). Tutora de maestría y doctorado UNAM.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dra. Leonor García Gómez</div>
-                    <div class="fc-degree">Doctorado en Ciencias Biológicas y de la Salud</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Neuropsicología, tabaquismo, conducta alimentaria. SNI Nivel 1. Locutora "Chill Pill" en Ibero 90.9 FM. 31 artículos científicos.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dr. Gerardo Mora</div>
-                    <div class="fc-degree">Doctor en Psicoanálisis — Grupos e Instituciones</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Patologías graves, dispositivos grupales. Colaborador en Canal 11, RadioFórmula y Radio UNAM. Coautor 2023.</p>
-                </div>
-                <div class="fc" itemscope itemtype="https://schema.org/Person">
-                    <div class="fc-name" itemprop="name">Dr. William Alves de Oliveira</div>
-                    <div class="fc-degree">Doctorado — Director Centro Medicina Conductual</div>
-                    <p class="fc-spec" itemprop="knowsAbout">TCC, DBT, trauma complejo, conductas suicidas. Docente en Brasil, España y México. Miembro REDSACSIC y CLACSO.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ TESTIMONIOS ═══ -->
-    <!-- <section id="testimonios" class="testi-sec" aria-labelledby="testi-h2" style="display:none">
-        <div class="wrap">
-            <p class="sec-label">Voces de egresados</p>
-            <h2 class="sec-title" id="testi-h2">Quienes ya lo vivieron</h2>
-            <p class="sec-sub">Psicólogos y psicoanalistas formados en la UIC que hoy ejercen en consulta privada, instituciones y academia.</p>
-
-            <div class="testi-grid">
-
-            <div class="testi-card">
-                <div class="testi-stripe bg-lic"></div>
-                <p class="testi-quote">La práctica clínica desde el primer año no es un slogan, es real. Llegué al internado con herramientas que muchos egresados de otras universidades no tienen ni en quinto semestre.</p>
-                <span class="testi-result bg-lic-l c-lic">Consultorio privado · CDMX</span>
-                <div class="testi-author">
-                <div class="testi-initials bg-lic">MG</div>
-                <div>
-                    <div class="testi-name">Mariana G.</div>
-                    <div class="testi-prog">Egresada · Licenciatura en Psicología</div>
-                </div>
-                </div>
-            </div>
-
-            <div class="testi-card">
-                <div class="testi-stripe bg-mst"></div>
-                <p class="testi-quote">La Maestría me dio el marco teórico y la supervisión clínica que necesitaba para abrir consultorio con confianza. Hoy tengo lista de espera. El enfoque psicoanalítico relacional cambió mi forma de escuchar.</p>
-                <span class="testi-result bg-mst-l c-mst">18 pacientes en lista de espera</span>
-                <div class="testi-author">
-                <div class="testi-initials bg-mst">CT</div>
-                <div>
-                    <div class="testi-name">Carlos T.</div>
-                    <div class="testi-prog">Egresado · Maestría en Psicoterapia Psicoanalítica</div>
-                </div>
-                </div>
-            </div>
-
-            <div class="testi-card">
-                <div class="testi-stripe bg-doc"></div>
-                <p class="testi-quote">Vengo de Monterrey. La modalidad mixta lo hizo posible sin dejar mi práctica. Terminé el Doctorado con una tesis publicada en revista indexada y hoy dirijo un seminario de posgrado.</p>
-                <span class="testi-result bg-doc-l c-doc">Publicación indexada + docencia de posgrado</span>
-                <div class="testi-author">
-                <div class="testi-initials bg-doc">RS</div>
-                <div>
-                    <div class="testi-name">Roberto S.</div>
-                    <div class="testi-prog">Egresado · Doctorado en Psicoanálisis</div>
-                </div>
-                </div>
-            </div>
-
-            <div class="testi-card">
-                <div class="testi-stripe bg-pst"></div>
-                <p class="testi-quote">El Postdoctorado fue lo que me faltaba. Los docentes de España, Chile y Argentina trajeron perspectivas que no encontré en ningún otro programa en México. El psicoanálisis relacional abrió dimensiones completamente nuevas en mi trabajo.</p>
-                <span class="testi-result bg-pst-l c-pst">Docente internacional invitada</span>
-                <div class="testi-author">
-                <div class="testi-initials bg-pst">AL</div>
-                <div>
-                    <div class="testi-name">Ana L.</div>
-                    <div class="testi-prog">Egresada · Postdoctorado en Psicoanálisis Contemporáneo</div>
-                </div>
-                </div>
-            </div>
-
-            </div>
-        </div>
-        </section> -->
-
-    <!-- ═══ CLÍNICAS ═══ -->
-    <section id="clinicas" class="clinicas-sec" aria-labelledby="clinicas-h2">
-        <div class="wrap">
-            <p class="sec-label">Dónde sucede la práctica</p>
-            <div class="imagen-box">
-                <h2 class="sec-title" id="clinicas-h2">Clínicas universitarias<br />de práctica real</h2>
-                <p class="sec-sub">La UIC no simula la clínica: la ofrece. Los estudiantes atienden población real desde los primeros semestres, con supervisión directa de profesores clínicos activos.</p>
-            </div>
-            <div class="clinicas-grid">
-
-                <div class="clinica-card">
-                    <div class="clinica-head">
-                        <div class="clinica-icon"><i class="fas fa-city header-icon"></i></div>
-                        <div class="clinica-head-text">
-                            <div class="name">Centro de Atención a la Salud Integral</div>
-                            <div class="sigla">ASI · UIC</div>
-                        </div>
-                    </div>
-                    <div class="clinica-body">
-                        <p class="clinica-desc">
-                            Centro de práctica clínica supervisada coordinado por la Mtra. Alejandra López Valenzuela,
-                            donde estudiantes de la Licenciatura en Psicología atienden a personas con condición autista,
-                            niños y adolescentes con situaciones de maltrato físico y emocional, y población general.
-                            Incluye el Área de Evaluación Psicológica y seguimiento a estudiantes de la propia universidad.
-                        </p>
-                        <div class="clinica-tags">
-                            <span class="clinica-tag">Condición autista</span>
-                            <span class="clinica-tag">Niños y adolescentes</span>
-                            <span class="clinica-tag">Evaluación psicológica</span>
-                            <span class="clinica-tag">Coord. Mtra. Alejandra López</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="clinica-card">
-                    <div class="clinica-head">
-                        <div class="clinica-icon"><i class="fas fa-hands-holding-child header-icon"></i></div>
-                        <div class="clinica-head-text">
-                            <div class="name">Centro Universitario de Atención a la Infancia</div>
-                            <div class="sigla">CUAI · UIC</div>
-                        </div>
-                    </div>
-                    <div class="clinica-body">
-                        <p class="clinica-desc">
-                            Centro especializado en atención psicológica y educativa a niños y jóvenes con condición autista y psicótica.
-                            Es la primera clínica de autismo dentro de una institución educativa en México, con más de 33 años de operación.
-                            Su director clínico académico es el Mtro. Fernando Fernández Castro.
-                        </p>
-                        <div class="clinica-tags">
-                            <span class="clinica-tag">Condición autista y psicótica</span>
-                            <span class="clinica-tag">+33 años de operación</span>
-                            <span class="clinica-tag">Primera en México en su tipo</span>
-                            <span class="clinica-tag">Dir. Mtro. Fernández Castro</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="clinicas-grid" style="grid-template-columns:1fr;margin-top:1.25rem">
-                <div class="clinica-card">
-                    <div class="clinica-head">
-                        <div class="clinica-icon"><i class="fas fa-hospital header-icon"></i></div>
-                        <div class="clinica-head-text">
-                            <div class="name">Clínica Universitaria de Psicoterapia Psicoanalítica</div>
-                            <div class="sigla">CUPPIE · UIC</div>
-                        </div>
-                    </div>
-                    <div class="clinica-body">
-                        <p class="clinica-desc">
-                            Espacio de práctica clínica supervisada en psicoterapia psicoanalítica donde alumnos de la Maestría
-                            atienden pacientes reales bajo la coordinación del Dr. Roberto Reyes,
-                            Psiquiatra y Doctor en Psicoanálisis Contemporáneo. Ofrece atención comunitaria accesible con encuadre psicoanalítico riguroso.
-                        </p>
-                        <div class="clinica-tags">
-                            <span class="clinica-tag">Psicoterapia psicoanalítica</span>
-                            <span class="clinica-tag">Supervisión didáctica</span>
-                            <span class="clinica-tag">Atención comunitaria</span>
-                            <span class="clinica-tag">Coord. Dr. Roberto Reyes</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="clinica-nota">
-                <div style="font-size:1.8rem;line-height:1;color:var(--gold-l);flex-shrink:0">⚕</div>
-                <p>
-                    <strong>¿Por qué importa la clínica real?</strong> <br>
-                    La UIC opera tres centros de práctica con población real: el <strong>Centro ASI</strong> para evaluación y psicoterapia general,
-                    el <strong>CUAI</strong> especializado en infancia con condición autista — primera clínica de este tipo dentro de una universidad en México,
-                    con más de 33 años — y la <strong>CUPPIE</strong> donde los alumnos de la Maestría hacen psicoterapia psicoanalítica supervisada.
-                    No simulaciones: casos reales desde los primeros semestres.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══ ACREDITACIONES ═══ -->
-    <section id="acreditaciones" class="acred-sec" aria-labelledby="acred-h2">
-        <div class="wrap">
-            <p class="sec-label">Reconocimientos y membresías</p>
-            <h2 class="sec-title" id="acred-h2">Respaldo institucional<br />y académico</h2>
-            <p class="sec-sub2">La UIC forma parte de redes académicas internacionales de primer nivel. Para el estudiante, esto significa acceso a comunidades de práctica, congresos, publicaciones y formación de talla mundial.</p>
-
-            <div class="acred-grid">
-
-                <div class="acred-card">
-                    <div class="acred-sigla">IARPP</div>
-                    <div class="acred-divider"></div>
-                    <div class="acred-name">International Association for Relational Psychoanalysis and Psychotherapy</div>
-                    <p class="acred-desc">Organización internacional de referencia en psicoanálisis relacional. La UIC es la única institución mexicana con afiliación activa y capítulo propio.</p>
-                </div>
-
-                <div class="acred-card">
-                    <div class="acred-sigla">AMPPR</div>
-                    <div class="acred-divider"></div>
-                    <div class="acred-name">Asociación Mexicana de Psicoterapia Psicoanalítica Relacional</div>
-                    <p class="acred-desc">Asociación nacional que nuclea a los principales formadores en psicoterapia psicoanalítica de México. Docentes UIC son miembros fundadores y directivos.</p>
-                </div>
-
-                <div class="acred-card">
-                    <div class="acred-sigla">CNPC</div>
-                    <div class="acred-divider"></div>
-                    <div class="acred-name">Colegio Nacional de Psicoanalistas Clínicos</div>
-                    <p class="acred-desc">Organismo de certificación y ética para psicoanalistas clínicos en México. El Dr. Vargas Arreola funge como secretario suplente; varios docentes UIC son miembros activos.</p>
-                </div>
-
-                <div class="acred-card">
-                    <div class="acred-sigla">SNI</div>
-                    <div class="acred-divider"></div>
-                    <div class="acred-name">Sistema Nacional de Investigadores · CONAHCyT</div>
-                    <p class="acred-desc">Varios docentes del cuerpo académico UIC son miembros del SNI Nivel 1, el máximo reconocimiento a investigadores activos en México.</p>
-                </div>
-
-                <div class="acred-card">
-                    <div class="acred-sigla">SEP</div>
-                    <div class="acred-divider"></div>
-                    <div class="acred-name">Reconocimiento de Validez Oficial de Estudios</div>
-                    <p class="acred-desc">Todos los programas de la UIC cuentan con RVOE otorgado por la Secretaría de Educación Pública. Tus estudios tienen plena validez oficial en México.</p>
-                </div>
-
-                <div class="acred-card">
-                    <div class="acred-sigla">+45</div>
-                    <div class="acred-divider"></div>
-                    <div class="acred-name">Años formando psicólogos y psicoanalistas en México</div>
-                    <p class="acred-desc">Trayectoria que respalda la solidez académica y la red de egresados activos en todo el país y Latinoamérica.</p>
-                </div>
-
-            </div>
-
-            <div class="rvoe-banner">
-                <div class="rvoe-text">
-                    <div class="rvoe-badge">Programas con RVOE:<br><br></div>
-                    <p>La Licenciatura en Psicología, la Maestría en Psicoterapia Psicoanalítica, el Doctorado en Psicoanálisis y el Postdoctorado en Psicoanálisis Contemporáneo cuentan con Reconocimiento de Validez Oficial de Estudios de la Secretaría de Educación Pública. Tus estudios son reconocidos en todo México.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- ═══════════════════════════════════════════════════
             JAVASCRIPT
@@ -2864,7 +3127,7 @@
                 if (solicitar) solicitar.style.display = '';
                 document.querySelector('.grecaptcha-badge').classList.remove('is-visible');
             } else {
-                panel.style.maxHeight = '635px';
+                panel.style.maxHeight = '650px';
                 panel.style.opacity = '1';
                 btn.setAttribute('aria-expanded', 'true');
                 panel.style.zIndex = '9999';
@@ -2954,7 +3217,7 @@
 
 
 
-        const PROGRAM_IDS = ['licenciatura', 'maestria', 'doctorado', 'postdoctorado'];
+        const PROGRAM_IDS = ['administracion', 'contaduria', 'mercadotecnia', 'rci', 'turismo'];
         const programSections = document.querySelectorAll('.prog-sec');
         const links = document.querySelectorAll('.prog-nav a');
         const pcards = document.querySelectorAll('.pcard');
@@ -2972,7 +3235,7 @@
             });
         }
 
-        showProgram('licenciatura');
+        showProgram('administracion');
 
         links.forEach(link => {
             link.addEventListener('click', e => {
@@ -3322,7 +3585,29 @@
         });
     </script>
 
-
+    <!-- ═══════════ JAVASCRIPT ═══════════ -->
+    <script>
+        /* ── FAQ ACCORDION ── */
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const expanded = btn.getAttribute('aria-expanded') === 'true';
+                // Cerrar todos
+                document.querySelectorAll('.faq-question').forEach(b => {
+                    b.setAttribute('aria-expanded', 'false');
+                    b.querySelector('.faq-icon').textContent = '+';
+                    const ans = document.getElementById(b.getAttribute('aria-controls'));
+                    if (ans) ans.classList.remove('open');
+                });
+                // Abrir el clickeado (si estaba cerrado)
+                if (!expanded) {
+                    btn.setAttribute('aria-expanded', 'true');
+                    btn.querySelector('.faq-icon').textContent = '+';
+                    const ans = document.getElementById(btn.getAttribute('aria-controls'));
+                    if (ans) ans.classList.add('open');
+                }
+            });
+        });
+    </script>
 
 </body>
 
