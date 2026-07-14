@@ -354,7 +354,7 @@ function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redir
                     <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
 
                     <!-- Campus de interés -->
-                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Diplomados en Línea">
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Educación Continua Modular">
 
                     <!-- Turno de interés -->
                     <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
@@ -391,8 +391,6 @@ function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redir
                     <button class="float-btn <?= $bg ?>" onclick="submitFloat('<?= $id ?>')" name="Submit" id="send">Solicitar información →</button>
                     <input name="redirect_url" id="redirect_url" type="hidden" value="<?= $redirectUrl ?>">
                     <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
-                    <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
-                    <input name="moduleDir" id="moduleDir" type="hidden" value="Contacts">
                     <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
                 </div>
                 <div class="float-success" id="<?= $id ?>-success" style="display:none">
@@ -1404,7 +1402,7 @@ function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redir
             <h2>Habla hoy con un asesor UIC</h2>
             <p>Sin compromiso. Te orientamos sobre el programa que mejor se adapta a tu perfil y objetivos.</p>
             <div class="cta-banner-btns">
-                <a class="btn-gold" href="tel:5554871397">💬 Solicitar información</a>
+                <a class="btn-gold" href="tel:5554871397" style="display:none">💬 Solicitar información</a>
                 <a class="btn-ghost" href="tel:5554871397">📞 55 5487-1397</a>
             </div>
         </div>

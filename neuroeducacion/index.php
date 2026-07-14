@@ -246,13 +246,12 @@ function countryOptions()
 function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redirectUrl, $tabIcon = 'fa-phone')
 {
     $bg = 'bg-' . $color;
-    $formId = 'WebToLeadForm-' . $id;
 ?>
     <div class="float-trigger" id="<?= $id ?>" role="complementary" aria-label="Formulario <?= htmlspecialchars($title) ?>">
         <button class="float-tab <?= $bg ?>" onclick="toggleFloat('<?= $id ?>')" aria-expanded="false" aria-controls="<?= $id ?>-panel">
             <i class="fas <?= $tabIcon ?>"></i> <?= htmlspecialchars($tabText) ?>
         </button>
-        <form id="<?= $formId ?>" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm" data-form-id="<?= $id ?>">
+        <form id="WebToLeadForm" action="https://servicios2.uic.edu.mx/crm/Registros/Nuevo.aspx" method="POST" name="WebToLeadForm">
             <div class="float-panel" id="<?= $id ?>-panel">
                 <div class="float-panel-head <?= $bg ?>">
                     <div>
@@ -263,33 +262,33 @@ function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redir
                 </div>
                 <div class="float-body" id="<?= $id ?>-form-wrap">
                     <div class="float-field">
-                        <input name="first_name" type="text" required placeholder="Nombre(s)">
+                        <input name="first_name" id="first_name" type="text" required placeholder="Nombre(s)">
                     </div>
                     <div class="float-field">
                         <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px">
                             <div>
-                                <input name="last_name" type="text" required placeholder="Apellido Paterno">
+                                <input name="last_name" id="last_name" type="text" required placeholder="Apellido Paterno">
                             </div>
                             <div>
-                                <input name="last_name2_c" type="text" placeholder="Apellido Materno">
+                                <input name="last_name2_c" id="last_name2_c" type="text" placeholder="Apellido Materno">
                             </div>
                         </div>
                     </div>
                     <div class="float-field">
-                        <input name="email1" type="email" required="required" placeholder="Correo Electrónico" autocomplete="off">
+                        <input name="email1" id="email1" type="email" required="required" placeholder="Correo Electrónico" autocomplete="off">
                     </div>
                     <div class="float-field">
-                        <input name="digescprocede_txt_c" type="text" placeholder="Escuela de procedencia" required="required">
+                        <input name="digescprocede_txt_c" id="digescprocede_txt_c" type="text" placeholder="Escuela de procedencia" required="required">
                     </div>
                     <div class="float-field">
-                        <select name="pais_txt" required="required">
+                        <select name="pais_txt" id="pais" required="required">
                             <?= countryOptions() ?>
                         </select>
                     </div>
 
                     <!-- Estado -->
                     <div class="float-field dnone">
-                        <select name="estado_txt" placeholder="Estado de residencia">
+                        <select id="estado_txt" name="estado_txt" placeholder="Estado de residencia">
                             <option value="" selected="selected">Estado de residencia</option>
                             <option value="1">Aguascalientes</option>
                             <option value="2">Baja California</option>
@@ -327,11 +326,11 @@ function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redir
                     </div>
                     <!-- End estado -->
                     <div class="float-field">
-                        <input type="text" name="lada" readonly style="width:16%; margin-right:1%" placeholder="Lada">
-                        <input type="tel" name="phone_work" placeholder="Teléfono a 10 dígitos" required maxlength="12" minlength="4" pattern="[0-9]{10}" inputmode="numeric" style="width:80%">
+                        <input type="text" id="lada" name="lada" readonly style="width:16%; margin-right:1%" placeholder="Lada">
+                        <input type="tel" name="phone_work" id="phone_work" placeholder="Teléfono a 10 dígitos" required maxlength="12" minlength="4" pattern="[0-9]{10}" inputmode="numeric" style="width:80%">
                     </div>
                     <div class="float-field">
-                        <select name="forma" aria-required="true" aria-invalid="false" required="required">
+                        <select name="forma" id="forma" aria-required="true" aria-invalid="false" required="required">
                             <option value="" selected="true" disabled="disabled">Forma de contacto</option>
                             <option value="Whatsapp">Whatsapp</option>
                             <option value="Videoconferencia">Videoconferencia</option>
@@ -341,58 +340,56 @@ function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redir
 
                     <!--/*** Ocultos ***/-->
 
-                    <input type="hidden" name="autoriza" value="1">
+                    <input type="hidden" id="autoriza" name="autoriza" value="1">
 
                     <!-- Oferta -->
-                    <input name="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="<?= htmlspecialchars($oferta) ?>">
+                    <input name="digofertaint_txt_c" id="digofertaint_txt_c" type="hidden" placeholder="Oferta de interés" value="<?= $oferta ?>">
 
                     <!-- Forma de contacto -->
-                    <input name="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
+                    <input name="digformacont_txt_c" id="digformacont_txt_c" type="hidden" placeholder="Forma de contacto">
 
                     <!-- Horario de contacto -->
-                    <input name="dighoracont_txt_c" type="hidden">
+                    <input name="dighoracont_txt_c" id="dighoracont_txt_c" type="hidden">
 
                     <!-- Campus de interés -->
-                    <input name="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Diplomados en Línea">
+                    <input name="digcampusint_txt_c" id="digcampusint_txt_c" type="hidden" placeholder="Campus de interés" value="Educación Continua Modular">
 
                     <!-- Turno de interés -->
-                    <input name="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
+                    <input name="digturnoint_txt_c" id="digturnoint_txt_c" type="hidden" placeholder="Turno de interés">
 
                     <!-- Lada -->
-                    <input name="dial_code" type="hidden">
+                    <input name="dial_code" id="dial_code" type="hidden">
 
                     <!-- Fuente digital UTM -->
-                    <input name="utm_source" type="hidden" placeholder="Fuente digital UTM">
+                    <input name="utm_source" id="utmsource_txt_c" type="hidden" placeholder="Fuente digital UTM">
                     <!-- Medio digital UTM -->
-                    <input name="utm_medium" type="hidden" placeholder="Medio digital UTM">
+                    <input name="utm_medium" id="utmmedio_txt_c" type="hidden" placeholder="Medio digital UTM">
                     <!-- Campaña digital UTM -->
-                    <input name="utm_campaign" type="hidden" placeholder="Campaña digital UTM">
+                    <input name="utm_campaign" id="utmcampana_txt_c" type="hidden" placeholder="Campaña digital UTM">
                     <!-- Contenido digital UTM -->
-                    <input name="utm_content" type="hidden" placeholder="Contenido digital UTM">
+                    <input name="utm_content" id="utmcontent_txt_c" type="hidden" placeholder="Contenido digital UTM">
                     <!-- URL -->
-                    <input name="url" class="url-result" type="hidden">
+                    <input name="url" id="url-result" type="hidden">
                     <!-- OTROS DATOS -->
-                    <input type="hidden" name="utm_term" value="">
-                    <input type="hidden" name="utm_keyword" value="">
-                    <input type="hidden" name="utm_clientID" value="">
-                    <input type="hidden" name="utm_referrer" value="">
+                    <input type="hidden" name="utm_term" id="Term" value="">
+                    <input type="hidden" name="utm_keyword" id="Keyword" value="">
+                    <input type="hidden" name="utm_clientID" id="Client_ID" value="">
+                    <input type="hidden" name="utm_referrer" id="Referrer" value="">
 
                     <!-- Oferta de interés UTM -->
-                    <input name="utmoferinteres_txt_c" type="hidden">
+                    <input name="utmoferinteres_txt_c" id="utmoferinteres_txt_c" type="hidden">
 
                     <!-- Estatus Digital -->
-                    <input name="estadodigital_list_c" type="hidden" value="Nuevo">
+                    <input name="estadodigital_list_c" id="estadodigital_list_c" type="hidden" value="Nuevo">
                     <!-- Medio -->
-                    <input name="medio_gen_list_c" type="hidden" value="Medios Digitales">
+                    <input name="medio_gen_list_c" id="medio_gen_list_c" type="hidden" value="Medios Digitales">
                     <!-- Periodo -->
-                    <input name="periodoingreso_list_c" type="hidden" value="NA">
+                    <input name="periodoingreso_list_c" id="periodoingreso_list_c" type="hidden" value="NA">
 
-                    <button type="submit" class="float-btn <?= $bg ?>">Solicitar información →</button>
-                    <input name="redirect_url" type="hidden" value="<?= htmlspecialchars($redirectUrl) ?>">
-                    <input name="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
-                    <input name="assigned_user_id" type="hidden" value="42620787-cb5b-bfde-e36e-5dd39646fc60">
-                    <input name="moduleDir" type="hidden" value="Contacts">
-                    <input type="hidden" name="recaptcha_response" class="recaptchaResponse">
+                    <button class="float-btn <?= $bg ?>" onclick="submitFloat('<?= $id ?>')" name="Submit" id="send">Solicitar información →</button>
+                    <input name="redirect_url" id="redirect_url" type="hidden" value="<?= $redirectUrl ?>">
+                    <input name="redirect_url_error" id="redirect_url_error" type="hidden" value="https://educacionenlinea.uic.mx/">
+                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse" class="recaptchaResponse">
                 </div>
                 <div class="float-success" id="<?= $id ?>-success" style="display:none">
                     <div class="check <?= $bg ?>">✓</div>
@@ -767,10 +764,10 @@ function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redir
 
 
     <!-- FLOAT: Diplomado en Neuroeducación -->
-    <?php renderFinForm('flt-neu', 'neu', 'Diplomado en Neuroeducación', 'Recibe información sin compromiso', 'Solicitar información', 'Diplomado en Neuroeducación: Aplicaciones Prácticas', 'https://educacionenlinea.uic.mx/gracias/dp-neuroeducacion.html'); ?>
+    <?php renderFinForm('flt-neu', 'neu', 'Diplomado en Neuroeducación', 'Recibe información sin compromiso', 'Solicitar información', 'Neuroeducación: Aplicaciones prácticas', 'https://educacionenlinea.uic.mx/gracias/tp-neuroeducacion.html'); ?>
 
     <!-- FLOAT: Diplomado en Estimulación y Educación Temprana -->
-    <?php renderFinForm('flt-est', 'est', 'Estimulación y Educación Temprana', 'Recibe información sin compromiso', 'Solicitar información', 'Diplomado en Estimulación y Educación Temprana', 'https://educacionenlinea.uic.mx/gracias/dp-estimulaciontemprana.html'); ?>
+    <?php renderFinForm('flt-est', 'est', 'Estimulación y Educación Temprana', 'Recibe información sin compromiso', 'Solicitar información', 'Estimulación y Educación Temprana', 'https://educacionenlinea.uic.mx/gracias/tp-estimulaciontemp.html'); ?>
 
 
     <!-- ═══ NEUROEDUCACIÓN ═══ -->
@@ -1006,7 +1003,7 @@ function renderFinForm($id, $color, $title, $subtitle, $tabText, $oferta, $redir
             <h2>Habla hoy con un asesor UIC</h2>
             <p>Sin compromiso. Te orientamos sobre el programa que mejor se adapta a tu práctica y objetivos profesionales.</p>
             <div class="cta-banner-btns">
-                <a class="btn-gold" href="tel:5554871397">💬 Solicitar información</a>
+                <a class="btn-gold" href="tel:5554871397" style="display:none">💬 Solicitar información</a>
                 <a class="btn-ghost" href="tel:5554871397">📞 55 5487-1397</a>
             </div>
         </div>

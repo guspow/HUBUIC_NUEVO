@@ -2496,7 +2496,7 @@
                 <div class="fc" itemscope itemtype="https://schema.org/Person">
                     <div class="fc-name" itemprop="name">Dr. William Alves de Oliveira.</div>
                     <div class="fc-degree">Director · Licenciatura en Psicología</div>
-                    <p class="fc-spec" itemprop="knowsAbout">Doctor y especialista en terapias cognitivas, conductuales y contextuales, con experiencia docente, clínica e investigadora en México, Brasil y España. Su trayectoria integra salud aplicada, medicina conductual e intervención psicológica con adolescentes y adultos. Ha participado en estancias de investigación, comités de ética y bioética, publicaciones científicas y redes de salud colectiva e intercultural. Además, cuenta con formación especializada en DBT, análisis funcional, primeros auxilios psicológicos e intervenciones clínicas basadas en evidencia, aplicadas a adicciones, trauma complejo y regulación emocional.</em>.</p>
+                    <p class="fc-spec" itemprop="knowsAbout">Medicina conductual, terapias cognitivas y contextuales. Director del Centro de Atención e Investigación en Medicina Conductual. Trayectoria clínica, docente e investigadora internacional en México, Brasil y España. Miembro de redes de salud colectiva e intercultural.</p>
                 </div>
                 <div class="fc" itemscope itemtype="https://schema.org/Person">
                     <div class="fc-name" itemprop="name">Dr. Roberto Vargas Arreola</div>
@@ -2632,7 +2632,7 @@
                     </div>
                     <div class="clinica-body">
                         <p class="clinica-desc">
-                            Centro de práctica clínica supervisada coordinado por la Mtra. Alejandra López Valenzuela,
+                            Centro de práctica clínica supervisada coordinado por la Dr. William Alves de Oliveira,
                             donde estudiantes de la Licenciatura en Psicología atienden a personas con condición autista,
                             niños y adolescentes con situaciones de maltrato físico y emocional, y población general.
                             Incluye el Área de Evaluación Psicológica y seguimiento a estudiantes de la propia universidad.
@@ -2641,7 +2641,7 @@
                             <span class="clinica-tag">Condición autista</span>
                             <span class="clinica-tag">Niños y adolescentes</span>
                             <span class="clinica-tag">Evaluación psicológica</span>
-                            <span class="clinica-tag">Coord. Mtra. Alejandra López</span>
+                            <span class="clinica-tag">Coord. Dr. William Alves de Oliveira</span>
                         </div>
                     </div>
                 </div>
